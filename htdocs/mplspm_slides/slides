@@ -1,0 +1,124 @@
+Title: OpenGuides: A (Twin)City(s) Guide
+Presenter: Chris Prather
+Location: Minneapolis Perl Mongers
+Date: July 11, 2007
+
+✂------✂------✂------✂------✂------✂------✂------✂------✂------✂------
+
+OpenGuides: A (Twin)City(s) Guide
+=================================
+Contents
+--------
+* Introduction
+* OpenGuides
+* Metadata
+* Geodata
+* OpenGuides Twin Cities
+* OpenGuides and You
+
+✂------✂------✂------✂------✂------✂------✂------✂------✂------✂------
+
+OpenGuides: A (Twin)City(s) Guide
+=================================
+OpenGuides
+----------
+* A collection of City Guides
+* An Open Source project
+    * A wiki with structured metadata
+    * A geodata application of Wiki::Toolkit
+* A module on CPAN
+* A community of developers and guide admins
+
+__________
+
+* OpenGuides homepage http://www.openguides.org
+* CPAN: http://search.cpan.org/dist/OpenGuides/
+* Dev Trac: http://dev.openguides.org
+* IRC Channel #openguides on irc.perl.org
+
+✂------✂------✂------✂------✂------✂------✂------✂------✂------✂------
+
+OpenGuides: A (Twin)City(s) Guide
+=================================
+OpenGuides History
+------------------
+* Started in early 2002 by some London.pm'ers
+* The original Usemod wiki wasn't good enough
+* The rewrite became OpenGuides, a geographically-aware application of Wiki::Toolkit
+
+✂------✂------✂------✂------✂------✂------✂------✂------✂------✂------
+
+OpenGuides: A (Twin)City(s) Guide
+=================================
+Structured Metadata
+-------------------
+* Content is separated from metadata
+* Allows structured searching (all restaurants open at noon within 500m of the Target Center)
+* Easier to contribute, there isn't just an imposing blank text-area 
+
+__________
+
+* One of the projects for the Twin Cities guide is to get the metadata searching working better.
+
+
+✂------✂------✂------✂------✂------✂------✂------✂------✂------✂------
+
+OpenGuides: A (Twin)City(s) Guide
+=================================
+Geodata
+-------
+* US geodata is free
+    * Unlike the UK
+    * Geocoder.us performs address => longitude and latitude lookup
+* All nodes can have a longitude and latitude
+    * Geolocation searching
+    * Integrated Google Maps
+
+__________
+
+* The OpenGuides project has a whole chapter in _Mapping Hacks_ from O'Reilly
+
+
+✂------✂------✂------✂------✂------✂------✂------✂------✂------✂------
+
+OpenGuides: A (Twin)City(s) Guide
+=================================
+OpenGuides Twin Cities
+----------------------
+* Started in April 2004 as the first US Open Guide.
+* Has been a one man show for the last 3 years
+    * I've gotten help from time to time
+    * Lots of help from Kake
+* Nothing quite like it in Google
+
+
+✂------✂------✂------✂------✂------✂------✂------✂------✂------✂------
+
+OpenGuides: A (Twin)City(s) Guide
+=================================
+OpenGuides and You
+------------------
+* The Twin Cities Guide is looking for help
+    * Contributors
+    * Administrators
+* The OpenGuides project is looking for Developers
+    * Hackathon in Vienna
+    * Articles on ONLamp.com and Perl.com
+
+✂------✂------✂------✂------✂------✂------✂------✂------✂------✂------
+
+OpenGuides: A (Twin)City(s) Guide
+=================================
+Special Thanks
+--------------
+* Ivor Williams 
+* Kake Pugh
+* Earle Martin
+* Chris Schmidt
+* Other Guide Admins and Contributors
+__________
+
+* Much of this slide show was based upon Ivor's Slides (http://myweb.tiscali.co.uk/ivorw/slides/oguides/contents.html)
+* Kake is probably the second largest contributor to the Twin Cities guide despite living in London and never having visited
+* Earl gave the Lightning Talk that prompted me to start a guide when I moved back to the states
+* Chris Schmidt is responsible for the GMaps integration, and the synergy between the Boston and Twin Cities guides.

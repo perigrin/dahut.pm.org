@@ -1,0 +1,1065 @@
+<xml>
+
+<version><lib>
+AWSTATS DATA FILE 6.4 (build 1.814)
+</lib><comment>
+# If you remove this file, all statistics for date 2006-10 will be lost/reset.
+</comment></version>
+
+<section id='header'><comment>
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+</comment><nu>
+BEGIN_MAP</nu><recnb>27</recnb><table>
+<tr><td>POS_GENERAL</td><td>2758                </td></tr>
+<tr><td>POS_TIME</td><td>4247                </td></tr>
+<tr><td>POS_VISITOR</td><td>48830               </td></tr>
+<tr><td>POS_DAY</td><td>58931               </td></tr>
+<tr><td>POS_DOMAIN</td><td>6734                </td></tr>
+<tr><td>POS_LOGIN</td><td>8058                </td></tr>
+<tr><td>POS_ROBOT</td><td>8333                </td></tr>
+<tr><td>POS_WORMS</td><td>9682                </td></tr>
+<tr><td>POS_EMAILSENDER</td><td>9939                </td></tr>
+<tr><td>POS_EMAILRECEIVER</td><td>10210               </td></tr>
+<tr><td>POS_SESSION</td><td>61176               </td></tr>
+<tr><td>POS_SIDER</td><td>61649               </td></tr>
+<tr><td>POS_FILETYPES</td><td>10448               </td></tr>
+<tr><td>POS_OS</td><td>10866               </td></tr>
+<tr><td>POS_BROWSER</td><td>11290               </td></tr>
+<tr><td>POS_SCREENSIZE</td><td>11966               </td></tr>
+<tr><td>POS_UNKNOWNREFERER</td><td>12148               </td></tr>
+<tr><td>POS_UNKNOWNREFERERBROWSER</td><td>13450               </td></tr>
+<tr><td>POS_ORIGIN</td><td>14392               </td></tr>
+<tr><td>POS_SEREFERRALS</td><td>14839               </td></tr>
+<tr><td>POS_PAGEREFS</td><td>15240               </td></tr>
+<tr><td>POS_SEARCHWORDS</td><td>16043               </td></tr>
+<tr><td>POS_KEYWORDS</td><td>16409               </td></tr>
+<tr><td>POS_MISC</td><td>3393                </td></tr>
+<tr><td>POS_ERRORS</td><td>16771               </td></tr>
+<tr><td>POS_CLUSTER</td><td>7794                </td></tr>
+<tr><td>POS_SIDER_404</td><td>17135               </td></tr>
+</table><nu>END_MAP
+</nu></section>
+
+<section id='general'><comment>
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+</comment><nu>
+BEGIN_GENERAL</nu><recnb>8</recnb><table>
+<tr><td>LastLine</td><td>20061101020854 3287 565972 42259114589</td></tr>
+<tr><td>FirstTime</td><td>0</td></tr>
+<tr><td>LastTime</td><td>20061031224305</td></tr>
+<tr><td>LastUpdate</td><td>20061101030123 1 0 0 0 0</td></tr>
+<tr><td>TotalVisits</td><td>157                 </td></tr>
+<tr><td>TotalUnique</td><td>112                 </td></tr>
+<tr><td>MonthHostsKnown</td><td>0                   </td></tr>
+<tr><td>MonthHostsUnknown</td><td>112                 </td></tr>
+</table><nu>
+END_GENERAL
+</nu></section>
+
+<section id='misc'><comment>
+# Misc ID - Pages - Hits - Bandwidth
+</comment><nu>
+BEGIN_MISC</nu><recnb>10</recnb><table>
+<tr><td>QuickTimeSupport</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>JavaEnabled</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>JavascriptDisabled</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>PDFSupport</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>WindowsMediaPlayerSupport</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>AddToFavourites</td><td>0</td><td>1</td><td>0</td></tr>
+<tr><td>RealPlayerSupport</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>TotalMisc</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>DirectorSupport</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>FlashSupport</td><td>0</td><td>0</td><td>0</td></tr>
+</table><nu>END_MISC
+</nu></section>
+
+<section id='time'><comment>
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+</comment><nu>
+BEGIN_TIME</nu><recnb>24</recnb><table>
+<tr><td>0</td><td>2</td><td>3</td><td>17844</td><td>24</td><td>24</td><td>124721</td></tr>
+<tr><td>1</td><td>7</td><td>8</td><td>133433</td><td>33</td><td>33</td><td>74247</td></tr>
+<tr><td>2</td><td>4</td><td>4</td><td>78048</td><td>26</td><td>26</td><td>666594</td></tr>
+<tr><td>3</td><td>9</td><td>9</td><td>190104</td><td>25</td><td>25</td><td>146778</td></tr>
+<tr><td>4</td><td>11</td><td>11</td><td>359537</td><td>36</td><td>36</td><td>244785</td></tr>
+<tr><td>5</td><td>10</td><td>11</td><td>140739</td><td>37</td><td>37</td><td>1445121</td></tr>
+<tr><td>6</td><td>7</td><td>7</td><td>145748</td><td>63</td><td>63</td><td>232673</td></tr>
+<tr><td>7</td><td>5</td><td>6</td><td>103360</td><td>251</td><td>251</td><td>148271</td></tr>
+<tr><td>8</td><td>28</td><td>28</td><td>376747</td><td>50</td><td>50</td><td>305779</td></tr>
+<tr><td>9</td><td>7</td><td>8</td><td>183625</td><td>58</td><td>58</td><td>286860</td></tr>
+<tr><td>10</td><td>12</td><td>13</td><td>98950</td><td>53</td><td>53</td><td>134249</td></tr>
+<tr><td>11</td><td>9</td><td>10</td><td>177146</td><td>37</td><td>37</td><td>690015</td></tr>
+<tr><td>12</td><td>7</td><td>7</td><td>175200</td><td>32</td><td>32</td><td>135275</td></tr>
+<tr><td>13</td><td>1</td><td>1</td><td>32384</td><td>15</td><td>15</td><td>71159</td></tr>
+<tr><td>14</td><td>11</td><td>13</td><td>198042</td><td>23</td><td>23</td><td>26518</td></tr>
+<tr><td>15</td><td>10</td><td>10</td><td>183550</td><td>49</td><td>49</td><td>103623</td></tr>
+<tr><td>16</td><td>9</td><td>10</td><td>206324</td><td>33</td><td>33</td><td>70988</td></tr>
+<tr><td>17</td><td>4</td><td>4</td><td>103382</td><td>107</td><td>107</td><td>212036</td></tr>
+<tr><td>18</td><td>13</td><td>15</td><td>321399</td><td>162</td><td>162</td><td>183243</td></tr>
+<tr><td>19</td><td>18</td><td>18</td><td>227014</td><td>86</td><td>86</td><td>278347</td></tr>
+<tr><td>20</td><td>3</td><td>3</td><td>15993</td><td>95</td><td>95</td><td>53722</td></tr>
+<tr><td>21</td><td>15</td><td>15</td><td>222988</td><td>19</td><td>19</td><td>121098</td></tr>
+<tr><td>22</td><td>11</td><td>11</td><td>325066</td><td>14</td><td>14</td><td>94578</td></tr>
+<tr><td>23</td><td>4</td><td>5</td><td>108766</td><td>17</td><td>17</td><td>48924</td></tr>
+</table><nu>END_TIME
+</nu></section>
+
+<section id='domain'><sortfor>10</sortfor><comment>
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+</comment><nu>
+BEGIN_DOMAIN</nu><recnb>16</recnb><table>
+<tr><td>us</td><td>154</td><td>163</td><td>2990127</td></tr>
+<tr><td>ip</td><td>19</td><td>19</td><td>310544</td></tr>
+<tr><td>cn</td><td>10</td><td>12</td><td>162388</td></tr>
+<tr><td>jp</td><td>5</td><td>5</td><td>60249</td></tr>
+<tr><td>ca</td><td>5</td><td>5</td><td>66959</td></tr>
+<tr><td>de</td><td>5</td><td>5</td><td>62039</td></tr>
+<tr><td>kr</td><td>4</td><td>4</td><td>143636</td></tr>
+<tr><td>au</td><td>4</td><td>5</td><td>81373</td></tr>
+<tr><td>at</td><td>3</td><td>4</td><td>31796</td></tr>
+<tr><td>hk</td><td>2</td><td>2</td><td>46082</td></tr>
+<tr><td>fr</td><td>1</td><td>1</td><td>39434</td></tr>
+<tr><td>ch</td><td>1</td><td>1</td><td>6230</td></tr>
+<tr><td>gb</td><td>1</td><td>1</td><td>6230</td></tr>
+<tr><td>eu</td><td>1</td><td>1</td><td>39434</td></tr>
+<tr><td>th</td><td>1</td><td>1</td><td>39434</td></tr>
+<tr><td>br</td><td>1</td><td>1</td><td>39434</td></tr>
+</table><nu>END_DOMAIN
+</nu></section>
+
+<section id='cluster'><comment>
+# Cluster ID - Pages - Hits - Bandwidth
+</comment><nu>
+BEGIN_CLUSTER</nu><recnb>0</recnb><table>
+</table><nu>END_CLUSTER
+</nu></section>
+
+<section id='login'><sortfor>10</sortfor><comment>
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+</comment><nu>
+BEGIN_LOGIN</nu><recnb>0</recnb><table>
+</table><nu>END_LOGIN
+</nu></section>
+
+<section id='robot'><sortfor>10</sortfor><comment>
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+</comment><nu>
+BEGIN_ROBOT</nu><recnb>13</recnb><table>
+<tr><td>googlebot</td><td>104</td><td>1493436</td><td>20061031050635</td><td>0</td></tr>
+<tr><td>slurp</td><td>99</td><td>1565901</td><td>20061031232847</td><td>0</td></tr>
+<tr><td>msnbot</td><td>63</td><td>513576</td><td>20061025041632</td><td>0</td></tr>
+<tr><td>crawl</td><td>50</td><td>406698</td><td>20061030231309</td><td>0</td></tr>
+<tr><td>wisenutbot</td><td>36</td><td>269315</td><td>20061031183708</td><td>0</td></tr>
+<tr><td>jeeves</td><td>22</td><td>186280</td><td>20061009064602</td><td>0</td></tr>
+<tr><td>^voyager\/</td><td>20</td><td>167101</td><td>20061030131048</td><td>0</td></tr>
+<tr><td>ia_archiver</td><td>3</td><td>27425</td><td>20061022111231</td><td>0</td></tr>
+<tr><td>gigabot</td><td>3</td><td>43842</td><td>20061020095039</td><td>0</td></tr>
+<tr><td>larbin</td><td>1</td><td>6230</td><td>20061003233005</td><td>0</td></tr>
+<tr><td>mnogosearch</td><td>1</td><td>6230</td><td>20061024191211</td><td>0</td></tr>
+<tr><td>netcraft</td><td>1</td><td>0</td><td>20061008201544</td><td>0</td></tr>
+<tr><td>robot</td><td>1</td><td>6230</td><td>20061031181655</td><td>0</td></tr>
+</table><nu>END_ROBOT
+</nu></section>
+
+<section id='worms'><sortfor>5</sortfor><comment>
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+</comment><nu>
+BEGIN_WORMS</nu><recnb>0</recnb><table>
+</table><nu>END_WORMS
+</nu></section>
+
+<section id='emailsender'><sortfor>20</sortfor><comment>
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+</comment><nu>
+BEGIN_EMAILSENDER</nu><recnb>0</recnb><table>
+</table><nu>END_EMAILSENDER
+</nu></section>
+
+<section id='emailreceiver'><sortfor>20</sortfor><comment>
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+</comment><nu>
+BEGIN_EMAILRECEIVER</nu><recnb>0</recnb><table>
+</table><nu>END_EMAILRECEIVER
+</nu></section>
+
+<section id='filetypes'><comment>
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+</comment><nu>
+BEGIN_FILETYPES</nu><recnb>4</recnb><table>
+<tr><td>css</td><td>13</td><td>69992</td><td>0</td><td>0</td></tr>
+<tr><td>html</td><td>140</td><td>3547183</td><td>0</td><td>0</td></tr>
+<tr><td>xml</td><td>59</td><td>355110</td><td>0</td><td>0</td></tr>
+<tr><td>rdf</td><td>18</td><td>153104</td><td>0</td><td>0</td></tr>
+</table><nu>END_FILETYPES
+</nu></section>
+
+<section id='os'><comment>
+# OS ID - Hits
+</comment><nu>
+BEGIN_OS</nu><recnb>8</recnb><table>
+<tr><td>macosx</td><td>4</td></tr>
+<tr><td>winxp</td><td>97</td></tr>
+<tr><td>win2003</td><td>4</td></tr>
+<tr><td>winnt</td><td>11</td></tr>
+<tr><td>win2000</td><td>27</td></tr>
+<tr><td>win98</td><td>1</td></tr>
+<tr><td>Unknown</td><td>74</td></tr>
+<tr><td>linux</td><td>12</td></tr>
+</table><nu>END_OS
+</nu></section>
+
+<section id='browser'><comment>
+# Browser ID - Hits
+</comment><nu>
+BEGIN_BROWSER</nu><recnb>14</recnb><table>
+<tr><td>msie6.0</td><td>101</td></tr>
+<tr><td>msie5.01</td><td>2</td></tr>
+<tr><td>konqueror</td><td>7</td></tr>
+<tr><td>mozilla</td><td>4</td></tr>
+<tr><td>msie7.0</td><td>3</td></tr>
+<tr><td>opera</td><td>3</td></tr>
+<tr><td>netscape4.5</td><td>1</td></tr>
+<tr><td>firefox2.0</td><td>2</td></tr>
+<tr><td>msie5.0</td><td>8</td></tr>
+<tr><td>msie5.5</td><td>11</td></tr>
+<tr><td>Unknown</td><td>69</td></tr>
+<tr><td>safari</td><td>4</td></tr>
+<tr><td>firefox1.5.0.7</td><td>12</td></tr>
+<tr><td>links</td><td>3</td></tr>
+</table><nu>END_BROWSER
+</nu></section>
+
+<section id='screensize'><comment>
+# Screen size - Hits
+</comment><nu>
+BEGIN_SCREENSIZE</nu><recnb>0</recnb><table>
+</table><nu>END_SCREENSIZE
+</nu></section>
+
+<section id='unknownreferer'><comment>
+# Unknown referer OS - Last visit date
+</comment><nu>
+BEGIN_UNKNOWNREFERER</nu><recnb>13</recnb><table>
+<tr><td>hnqidlukisnrmp5agfstxrxkkn</td><td>20061030052654</td></tr>
+<tr><td>PEAR_HTTP_Request_class_(_http://pear.php.net/_)</td><td>20061028190835</td></tr>
+<tr><td>Exabot/3.0</td><td>20061029172438</td></tr>
+<tr><td>Java/1.5.0_07</td><td>20061030040720</td></tr>
+<tr><td>Mozilla/4.0_(compatible;_MyFamilyBot/1.0;_http://www.ancestry.com/learn/bot.aspx)</td><td>20061017152207</td></tr>
+<tr><td>MSRBOT_(http://research.microsoft.com/research/sv/msrbot/)</td><td>20061012100120</td></tr>
+<tr><td>-</td><td>20061031224305</td></tr>
+<tr><td>cfetch/1.0</td><td>20061010023338</td></tr>
+<tr><td>SBIder/0.8-dev_(SBIder;_http://www.sitesell.com/sbider.html;_http://support.sitesell.com/contact-support.html)</td><td>20061012162732</td></tr>
+<tr><td>findlinks/1.1.1-a5_(_http://wortschatz.uni-leipzig.de/findlinks/)</td><td>20061017204914</td></tr>
+<tr><td>findlinks/1.1.3-beta9_(_http://wortschatz.uni-leipzig.de/findlinks/)</td><td>20061018032648</td></tr>
+<tr><td>Java/1.5.0_06</td><td>20061023084710</td></tr>
+<tr><td>MJ12bot/v1.0.8_(http://majestic12.co.uk/bot.php?_)</td><td>20061020052847</td></tr>
+</table><nu>END_UNKNOWNREFERER
+</nu></section>
+
+<section id='unknownrefererbrowser'><comment>
+# Unknown referer Browser - Last visit date
+</comment><nu>
+BEGIN_UNKNOWNREFERERBROWSER</nu><recnb>10</recnb><table>
+<tr><td>hnqidlukisnrmp5agfstxrxkkn</td><td>20061030052654</td></tr>
+<tr><td>PEAR_HTTP_Request_class_(_http://pear.php.net/_)</td><td>20061028190835</td></tr>
+<tr><td>Exabot/3.0</td><td>20061029172438</td></tr>
+<tr><td>Java/1.5.0_07</td><td>20061030040720</td></tr>
+<tr><td>-</td><td>20061031224305</td></tr>
+<tr><td>SBIder/0.8-dev_(SBIder;_http://www.sitesell.com/sbider.html;_http://support.sitesell.com/contact-support.html)</td><td>20061012162732</td></tr>
+<tr><td>cfetch/1.0</td><td>20061010023338</td></tr>
+<tr><td>MSRBOT_(http://research.microsoft.com/research/sv/msrbot/)</td><td>20061012100120</td></tr>
+<tr><td>Java/1.5.0_06</td><td>20061023084710</td></tr>
+<tr><td>MJ12bot/v1.0.8_(http://majestic12.co.uk/bot.php?_)</td><td>20061020052847</td></tr>
+</table><nu>END_UNKNOWNREFERERBROWSER
+</nu></section>
+
+<section id='origin'><comment>
+# Origin - Pages - Hits 
+</comment><nu>
+BEGIN_ORIGIN</nu><recnb>6</recnb><table>
+<tr><td>From0</td><td>164</td><td>166</td></tr>
+<tr><td>From1</td><td>0</td><td>0</td></tr>
+<tr><td>From2</td><td>6</td><td>6</td></tr>
+<tr><td>From3</td><td>24</td><td>26</td></tr>
+<tr><td>From4</td><td>23</td><td>32</td></tr>
+<tr><td>From5</td><td>0</td><td>0</td></tr>
+</table><nu>END_ORIGIN
+</nu></section>
+
+<section id='sereferrals'><comment>
+# Search engine referers ID - Pages - Hits
+</comment><nu>
+BEGIN_SEREFERRALS</nu><recnb>3</recnb><table>
+<tr><td>google</td><td>2</td><td>2</td></tr>
+<tr><td>search</td><td>2</td><td>2</td></tr>
+<tr><td>yahoo</td><td>2</td><td>2</td></tr>
+</table><nu>END_SEREFERRALS
+</nu></section>
+
+<section id='pagerefs'><sortfor>10</sortfor><comment>
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+</comment><nu>
+BEGIN_PAGEREFS</nu><recnb>7</recnb><table>
+<tr><td>http://dahut.org/archives/000269.html</td><td>11</td><td>11</td></tr>
+<tr><td>http://dahut.org/archives/000301.html</td><td>8</td><td>8</td></tr>
+<tr><td>http://dahut.org</td><td>1</td><td>3</td></tr>
+<tr><td>http://dahut.org/archives/2003_03.html</td><td>1</td><td>1</td></tr>
+<tr><td>http://www.perlworkshop.no/apw2005/user/329</td><td>1</td><td>1</td></tr>
+<tr><td>http://lists.w3.org/Archives/Public/www-style/2004Aug/0138.html</td><td>1</td><td>1</td></tr>
+<tr><td>http://www.dahut.org</td><td>1</td><td>1</td></tr>
+</table><nu>END_PAGEREFS
+</nu></section>
+
+<section id='searchwords'><sortfor>10</sortfor><comment>
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+</comment><nu>
+BEGIN_SEARCHWORDS</nu><recnb>2</recnb><table>
+<tr><td>dahut</td><td>3</td></tr>
+<tr><td>impairing+parts+of+the+brain</td><td>1</td></tr>
+</table><nu>END_SEARCHWORDS
+</nu></section>
+
+<section id='keywords'><sortfor>10</sortfor><comment>
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+</comment><nu>
+BEGIN_KEYWORDS</nu><recnb>6</recnb><table>
+<tr><td>dahut</td><td>3</td></tr>
+<tr><td>the</td><td>1</td></tr>
+<tr><td>impairing</td><td>1</td></tr>
+<tr><td>of</td><td>1</td></tr>
+<tr><td>brain</td><td>1</td></tr>
+<tr><td>parts</td><td>1</td></tr>
+</table><nu>END_KEYWORDS
+</nu></section>
+
+<section id='errors'><comment>
+# Errors - Hits - Bandwidth
+</comment><nu>
+BEGIN_ERRORS</nu><recnb>4</recnb><table>
+<tr><td>403</td><td>1</td><td>311</td></tr>
+<tr><td>206</td><td>19</td><td>924940</td></tr>
+<tr><td>405</td><td>4</td><td>1320</td></tr>
+<tr><td>404</td><td>917</td><td>280769</td></tr>
+</table><nu>END_ERRORS
+</nu></section>
+
+<section id='sider_404'><comment>
+# URL with 404 errors - Hits - Last URL referer
+</comment><nu>
+BEGIN_SIDER_404</nu><recnb>489</recnb><table>
+<tr><td>/irc_logs/2005-09-13.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-01.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-04.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-05.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-27.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-27.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-23.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-11.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-24.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-22.txt</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-28.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-13.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-14.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-29.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-25.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-11.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-12.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-12.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-28.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-08.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-24.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-26.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-24.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-24.txt</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-13.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-12.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-26.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-21.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-04.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-01.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-21.txt</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-28.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-06-10.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-07.txt</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-23.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-28.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-20.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-07.html</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-10-29.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-24.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-04.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-11.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-17.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-08.txt</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-21.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-18.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-02.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-26.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-05.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2006-02-28.html</td><td>1</td><td>http://www.google.fi/search</td></tr>
+<tr><td>/irc_logs/2005-08-18.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-02.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-04.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-01.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-11-04.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-29.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-09.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-21.txt</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-28.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-14.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-01.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-06.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-18.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-08.html</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-22.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-06.txt</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-06.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-18.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-25.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-24.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-12.html</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-02.html</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-15.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-20.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-04.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-11-02.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-23.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-04.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-11-02.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-06-05.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-11.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-22.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-28.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-06.txt</td><td>6</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-04.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2006-01-30.rdf</td><td>1</td><td>http://www.google.com/search</td></tr>
+<tr><td>/irc_logs/2005-08-16.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-01</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-17.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-12.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-19.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-18.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-10.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-23.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-03.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-31.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-25.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-27.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-10-30.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-06-07.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-06.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-29.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-29.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-25.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-26.html</td><td>1</td><td>-</td></tr>
+<tr><td>/rdf/2004</td><td>15</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-25.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-28.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-09.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-24.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-06.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-06-16.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-18.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-25.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/robots.txt</td><td>263</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-06-01.txt</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-28.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-26.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-11.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-15.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-16.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-01.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-27.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-17.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-06-06.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-29.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-16.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-24.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-20.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-01.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-30.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-12.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-29.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-03.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-08.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-19.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-18.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-16.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-02.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-09.txt</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-24.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-13.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-20.txt</td><td>3</td><td>-</td></tr>
+<tr><td>/robotsxx.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/rdf/2004/</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-18.txt</td><td>2</td><td>http://www.ask.com/web</td></tr>
+<tr><td>/irc_logs/2005-07-03.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-15.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-24</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-14.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-14.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-19.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-17.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-17.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-04.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-07.txt</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-16.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-19.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-25.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-17.html</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-06-16.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-04.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-17.html</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-03.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-14.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-24.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-03.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-08.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-26.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-25.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-05.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-05.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-29.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-03.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-13.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-01.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-10.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-14.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-31.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-29.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-06.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-23.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/browns_words.txt</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-20.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-27.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-02.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-23.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-11.html</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-23.txt</td><td>4</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-30.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-10.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-28.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-11-04.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-14.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-11.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-05.html</td><td>1</td><td>-</td></tr>
+<tr><td>/rdf/2004/hotOrNot</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-13.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-27.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-22.html</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-04.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-09.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-17.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-03.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-06.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-10.html</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-15.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-19.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-20.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-08.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-28.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-06-29.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-03.html</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-22.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-30.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-18.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-04.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-01.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-01.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-05.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-28.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-12.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-29.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-12.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-20.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-26.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-07.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-10-29.txt</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-11.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-15.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-05.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-11-05.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-02.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-03.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-19</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-05.txt</td><td>5</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-27.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-12.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-10-30.txt</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-01.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-22.html</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-24.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-07.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-19.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-09.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-02.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-14.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-24.html</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-25.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-13.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-25.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-14.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-21.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-05.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-10-31.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-05.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-23.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-22.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-03.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-23.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-16.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-17.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-02.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-20.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-02.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-01.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-15.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-07.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-22.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-11.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-18.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-16.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-19.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-11-03.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-09.html</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-28.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-12.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-25.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-22.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/donkeys.rule&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-03.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-26.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-26.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-06-04.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-17.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-21.html</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-27.html</td><td>1</td><td>-</td></tr>
+<tr><td>/dahut_group.rdf.</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-27.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-09.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-10-17.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-07.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-31.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-30.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-18.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-06-15.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-16.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-11.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-20.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-17.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-29.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-25.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-03.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-11.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-11.txt</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-24.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-18.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-02.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-26.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-20.txt</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-09.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-21.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-08.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/rdf/2004/inChargeOf,</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-06-10.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-24.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-11.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-03</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-09.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-30.txt</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-05.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-28.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-16.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-15.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-08.txt</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-15.txt</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-06-30.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-29.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-06-28.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-21.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-19.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-10.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-18</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-21.txt</td><td>4</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-12.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-08.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-03.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-22.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-06-14.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-19.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-16.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-14.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-07.txt</td><td>4</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-10.txt</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-11.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-04.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-06.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-25.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-27.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-05.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-07.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-27.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-20.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-15.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-06-01.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-29.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-12.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-15.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-04.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-10-28.txt</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-10.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-06.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-10-28.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-16.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-31.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-22.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-26.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-09.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-26.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-05.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-29.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-08.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-13.txt</td><td>4</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-07.html</td><td>4</td><td>http://de.ask.com/web</td></tr>
+<tr><td>/irc_logs/2005-01-10.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-18.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-06.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-06-09.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-04.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-23.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-28.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-06-02.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-17.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-04.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-09.txt</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-02.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-25.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-09.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-11-03.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-08.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-03.html</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-17.txt</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-10.txt</td><td>1</td><td>http://www.google.com/search</td></tr>
+<tr><td>/irc_logs/2005-04-10.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-22.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-02.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-21.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-07.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-28.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-19.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-10.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-31.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-08.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-15.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-20.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-02.html</td><td>1</td><td>-</td></tr>
+<tr><td>/pm_groups.rdf</td><td>20</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-22.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-27.txt</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-06.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-04.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-03.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-29.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-14.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-12.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-09.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-11-05.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-27.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-02.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-11.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-04.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-30.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-14.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-31.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-27.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-22.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-08.txt</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-07.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-01.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-26.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-17.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-03.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-20.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-27.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-06.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-06-03.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-06-30.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-13.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-13.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-18.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-08.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-08.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-07.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-25.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-23.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-23.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-06.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-23.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-16.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-24.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-07.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-06-15.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-15.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-01.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-01.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-01.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-06-13.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-02.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-27.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-26.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-30.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-23.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-18.html</td><td>3</td><td>http://www.ask.com/web</td></tr>
+<tr><td>/irc_logs/2005-08-30.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-05.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-21.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-07.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-11.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-21.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-12.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-11-01.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-08-17.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-17.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-28.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-25.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-16.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-20.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-02.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-09.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-26.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-16.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/mp_wiki/</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-10-17.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-29.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-06-08.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-07.html</td><td>3</td><td>http://www.ask.com/web</td></tr>
+<tr><td>/irc_logs/2005-03-05.txt</td><td>1</td><td>-</td></tr>
+</table><nu>END_SIDER_404
+</nu></section>
+
+<section id='visitor'><sortfor>10</sortfor><comment>
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+</comment><nu>
+BEGIN_VISITOR</nu><recnb>112</recnb><table>
+<tr><td>72.232.200.162</td><td>31</td><td>31</td><td>1003904</td><td>20061031224305</td></tr>
+<tr><td>207.226.172.18</td><td>21</td><td>21</td><td>139699</td><td>20061029213412</td></tr>
+<tr><td>209.133.64.213</td><td>20</td><td>20</td><td>167101</td><td>20061010082124</td></tr>
+<tr><td>209.160.73.4</td><td>6</td><td>6</td><td>215454</td><td>20061026141000</td></tr>
+<tr><td>210.165.9.96</td><td>5</td><td>5</td><td>60249</td><td>20061028190835</td></tr>
+<tr><td>66.194.6.72</td><td>4</td><td>4</td><td>24920</td><td>20061030142833</td></tr>
+<tr><td>66.235.184.249</td><td>3</td><td>3</td><td>104202</td><td>20061024184312</td></tr>
+<tr><td>205.209.170.221</td><td>3</td><td>3</td><td>21295</td><td>20061016103455</td></tr>
+<tr><td>74.107.141.24</td><td>3</td><td>3</td><td>78868</td><td>20061027162122</td></tr>
+<tr><td>68.183.66.230</td><td>3</td><td>4</td><td>27309</td><td>20061002103648</td></tr>
+<tr><td>202.108.1.2</td><td>1</td><td>1</td><td>10091</td><td>20061025104338</td></tr>
+<tr><td>66.194.6.84</td><td>1</td><td>1</td><td>6230</td><td>20061018210303</td></tr>
+<tr><td>71.103.208.194</td><td>1</td><td>1</td><td>32384</td><td>20061030121127</td></tr>
+<tr><td>221.231.139.168</td><td>1</td><td>1</td><td>39434</td><td>20061030045655</td></tr>
+<tr><td>64.34.145.194</td><td>1</td><td>1</td><td>6230</td><td>20061004143612</td></tr>
+<tr><td>66.194.6.70</td><td>1</td><td>1</td><td>6230</td><td>20061020111340</td></tr>
+<tr><td>12.216.231.149</td><td>1</td><td>2</td><td>11614</td><td>20061010072031</td></tr>
+<tr><td>66.194.6.73</td><td>1</td><td>1</td><td>6230</td><td>20061002050301</td></tr>
+<tr><td>217.29.21.35</td><td>1</td><td>1</td><td>39434</td><td>20061027215630</td></tr>
+<tr><td>216.255.182.246</td><td>1</td><td>1</td><td>39434</td><td>20061031083619</td></tr>
+<tr><td>221.153.94.113</td><td>1</td><td>1</td><td>4991</td><td>20061014061828</td></tr>
+<tr><td>210.75.23.88</td><td>1</td><td>1</td><td>39434</td><td>20061029183823</td></tr>
+<tr><td>72.36.151.106</td><td>2</td><td>2</td><td>9982</td><td>20061026100721</td></tr>
+<tr><td>139.18.2.81</td><td>1</td><td>1</td><td>2237</td><td>20061017204914</td></tr>
+<tr><td>210.113.96.18</td><td>1</td><td>1</td><td>39434</td><td>20061030045635</td></tr>
+<tr><td>65.222.176.122</td><td>2</td><td>2</td><td>13727</td><td>20061018150259</td></tr>
+<tr><td>202.108.1.6</td><td>1</td><td>1</td><td>10091</td><td>20061008015722</td></tr>
+<tr><td>24.253.40.18</td><td>1</td><td>1</td><td>32384</td><td>20061016211536</td></tr>
+<tr><td>24.239.153.15</td><td>1</td><td>1</td><td>7526</td><td>20061030204656</td></tr>
+<tr><td>203.144.144.164</td><td>1</td><td>1</td><td>39434</td><td>20061027183445</td></tr>
+<tr><td>207.210.74.241</td><td>1</td><td>1</td><td>39434</td><td>20061028024952</td></tr>
+<tr><td>212.95.252.16</td><td>1</td><td>1</td><td>6230</td><td>20061013202832</td></tr>
+<tr><td>139.18.13.202</td><td>1</td><td>1</td><td>7526</td><td>20061018012951</td></tr>
+<tr><td>202.101.6.85</td><td>1</td><td>1</td><td>39434</td><td>20061022225558</td></tr>
+<tr><td>66.160.186.38</td><td>1</td><td>1</td><td>13698</td><td>20061024033704</td></tr>
+<tr><td>193.47.80.36</td><td>1</td><td>1</td><td>6230</td><td>20061029172438</td></tr>
+<tr><td>82.46.9.194</td><td>1</td><td>1</td><td>0</td><td>20061029011003</td></tr>
+<tr><td>85.112.208.94</td><td>1</td><td>1</td><td>39434</td><td>20061027213428</td></tr>
+<tr><td>221.10.55.227</td><td>1</td><td>1</td><td>39434</td><td>20061020143519</td></tr>
+<tr><td>205.209.170.172</td><td>1</td><td>1</td><td>6230</td><td>20061020052847</td></tr>
+<tr><td>66.194.6.83</td><td>1</td><td>1</td><td>6230</td><td>20061013030957</td></tr>
+<tr><td>211.200.239.169</td><td>1</td><td>1</td><td>39434</td><td>20061015152403</td></tr>
+<tr><td>59.1.212.45</td><td>1</td><td>1</td><td>39434</td><td>20061031031619</td></tr>
+<tr><td>202.108.1.12</td><td>1</td><td>2</td><td>11614</td><td>20061008015423</td></tr>
+<tr><td>66.43.16.184</td><td>1</td><td>1</td><td>6230</td><td>20061017143929</td></tr>
+<tr><td>216.255.176.37</td><td>1</td><td>1</td><td>39434</td><td>20061031123900</td></tr>
+<tr><td>216.255.176.27</td><td>2</td><td>2</td><td>78868</td><td>20061027110249</td></tr>
+<tr><td>88.85.77.9</td><td>1</td><td>1</td><td>32384</td><td>20061028174417</td></tr>
+<tr><td>209.237.236.227</td><td>1</td><td>2</td><td>11614</td><td>20061013141214</td></tr>
+<tr><td>71.229.88.173</td><td>1</td><td>1</td><td>39434</td><td>20061028031929</td></tr>
+<tr><td>201.80.1.35</td><td>1</td><td>1</td><td>5222</td><td>20061014111345</td></tr>
+<tr><td>222.76.215.122</td><td>2</td><td>2</td><td>19928</td><td>20061030033009</td></tr>
+<tr><td>202.108.1.9</td><td>1</td><td>2</td><td>11614</td><td>20061002184732</td></tr>
+<tr><td>202.108.1.13</td><td>1</td><td>1</td><td>10091</td><td>20061010101924</td></tr>
+<tr><td>217.160.203.89</td><td>1</td><td>1</td><td>39434</td><td>20061029223219</td></tr>
+<tr><td>125.189.53.221</td><td>1</td><td>1</td><td>32384</td><td>20061011065316</td></tr>
+<tr><td>216.188.238.238</td><td>1</td><td>1</td><td>32384</td><td>20061015224754</td></tr>
+<tr><td>220.124.49.184</td><td>1</td><td>1</td><td>32384</td><td>20061028184144</td></tr>
+<tr><td>70.44.150.38</td><td>1</td><td>1</td><td>32384</td><td>20061018221949</td></tr>
+<tr><td>131.107.0.96</td><td>1</td><td>2</td><td>11614</td><td>20061024114255</td></tr>
+<tr><td>213.252.152.26</td><td>1</td><td>1</td><td>6230</td><td>20061023060222</td></tr>
+<tr><td>205.144.234.164</td><td>1</td><td>2</td><td>11614</td><td>20061011090839</td></tr>
+<tr><td>69.173.98.136</td><td>1</td><td>1</td><td>5222</td><td>20061014111146</td></tr>
+<tr><td>203.190.250.105</td><td>1</td><td>1</td><td>13698</td><td>20061030052654</td></tr>
+<tr><td>24.239.155.157</td><td>1</td><td>1</td><td>17729</td><td>20061030192423</td></tr>
+<tr><td>66.43.16.187</td><td>1</td><td>1</td><td>6230</td><td>20061017152207</td></tr>
+<tr><td>139.18.13.203</td><td>1</td><td>1</td><td>6612</td><td>20061018032648</td></tr>
+<tr><td>61.106.75.79</td><td>1</td><td>1</td><td>32384</td><td>20061014042720</td></tr>
+<tr><td>200.180.173.85</td><td>1</td><td>1</td><td>39434</td><td>20061028214627</td></tr>
+<tr><td>85.255.113.179</td><td>1</td><td>1</td><td>39434</td><td>20061022013543</td></tr>
+<tr><td>58.72.8.38</td><td>1</td><td>1</td><td>39434</td><td>20061014042808</td></tr>
+<tr><td>64.34.145.195</td><td>1</td><td>1</td><td>6230</td><td>20061012162732</td></tr>
+<tr><td>84.19.188.68</td><td>1</td><td>1</td><td>32384</td><td>20061013110455</td></tr>
+<tr><td>58.22.131.12</td><td>2</td><td>2</td><td>19928</td><td>20061021050147</td></tr>
+<tr><td>69.112.102.117</td><td>1</td><td>1</td><td>32384</td><td>20061014042228</td></tr>
+<tr><td>66.194.6.80</td><td>2</td><td>2</td><td>12460</td><td>20061022000856</td></tr>
+<tr><td>82.127.121.228</td><td>2</td><td>2</td><td>27396</td><td>20061003084431</td></tr>
+<tr><td>58.71.34.73</td><td>1</td><td>2</td><td>11614</td><td>20061030233207</td></tr>
+<tr><td>69.31.82.34</td><td>2</td><td>2</td><td>64768</td><td>20061030071828</td></tr>
+<tr><td>58.22.131.10</td><td>2</td><td>2</td><td>19928</td><td>20061008211231</td></tr>
+<tr><td>80.109.161.142</td><td>2</td><td>2</td><td>20182</td><td>20061020101409</td></tr>
+<tr><td>61.82.0.70</td><td>1</td><td>1</td><td>32384</td><td>20061014042741</td></tr>
+<tr><td>202.108.1.15</td><td>1</td><td>1</td><td>10091</td><td>20061002185111</td></tr>
+<tr><td>220.41.68.160</td><td>1</td><td>1</td><td>32384</td><td>20061011065236</td></tr>
+<tr><td>61.187.239.220</td><td>2</td><td>2</td><td>19928</td><td>20061025075803</td></tr>
+<tr><td>82.103.132.52</td><td>1</td><td>1</td><td>32384</td><td>20061030125043</td></tr>
+<tr><td>83.133.125.126</td><td>1</td><td>1</td><td>32384</td><td>20061026124225</td></tr>
+<tr><td>58.80.10.39</td><td>1</td><td>1</td><td>32384</td><td>20061028184136</td></tr>
+<tr><td>70.191.159.79</td><td>1</td><td>1</td><td>32384</td><td>20061019113629</td></tr>
+<tr><td>165.236.177.101</td><td>1</td><td>1</td><td>0</td><td>20061011210504</td></tr>
+<tr><td>209.249.11.3</td><td>2</td><td>2</td><td>17588</td><td>20061012100120</td></tr>
+<tr><td>82.99.210.205</td><td>1</td><td>1</td><td>39434</td><td>20061029223219</td></tr>
+<tr><td>72.36.146.50</td><td>1</td><td>1</td><td>32384</td><td>20061030064945</td></tr>
+<tr><td>38.113.234.180</td><td>1</td><td>1</td><td>0</td><td>20061010023338</td></tr>
+<tr><td>64.25.77.3</td><td>2</td><td>2</td><td>71818</td><td>20061023084710</td></tr>
+<tr><td>221.154.248.2</td><td>1</td><td>1</td><td>39434</td><td>20061014042757</td></tr>
+<tr><td>64.34.145.198</td><td>1</td><td>1</td><td>6230</td><td>20061007221749</td></tr>
+<tr><td>71.196.222.169</td><td>1</td><td>1</td><td>32384</td><td>20061008062050</td></tr>
+<tr><td>213.47.196.233</td><td>1</td><td>2</td><td>11614</td><td>20061018163301</td></tr>
+<tr><td>66.194.6.71</td><td>2</td><td>2</td><td>12460</td><td>20061006122738</td></tr>
+<tr><td>128.180.121.99</td><td>1</td><td>1</td><td>7497</td><td>20061030040720</td></tr>
+<tr><td>203.130.116.121</td><td>1</td><td>1</td><td>32384</td><td>20061014163440</td></tr>
+<tr><td>70.185.112.43</td><td>1</td><td>1</td><td>4991</td><td>20061014061821</td></tr>
+<tr><td>144.135.171.66</td><td>2</td><td>3</td><td>16605</td><td>20061022053335</td></tr>
+<tr><td>166.230.131.80</td><td>2</td><td>3</td><td>16605</td><td>20061011142744</td></tr>
+<tr><td>194.254.130.1</td><td>1</td><td>1</td><td>39434</td><td>20061024070041</td></tr>
+<tr><td>66.194.6.74</td><td>1</td><td>1</td><td>6230</td><td>20061008021456</td></tr>
+<tr><td>207.126.231.109</td><td>1</td><td>2</td><td>11614</td><td>20061013184209</td></tr>
+<tr><td>72.232.137.130</td><td>1</td><td>1</td><td>17729</td><td>20061031190733</td></tr>
+<tr><td>222.99.30.59</td><td>1</td><td>1</td><td>5222</td><td>20061014111211</td></tr>
+<tr><td>131.107.0.95</td><td>1</td><td>2</td><td>11614</td><td>20061015003618</td></tr>
+<tr><td>64.89.214.171</td><td>1</td><td>1</td><td>33183</td><td>20061020185052</td></tr>
+</table><nu>END_VISITOR
+</nu></section>
+
+<section id='day'><comment>
+# Date - Pages - Hits - Bandwidth - Visits
+</comment><nu>
+BEGIN_DAY</nu><recnb>29</recnb><table>
+<tr><td>20061002</td><td>6</td><td>8</td><td>55244</td><td>4</td></tr>
+<tr><td>20061003</td><td>2</td><td>2</td><td>27396</td><td>1</td></tr>
+<tr><td>20061004</td><td>2</td><td>2</td><td>12460</td><td>2</td></tr>
+<tr><td>20061006</td><td>1</td><td>1</td><td>6230</td><td>1</td></tr>
+<tr><td>20061007</td><td>1</td><td>1</td><td>6230</td><td>1</td></tr>
+<tr><td>20061008</td><td>6</td><td>7</td><td>80247</td><td>5</td></tr>
+<tr><td>20061009</td><td>1</td><td>1</td><td>6230</td><td>1</td></tr>
+<tr><td>20061010</td><td>24</td><td>25</td><td>196303</td><td>5</td></tr>
+<tr><td>20061011</td><td>6</td><td>8</td><td>92987</td><td>5</td></tr>
+<tr><td>20061012</td><td>4</td><td>4</td><td>81089</td><td>4</td></tr>
+<tr><td>20061013</td><td>7</td><td>9</td><td>132840</td><td>7</td></tr>
+<tr><td>20061014</td><td>12</td><td>12</td><td>240282</td><td>12</td></tr>
+<tr><td>20061015</td><td>7</td><td>8</td><td>227068</td><td>5</td></tr>
+<tr><td>20061016</td><td>6</td><td>6</td><td>92293</td><td>4</td></tr>
+<tr><td>20061017</td><td>4</td><td>4</td><td>47081</td><td>4</td></tr>
+<tr><td>20061018</td><td>10</td><td>11</td><td>175245</td><td>8</td></tr>
+<tr><td>20061019</td><td>1</td><td>1</td><td>32384</td><td>1</td></tr>
+<tr><td>20061020</td><td>6</td><td>6</td><td>105259</td><td>5</td></tr>
+<tr><td>20061021</td><td>3</td><td>3</td><td>52312</td><td>2</td></tr>
+<tr><td>20061022</td><td>6</td><td>7</td><td>134087</td><td>5</td></tr>
+<tr><td>20061023</td><td>5</td><td>5</td><td>149866</td><td>4</td></tr>
+<tr><td>20061024</td><td>7</td><td>8</td><td>168948</td><td>7</td></tr>
+<tr><td>20061025</td><td>4</td><td>4</td><td>69453</td><td>3</td></tr>
+<tr><td>20061026</td><td>5</td><td>5</td><td>114184</td><td>3</td></tr>
+<tr><td>20061027</td><td>7</td><td>7</td><td>261938</td><td>7</td></tr>
+<tr><td>20061028</td><td>15</td><td>15</td><td>379085</td><td>12</td></tr>
+<tr><td>20061029</td><td>29</td><td>29</td><td>361383</td><td>11</td></tr>
+<tr><td>20061030</td><td>21</td><td>22</td><td>519314</td><td>19</td></tr>
+<tr><td>20061031</td><td>9</td><td>9</td><td>297951</td><td>9</td></tr>
+</table><nu>END_DAY
+</nu></section>
+
+<section id='session'><comment>
+# Session range - Number of visits
+</comment><nu>
+BEGIN_SESSION</nu><recnb>6</recnb><table>
+<tr><td>1h+</td><td>1</td></tr>
+<tr><td>5mn-15mn</td><td>3</td></tr>
+<tr><td>15mn-30mn</td><td>1</td></tr>
+<tr><td>2mn-5mn</td><td>2</td></tr>
+<tr><td>30s-2mn</td><td>2</td></tr>
+<tr><td>0s-30s</td><td>148</td></tr>
+</table><nu>END_SESSION
+</nu></section>
+
+<section id='sider'><sortfor>10</sortfor><comment>
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+</comment><nu>
+BEGIN_SIDER</nu><recnb>25</recnb><table>
+<tr><td>/</td><td>59</td><td>355110</td><td>46</td><td>36</td></tr>
+<tr><td>/archives/000269.html</td><td>54</td><td>1748736</td><td>50</td><td>47</td></tr>
+<tr><td>/archives/000301.html</td><td>33</td><td>1255637</td><td>29</td><td>31</td></tr>
+<tr><td>/index.rdf</td><td>11</td><td>82467</td><td>2</td><td>6</td></tr>
+<tr><td>/dahut_story.html</td><td>11</td><td>136980</td><td>6</td><td>8</td></tr>
+<tr><td>/archives/000345.html</td><td>7</td><td>34937</td><td>3</td><td>5</td></tr>
+<tr><td>/dahut_group.rdf</td><td>7</td><td>70637</td><td>6</td><td>6</td></tr>
+<tr><td>http://dahut.org/archives/000269.html</td><td>6</td><td>194304</td><td>6</td><td>6</td></tr>
+<tr><td>/archives/000271.html</td><td>4</td><td>20888</td><td>3</td><td>3</td></tr>
+<tr><td>/archives/2003_04.html</td><td>4</td><td>30104</td><td>2</td><td>3</td></tr>
+<tr><td>/archives/000268.html 1</td><td>5342</td><td>0</td><td>1</td></tr>
+<tr><td>/AxKitSong.html 1</td><td>1367</td><td>0</td><td>0</td></tr>
+<tr><td>/archives/2003_09.html 1</td><td>2358</td><td>0</td><td>0</td></tr>
+<tr><td>/archives/000272.html 1</td><td>5481</td><td>0</td><td>0</td></tr>
+<tr><td>/archives/2003_03.html 3</td><td>53187</td><td>2</td><td>2</td></tr>
+<tr><td>/archives/2004_02.html 2</td><td>3994</td><td>0</td><td>1</td></tr>
+<tr><td>/archives/2003_10.html 2</td><td>4474</td><td>1</td><td>1</td></tr>
+<tr><td>/archives/2003_07.html 1</td><td>2146</td><td>0</td><td>0</td></tr>
+<tr><td>/archives/000293.html 1</td><td>5455</td><td>0</td><td>0</td></tr>
+<tr><td>/archives/000284.html 1</td><td>5420</td><td>0</td><td>0</td></tr>
+<tr><td>/archives/2003_05.html 1</td><td>2233</td><td>0</td><td>0</td></tr>
+<tr><td>/archives/2003_08.html 3</td><td>19836</td><td>1</td><td>1</td></tr>
+<tr><td>/archives/000283.html 1</td><td>5245</td><td>0</td><td>0</td></tr>
+<tr><td>/archives/000270.html 1</td><td>5942</td><td>0</td><td>0</td></tr>
+<tr><td>/archives/2003_06.html 1</td><td>3117</td><td>0</td><td>0</td></tr>
+</table><nu>END_SIDER
+</nu></section>
+
+
+</xml>

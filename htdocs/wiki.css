@@ -1,0 +1,46 @@
+body {
+    font-size: 76%;
+    font-family: tahoma, sans-serif;
+}
+
+.header {
+    background-color: white;
+    color: silver;
+}
+
+.footer {
+    border-top: 1px solid;
+    padding-top: 1em;
+}
+
+textarea {
+    width: 80ex;
+    height: 40ex;
+}
+
+
+button, input, textarea, select {
+    background-color: white;
+    border: 1px solid grey;
+}
+
+span.title {
+        display: block;
+        width: 26ex;
+        float: left;
+}
+
+h1 {
+    font-size: 2.0em;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 1.7em;
+    margin: 0px;
+}
+
+p {
+    font-size: 1.0em;
+}
+

@@ -1,0 +1,197 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+use CGI qw( :standard );
+use CGI::Carp qw( fatalsToBrowser );
+use OpenGuides;
+use OpenGuides::Config;
+use Template;
+use Wiki::Toolkit::Plugin::Locator::Grid;
+
+my $config_file = $ENV{OPENGUIDES_CONFIG_FILE} || "../wiki.conf";
+my $config = OpenGuides::Config->new( file => $config_file );
+
+my $guide = OpenGuides->new( config => $config );
+my $wiki = $guide->wiki;
+my $locator = Wiki::Toolkit::Plugin::Locator::Grid->new( x => "os_x", y => "os_y" );
+$wiki->register_plugin( plugin => $locator );
+my $formatter = $wiki->formatter;
+
+my $q = CGI->new;
+
+print $q->header;
+my $self_url = $q->url( -relative );
+
+my %tt_vars = (
+                stylesheet => $config->stylesheet_url,
+                site_name  => $config->site_name,
+                script_url => $config->script_url,
+                site_url   => $config->script_url . $config->script_name,
+                full_cgi_url => $config->script_url . $config->script_name,
+                common_categories => $config->enable_common_categories,
+                common_locales => $config->enable_common_locales,
+                catloc_link => $config->script_url . $config->script_name . "?id=",
+                not_editable => 1,
+              );
+my $custom_template_path = $config->custom_template_path || "";
+my $template_path = $config->template_path;
+my $tt = Template->new( { INCLUDE_PATH => ".:$custom_template_path:$template_path"  } );
+$tt->process( "find_header.tt", \%tt_vars );
+
+print_form();
+
+if ( !$q->param( "do_search" ) ) {
+print <<EOHTML;
+    <div class="category_search_example">
+      Example search: <a href="$self_url?cat1=Circle+Line&distance=650&cat2=Good+Beer+Guide&do_search=1">Good Beer Guide pubs within 650m of Circle Line stations</>
+    </div>
+EOHTML
+}
+
+if ( $q->param( "do_search" ) ) {
+  my $cat1 = $q->param( "cat1" );
+  my $cat2 = $q->param( "cat2" );
+  my $dist = $q->param( "distance" );
+
+  $dist ||= 0;
+  $dist =~ s/[^0-9]//g;
+
+  if ( !$dist || !$cat1 ) {
+    # Yes, the categories are displayed the wrong way around.  Don't want to
+    # break URLs, so don't change it.
+    print "<p>Must supply at least the second category, and a distance.</p>";
+  } else {
+    my $dbh = $wiki->store->dbh;
+    my %sql;
+    foreach my $key ( qw( cat1 cat2 ) ) {
+	$sql{$key} = "
+          SELECT DISTINCT node.id, node.name, mx.metadata_value as x,
+                 my.metadata_value as y
+          FROM node
+          INNER JOIN metadata as mc
+            ON ( node.id=mc.node_id
+                 AND node.version=mc.version
+                 AND lower(mc.metadata_type)='category'";
+      if ( $key eq "cat1" || ( $key eq "cat2" && $cat2 ) ) {
+          $sql{$key} .= " AND lower(mc.metadata_value)=? ";
+      }
+      $sql{$key} .= "
+               )
+          INNER JOIN metadata as mx
+            ON ( node.id=mx.node_id
+                 AND node.version=mx.version
+                 AND lower(mx.metadata_type)='os_x' )
+          INNER JOIN metadata as my
+            ON ( node.id=my.node_id
+                 AND node.version=my.version
+                 AND lower(my.metadata_type)='os_y' )
+          ORDER BY node.name";
+    }
+
+    my @cat1stuff;
+    my @cat2stuff;
+    my $sth = $dbh->prepare( $sql{cat1} );
+    $sth->execute( lc( $cat1 ) ) or die $dbh->errstr;
+    while ( my ( $id, $name, $x, $y ) = $sth->fetchrow_array ) {
+      push @cat1stuff, { id => $id, name => $name, x => $x, y => $y };
+    }
+    $sth = $dbh->prepare( $sql{cat2} );
+    if ( $cat2 ) {
+      $sth->execute( lc( $cat2 ) ) or die $dbh->errstr;
+    } else {
+      $sth->execute or die $dbh->errstr;
+    }
+    while ( my ( $id, $name, $x, $y ) = $sth->fetchrow_array ) {
+      push @cat2stuff, { id => $id, name => $name, x => $x, y => $y };
+    }
+
+    my @results;
+    foreach my $origin ( @cat1stuff ) {
+      my @thisres;
+      foreach my $end ( @cat2stuff ) {
+        if ( $origin->{name} eq $end->{name} ) {
+          next;
+        }
+        my $thisdist = int( sqrt(   ( $origin->{x} - $end->{x} )**2
+                                  + ( $origin->{y} - $end->{y} )**2
+                                ) + 0.5 );
+        if ( $thisdist <= $dist ) {
+          push @thisres, { origin => $origin, end => $end, dist => $thisdist };
+        }
+      }
+      @thisres = sort { $a->{dist} <=> $b->{dist} } @thisres;
+      push @results, @thisres;
+    }
+
+    if ( @results == 0 ) {
+      print "<p>No results, sorry.</p>";
+    } else {
+      my $base_url = $config->script_url . $config->script_name . "?";
+      my $last_origin = "";
+      print "<table border=\"1\" class=\"category_search_results\">\n"
+            . "<tr><th><b>$cat1</b></th><th><b>"
+            . ( $cat2 ? $cat2 : "&nbsp;" )
+            . "</b></th>"
+            . "<th><b>Distance (metres)</b></th></tr>\n";
+      foreach my $set ( @results ) {
+        my $origin_name = $set->{origin}->{name};
+        my $end_name = $set->{end}->{name};
+        my $origin_url = $base_url
+                       . $formatter->node_name_to_node_param( $origin_name );
+        my $end_url    = $base_url
+                       . $formatter->node_name_to_node_param( $end_name );
+        print "<tr>\n";
+        if ( $last_origin ne $origin_name ) {
+          print "<td><a href=\"$origin_url\">$origin_name</a></td>\n";
+        } else {
+          print "<td>&nbsp;</td>\n";
+        }
+        print "<td valign=\"top\"><a href=\"$end_url\">$end_name</a></td>\n"
+              . "<td>" . $set->{dist}   . "</td>\n"
+              . "</tr>\n";
+        $last_origin = $origin_name;
+      }
+      print "</table>\n";
+    }
+  }
+}
+
+$tt->process( "find_footer.tt", \%tt_vars );
+
+sub print_form {
+  my $any_string = " -- any -- ";
+  my @categories = $wiki->list_nodes_by_metadata(
+    metadata_type  => "category",
+    metadata_value => "category",
+    ignore_case    => 1,
+  );
+  @categories = map { s/^Category //; $_; } @categories;
+  @categories = sort( @categories );
+
+  my $catbox1 = $q->popup_menu( -name   => "cat1",
+                                -values => [ "", @categories ],
+                                -labels => { "" => $any_string,
+                                             map { $_ => $_ } @categories }
+                              );
+  my $catbox2 = $q->popup_menu( -name   => "cat2",
+                                -values => [ "", @categories ],
+                                -labels => { "" => $any_string,
+                                             map { $_ => $_ } @categories }
+                              );
+  my $distbox = qq( <input type="text" size="4" maxlength="4" name="distance");
+  if ( $q->param( "distance" ) ) {
+    $distbox .= "value=\"" . $q->param( "distance" ) . "\"";
+  }
+  $distbox .= "> metres ";
+
+  print <<EOHTML;
+    <form action="$self_url" method="GET">
+      <p>Find me things in category $catbox2 within $distbox of things in
+      category $catbox1.</p>
+      <input type="hidden" name="do_search" value="1">
+      <input type="submit" name="Search" value="Search" class="form_button">
+    </form>
+EOHTML
+}

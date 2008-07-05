@@ -1,0 +1,156 @@
+# What type of database do you want the site to run on?  postgres/mysql/sqlite
+dbtype = mysql
+
+# What's the name of the database that this site runs on?
+dbname = og_saintpaul
+
+# ...the database user that can access that database?
+dbuser = openguide
+
+# ...the password that they use to access the database?
+dbpass = tinkerbell
+
+# ...the machine that the database is hosted on? (blank if local)
+dbhost = ohm.in.nachbaur.com
+
+# ...the port the database is listening on? (blank if default)
+dbport = 
+
+# What do you want the script to be called?
+script_name = index.cgi
+
+# What directory should I install it in?
+install_directory = /var/www/share/openguides/
+
+# What directory should I install the templates in?
+template_path = /var/www/share/openguides/templates
+
+# Where should I look for custom templates?
+custom_template_path = /var/www/sites/saintpaul.openguides.org/templates
+
+# What URL does the install directory map to?
+script_url = /
+
+# Do you want me to munge a custom lib path into the scripts?  If so, enter it here.  Separate path entries with whitespace.
+custom_lib_path = /var/www/sites/saintpaul.openguides.org/lib
+
+# Do you want to use Plucene for searching? (recommended, but see Changes file before saying yes to this if you are upgrading)
+use_plucene = 1
+
+# What directory can I use to store indexes in for searching? ***NOTE*** This directory must exist and be writeable by the user that your script will run as.  See README for more on this.
+indexing_directory = /var/www/sites/saintpaul.openguides.org/apache/indexes
+
+# Do you want to enable page deletion?
+enable_page_deletion = 1
+
+# Please specify a password for the site admin.
+admin_pass = azariah
+
+# What's the URL of the site's stylesheet?
+stylesheet_url = /style/main.css
+
+# What's the site called? (should be unique)
+site_name = Open Guide to The Twin Cities
+
+# Do you want the navigation bar included on the home page?
+navbar_on_home_page = 1
+
+# Do you want the ten most recent changes included on the home page?
+recent_changes_on_home_page = 1
+
+# Do you want the "Random Page" link to avoid returning a locale page?
+random_page_omits_locales = 0
+
+# Do you want the "Random Page" link to avoid returning a category page?
+random_page_omits_categories = 0
+
+# Do you want the content to appear above the navbar in the HTML?
+content_above_navbar_in_html = 0
+
+# What should the home page of the wiki be called?
+home_name = Home
+
+# How would you describe the site?
+site_desc = The free City Guide to The Twin Cities
+
+# What city is the site based in?
+default_city = St. Paul
+
+# What country is the site based in?
+default_country = United States
+
+# Contact email address for the site administrator?
+contact_email = chris@prather.org
+
+# What language will the site be in? (Please give an ISO language code.)
+default_language = en
+
+# What's the name of the node or page to use for the text formatting rules link (this is by default an external document, but if you make formatting_rules_link empty, it will be a wiki node instead
+formatting_rules_node = Text Formatting Examples
+
+# Make node titles link to node backlinks (C2 style)?
+backlinks_in_title = 0
+
+# Do you have a Google Maps API key to use with this guide? If you enter it here the Google Maps functionality will be automatically enabled.
+gmaps_api_key = ABQIAAAAlA2E46wydMylRdJ1QmWcLhS76Mjqh-g9rI4XwFKpoVVa1oys7xRr2hDMRxaf4Fq_OtttkUPcUA471w
+
+# What is the longitude of the centre point of a map to draw for your guide? (This question can be ignored if you aren't using Google Maps). You may paste in a Google Maps URL here (hint: copy URL from 'Link to this page')
+centre_long = -93.175028
+
+# What is the latitude of the centre point of a map to draw for your guide? (This question can be ignored if you aren't using Google Maps)
+centre_lat = 44.955465
+
+# Would you like to display a Google Map on every node that has geodata? (This question can be ignored if you aren't using Google Maps)
+show_gmap_in_node_display = 1
+
+# What default zoom level shall we use for Google Maps? (This question can be ignored if you aren't using Google Maps)
+default_gmaps_zoom = 5
+
+# What default zoom level shall we use for Google Maps in the search results? (This question can be ignored if you aren't using Google Maps)
+default_gmaps_search_zoom = 3
+
+# Forcibly treat stored lat/long data as if they used the WGS84 ellipsoid?
+force_wgs84 = 1
+
+# Do you have a Google Analytics key to use with this guide? If you enter it here, then Google Analytics functionality will be automatically enabled.
+google_analytics_key = UA-939082-1
+
+# What licence will you use for the guide?
+licence_name = Creative Commons Attribution 3.0 License 
+
+# What is the URL to your licence?
+licence_url = http://creativecommons.org/licenses/by/3.0/ 
+
+# What is the URL to your local page about your licensing policy?
+licence_info_url = http://saintpaul.openguides.org/index.cgi?License_Policy 
+
+# Is the admin password required for moderating pages?
+moderation_requires_password = 1
+
+# Should nodes be allowed to have an externally hosted image?
+enable_node_image = 1
+
+# Do you want a common list of categories shown on all node pages?
+enable_common_categories = 0
+
+# Do you want a common list of locales shown on all node pages?
+enable_common_locales = 0
+
+# What module would you like to use for spam detection? (optional)
+spam_detector_module = 
+
+# What directory should we install static content (CSS, images, javascript) to?
+static_path = /usr/local/share/openguides/static
+
+# What is the URL corresponding to the static content?
+static_url =  
+
+# Should we send email notifications when a moderated node is edited?
+send_moderation_notifications = 1
+
+# Distance calculation methods available are:  1) British National Grid  2) Irish National Grid  3) UTM ellipsoidWhich would you like to use?
+geo_handler = 3
+
+# Which ellipsoid do you want to use? (eg 'Airy', 'WGS-84')
+ellipsoid = WGS-84
+

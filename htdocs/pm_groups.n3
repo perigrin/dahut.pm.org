@@ -1,0 +1,75 @@
+@prefix pm:   <http://www.pm.org/rdf/0.1/>
+@prefix pim:  <http://www.w3.org/2000/10/swap/pim/contact#>
+@prefix foaf: <http://xmlns.com/foaf/0.1/>
+@prefix geo   <http://www.w3.org/2003/01/geo/wgs84_pos#>
+@prefix rdf   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+foaf:Group [
+    rdf:nodeID "NY.pm";
+    foaf:name NY.pm;
+    pim:city New York City;
+    pim:state New York;
+    pim:region Center of the Universe;
+    pim:country United States of America;
+    pim:continent North America;
+    geo:long -73.94384;
+    geo:lat 40.66980;
+
+    foaf:mbox [
+        pm:type group;
+        rdf:resource <nypm@ny.pm.org>
+    ];
+
+    foaf:Person [
+        foaf:name David H. Adler;
+        foaf:mbox [
+            pm:type personal;
+            rdf:resource <dha@panix.com>
+        ]
+    ]
+
+    foaf:homepage [
+        rdf:resource <http://ny.pm.org/>
+    ];
+
+    pm:mailing_list [
+        foaf:name General NY.pm discussion;
+        foaf:mbox [
+            pm:type list;
+            rdf:resource <ny@lists.panix.com>
+        ];
+        foaf:mbox [
+            pm:type list_admin;
+            rdf:resource <majordomo@lists.pm.org>
+        ];
+        foaf:mbox [
+            pm:type subscribe;
+            rdf:resource <subscribe-ny@lists.panix.com>
+        ];
+        foaf:mbox [
+            pm:type unsubscribe;
+            rdf:resource <unsubscribe-ny@lists.panix.com>
+        ]
+    ]
+
+    pm:mailing_list [
+        foaf:name NYC Perl Jobs;
+        foaf:mbox  [
+                pm:type list
+                rdf:resource nyc-perl-jobs@perl.org
+        ];
+        foaf:mbox [
+            pm:type list_admin
+            rdf:resource <majordomo@perl.org>
+        ];
+        foaf:mbox [
+            pm:type subscribe
+            rdf:resource <subscribe-nyc-perl-jobs@perl.org>
+        ];
+        foaf:mbox [
+            pm:type unsubscribe
+            rdf:resource <unsubscribe-nyc-perl-jobs@perl.org>
+        ]
+    ]
+    pm:inception-date 19970827
+]

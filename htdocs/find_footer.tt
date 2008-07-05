@@ -1,0 +1,8 @@
+      </div>
+[% INCLUDE navbar.tt %]
+<br clear="all" />
+<div id="footer"></div>
+    </div>
+  </body>
+</html>
+

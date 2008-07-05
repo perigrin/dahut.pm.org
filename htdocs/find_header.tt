@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="[% stylesheet %]" type="text/css" />
+    <title>[% site_name %] &#8212; Category Search</title>
+  </head>
+
+  <body>
+    <div id="body_wrapper">
+      <div id="banner">
+        <h1><a href="[% site_url %]">[% site_name %]</a></h1>
+        <div id="summary"></div>
+      </div>
+      <div id="content">
+        <div id="maincontent">
+          <div class="see_other_searches">
+            See also: <a href="http://london.randomness.org.uk/wiki.cgi?Ways_To_Search_RGL">Ways To Search
+            RGL</a>
+          </div>
+          <h2>Category Search</h2>
+

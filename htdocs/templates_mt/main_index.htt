@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<title><$MTBlogName$></title>
+
+<link rel="stylesheet" href="<$MTBlogURL$>styles-site.css" type="text/css" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="<$MTBlogURL$>index.rdf" />
+
+<script language="javascript" type="text/javascript">
+function OpenComments (c) {
+    window.open(c,
+                    'comments',
+                    'width=480,height=480,scrollbars=yes,status=yes');
+}
+
+function OpenTrackback (c) {
+    window.open(c,
+                    'trackback',
+                    'width=480,height=480,scrollbars=yes,status=yes');
+}
+</script>
+
+</head>
+
+<body>
+
+<div id="banner">
+<h1><a href="<$MTBlogURL$>" accesskey="1"><$MTBlogName$></a></h1>
+<span class="description"><$MTBlogDescription$></span>
+</div>
+
+<div id="content">
+
+<div class="blog">
+
+<MTEntries>
+<$MTEntryTrackbackData$>
+
+	<MTDateHeader>
+	<h2 class="date">
+	<$MTEntryDate format="%x"$>
+	</h2>
+	</MTDateHeader>
+
+	<div class="blogbody">
+	
+	<a name="<$MTEntryID pad="1"$>"></a>
+	<h3 class="title"><$MTEntryTitle smarty_pants="1"$></h3>
+	
+	<$MTEntryBody smarty_pants="1"$>
+	
+	<MTEntryIfExtended>
+	<span class="extended"><a href="<$MTEntryPermalink$>">Continue reading "<$MTEntryTitle smarty_pants="1"$>"</a></span><br />
+	</MTEntryIfExtended>
+	
+	<div class="posted">Posted by <$MTEntryAuthor$> at <a href="<$MTEntryPermalink$>"><$MTEntryDate format="%X"$></a>
+	<MTEntryIfAllowComments>
+	| <a href="<$MTCGIPath$><$MTCommentScript$>?entry_id=<$MTEntryID$>" onclick="OpenComments(this.href); return false">Comments (<$MTEntryCommentCount$>)</a>
+	</MTEntryIfAllowComments>
+	<MTEntryIfAllowPings>
+	| <a href="<$MTCGIPath$><$MTTrackbackScript$>?__mode=view&amp;entry_id=<$MTEntryID$>" onclick="OpenTrackback(this.href); return false">TrackBack (<$MTEntryTrackbackCount$>)</a>
+	</MTEntryIfAllowPings>
+	</div>
+	
+	</div>
+	
+
+
+</MTEntries>
+
+</div>
+
+</div>
+
+
+<div id="links">
+
+
+
+<div align="center" class="calendar">
+
+<table border="0" cellspacing="4" cellpadding="0" summary="Monthly calendar with links to each day's posts">
+<caption class="calendarhead"><$MTDate format="%B %Y"$></caption>
+<tr>
+<th abbr="Sunday" align="center"><span class="calendar">Sun</span></th>
+<th abbr="Monday" align="center"><span class="calendar">Mon</span></th>
+<th abbr="Tuesday" align="center"><span class="calendar">Tue</span></th>
+<th abbr="Wednesday" align="center"><span class="calendar">Wed</span></th>
+<th abbr="Thursday" align="center"><span class="calendar">Thu</span></th>
+<th abbr="Friday" align="center"><span class="calendar">Fri</span></th>
+<th abbr="Saturday" align="center"><span class="calendar">Sat</span></th>
+</tr>
+
+<MTCalendar>
+<MTCalendarWeekHeader><tr></MTCalendarWeekHeader>
+
+<td align="center"><span class="calendar">
+<MTCalendarIfEntries><MTEntries lastn="1"><a href="<$MTEntryPermalink$>"><$MTCalendarDay$></a></MTEntries></MTCalendarIfEntries><MTCalendarIfNoEntries><$MTCalendarDay$></MTCalendarIfNoEntries><MTCalendarIfBlank>&nbsp;</MTCalendarIfBlank></span></td><MTCalendarWeekFooter></tr></MTCalendarWeekFooter></MTCalendar>
+</table>
+
+</div>
+
+<div class="sidetitle">
+Search
+</div>
+ 
+<div class="side">
+<form method="get" action="<$MTCGIPath$><$MTSearchScript$>">
+<input type="hidden" name="IncludeBlogs" value="<$MTBlogID$>" />
+<label for="search" accesskey="4">Search this site:</label><br />
+<input id="search" name="search" size="20" /><br />
+<input type="submit" value="Search" />
+</form>
+</div>
+
+<div class="sidetitle">
+Archives
+</div>
+
+<div class="side">
+<MTArchiveList archive_type="Monthly">
+<a href="<$MTArchiveLink$>"><$MTArchiveTitle$></a><br />
+</MTArchiveList>
+</div>
+
+<div class="sidetitle">
+Recent Entries
+</div>
+
+<div class="side">
+<MTEntries lastn="10">
+<a href="<$MTEntryPermalink$>"><$MTEntryTitle$></a><br />
+</MTEntries>
+</div>
+
+<div class="sidetitle">
+Links
+</div>
+
+<div class="side">
+<a href="">Add Your Links Here</a><br />
+</div>
+
+<div class="syndicate">
+<a href="index.rdf">Syndicate this site (XML)</a>
+</div>
+
+<div class="powered">
+Powered by<br /><a href="http://www.movabletype.org">Movable Type <$MTVersion$></a><br />    
+</div>
+
+</div>
+
+</body>
+</html>

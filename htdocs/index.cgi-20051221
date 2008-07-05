@@ -1,0 +1,37 @@
+#!/usr/bin/perl
+  use strict;
+  use warnings;
+  use CGI;
+  use CGI::Wiki::Kwiki;
+
+  my %config = (
+    db_type => 'MySQL',
+    db_user => 'dahut',
+    db_pass => 'dahut',
+    db_name => 'dahut_org',
+    db_host => 'ohm.in.nachbaur.com',
+    template_path=>'templates',
+    formatters => {
+            default    => [
+                               'CGI::Wiki::Formatter::UseMod',
+                               allowed_tags   => [ qw( p b i pre ) ],
+                               extended_links => 1,
+                               implicit_links => 0,
+                             ],
+                      },
+    site_name => 'Dahut PM Wiki',
+    stylesheet_url => 'http://bender.prather.org/styles.css',	
+  );
+
+  my %vars = CGI::Vars();
+  eval {
+      CGI::Wiki::Kwiki->new(%config)->run(%vars);
+  };
+	
+	if ($@) {
+      print "Content-type: text/plain\n\n";
+      print "There was a problem with CGI::Wiki::Kwiki:\n\n--\n";
+      print "$@";
+      print "\n--\n";
+      print STDERR $@;
+  }

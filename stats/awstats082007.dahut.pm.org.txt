@@ -1,0 +1,1362 @@
+<xml>
+
+<version><lib>
+AWSTATS DATA FILE 6.4 (build 1.814)
+</lib><comment>
+# If you remove this file, all statistics for date 2007-08 will be lost/reset.
+</comment></version>
+
+<section id='header'><comment>
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+</comment><nu>
+BEGIN_MAP</nu><recnb>27</recnb><table>
+<tr><td>POS_GENERAL</td><td>2758                </td></tr>
+<tr><td>POS_TIME</td><td>4260                </td></tr>
+<tr><td>POS_VISITOR</td><td>36447               </td></tr>
+<tr><td>POS_DAY</td><td>88356               </td></tr>
+<tr><td>POS_DOMAIN</td><td>6849                </td></tr>
+<tr><td>POS_LOGIN</td><td>9418                </td></tr>
+<tr><td>POS_ROBOT</td><td>9693                </td></tr>
+<tr><td>POS_WORMS</td><td>11117               </td></tr>
+<tr><td>POS_EMAILSENDER</td><td>11374               </td></tr>
+<tr><td>POS_EMAILRECEIVER</td><td>11645               </td></tr>
+<tr><td>POS_SESSION</td><td>90933               </td></tr>
+<tr><td>POS_SIDER</td><td>91448               </td></tr>
+<tr><td>POS_FILETYPES</td><td>11883               </td></tr>
+<tr><td>POS_OS</td><td>12306               </td></tr>
+<tr><td>POS_BROWSER</td><td>13013               </td></tr>
+<tr><td>POS_SCREENSIZE</td><td>14947               </td></tr>
+<tr><td>POS_UNKNOWNREFERER</td><td>15129               </td></tr>
+<tr><td>POS_UNKNOWNREFERERBROWSER</td><td>17248               </td></tr>
+<tr><td>POS_ORIGIN</td><td>18367               </td></tr>
+<tr><td>POS_SEREFERRALS</td><td>18822               </td></tr>
+<tr><td>POS_PAGEREFS</td><td>19225               </td></tr>
+<tr><td>POS_SEARCHWORDS</td><td>21958               </td></tr>
+<tr><td>POS_KEYWORDS</td><td>22671               </td></tr>
+<tr><td>POS_MISC</td><td>3406                </td></tr>
+<tr><td>POS_ERRORS</td><td>23673               </td></tr>
+<tr><td>POS_CLUSTER</td><td>9154                </td></tr>
+<tr><td>POS_SIDER_404</td><td>24042               </td></tr>
+</table><nu>END_MAP
+</nu></section>
+
+<section id='general'><comment>
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+</comment><nu>
+BEGIN_GENERAL</nu><recnb>8</recnb><table>
+<tr><td>LastLine</td><td>20070901000616 6674 867069 19381702882</td></tr>
+<tr><td>FirstTime</td><td>20070801002106</td></tr>
+<tr><td>LastTime</td><td>20070831235339</td></tr>
+<tr><td>LastUpdate</td><td>20070901010156 1 0 0 0 0</td></tr>
+<tr><td>TotalVisits</td><td>2326                </td></tr>
+<tr><td>TotalUnique</td><td>579                 </td></tr>
+<tr><td>MonthHostsKnown</td><td>0                   </td></tr>
+<tr><td>MonthHostsUnknown</td><td>579                 </td></tr>
+</table><nu>
+END_GENERAL
+</nu></section>
+
+<section id='misc'><comment>
+# Misc ID - Pages - Hits - Bandwidth
+</comment><nu>
+BEGIN_MISC</nu><recnb>10</recnb><table>
+<tr><td>QuickTimeSupport</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>JavaEnabled</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>JavascriptDisabled</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>PDFSupport</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>WindowsMediaPlayerSupport</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>AddToFavourites</td><td>0</td><td>3</td><td>0</td></tr>
+<tr><td>RealPlayerSupport</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>TotalMisc</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>DirectorSupport</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>FlashSupport</td><td>0</td><td>0</td><td>0</td></tr>
+</table><nu>END_MISC
+</nu></section>
+
+<section id='time'><comment>
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+</comment><nu>
+BEGIN_TIME</nu><recnb>24</recnb><table>
+<tr><td>0</td><td>216</td><td>216</td><td>6953392</td><td>29</td><td>29</td><td>88031</td></tr>
+<tr><td>1</td><td>250</td><td>250</td><td>8152744</td><td>40</td><td>40</td><td>194951</td></tr>
+<tr><td>2</td><td>220</td><td>221</td><td>6839911</td><td>30</td><td>30</td><td>84529</td></tr>
+<tr><td>3</td><td>246</td><td>247</td><td>7691318</td><td>45</td><td>45</td><td>203717</td></tr>
+<tr><td>4</td><td>279</td><td>279</td><td>7069029</td><td>46</td><td>46</td><td>127142</td></tr>
+<tr><td>5</td><td>266</td><td>268</td><td>9091638</td><td>36</td><td>36</td><td>101068</td></tr>
+<tr><td>6</td><td>218</td><td>219</td><td>6934366</td><td>52</td><td>52</td><td>300122</td></tr>
+<tr><td>7</td><td>216</td><td>216</td><td>6899965</td><td>51</td><td>51</td><td>362392</td></tr>
+<tr><td>8</td><td>203</td><td>206</td><td>6310251</td><td>37</td><td>37</td><td>121684</td></tr>
+<tr><td>9</td><td>216</td><td>219</td><td>6768762</td><td>45</td><td>45</td><td>938972</td></tr>
+<tr><td>10</td><td>197</td><td>202</td><td>6108607</td><td>50</td><td>50</td><td>1042637</td></tr>
+<tr><td>11</td><td>210</td><td>210</td><td>6616489</td><td>43</td><td>43</td><td>433725</td></tr>
+<tr><td>12</td><td>231</td><td>233</td><td>7806329</td><td>68</td><td>68</td><td>194415</td></tr>
+<tr><td>13</td><td>221</td><td>223</td><td>6659789</td><td>36</td><td>36</td><td>221012</td></tr>
+<tr><td>14</td><td>217</td><td>220</td><td>6614637</td><td>59</td><td>59</td><td>141878</td></tr>
+<tr><td>15</td><td>226</td><td>227</td><td>7083378</td><td>43</td><td>43</td><td>789100</td></tr>
+<tr><td>16</td><td>235</td><td>235</td><td>6986581</td><td>48</td><td>48</td><td>196367</td></tr>
+<tr><td>17</td><td>216</td><td>217</td><td>6683009</td><td>44</td><td>44</td><td>773666</td></tr>
+<tr><td>18</td><td>231</td><td>231</td><td>7021702</td><td>38</td><td>38</td><td>91613</td></tr>
+<tr><td>19</td><td>217</td><td>218</td><td>6722767</td><td>53</td><td>53</td><td>168858</td></tr>
+<tr><td>20</td><td>239</td><td>242</td><td>7470121</td><td>132</td><td>132</td><td>125470</td></tr>
+<tr><td>21</td><td>237</td><td>237</td><td>7169309</td><td>97</td><td>97</td><td>159965</td></tr>
+<tr><td>22</td><td>217</td><td>217</td><td>6922743</td><td>29</td><td>29</td><td>146580</td></tr>
+<tr><td>23</td><td>231</td><td>231</td><td>7468320</td><td>32</td><td>32</td><td>75400</td></tr>
+</table><nu>END_TIME
+</nu></section>
+
+<section id='domain'><sortfor>10</sortfor><comment>
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+</comment><nu>
+BEGIN_DOMAIN</nu><recnb>38</recnb><table>
+<tr><td>us</td><td>4931</td><td>4951</td><td>155131703</td></tr>
+<tr><td>eu</td><td>153</td><td>153</td><td>4729626</td></tr>
+<tr><td>ip</td><td>139</td><td>141</td><td>3855107</td></tr>
+<tr><td>cn</td><td>51</td><td>51</td><td>1342191</td></tr>
+<tr><td>au</td><td>31</td><td>31</td><td>781051</td></tr>
+<tr><td>it</td><td>22</td><td>22</td><td>704089</td></tr>
+<tr><td>tw</td><td>18</td><td>18</td><td>565622</td></tr>
+<tr><td>gb</td><td>14</td><td>16</td><td>351337</td></tr>
+<tr><td>jp</td><td>13</td><td>13</td><td>322120</td></tr>
+<tr><td>ca</td><td>12</td><td>12</td><td>363319</td></tr>
+<tr><td>pt</td><td>2</td><td>2</td><td>55447</td></tr>
+<tr><td>ph</td><td>1</td><td>1</td><td>32384</td></tr>
+<tr><td>es</td><td>4</td><td>5</td><td>89374</td></tr>
+<tr><td>kr</td><td>10</td><td>10</td><td>306206</td></tr>
+<tr><td>ru</td><td>2</td><td>2</td><td>71818</td></tr>
+<tr><td>hn</td><td>1</td><td>1</td><td>12781</td></tr>
+<tr><td>my</td><td>1</td><td>1</td><td>6230</td></tr>
+<tr><td>fr</td><td>2</td><td>2</td><td>64768</td></tr>
+<tr><td>ro</td><td>1</td><td>1</td><td>32384</td></tr>
+<tr><td>dk</td><td>3</td><td>4</td><td>51495</td></tr>
+<tr><td>hk</td><td>1</td><td>1</td><td>39434</td></tr>
+<tr><td>ie</td><td>2</td><td>2</td><td>20186</td></tr>
+<tr><td>br</td><td>5</td><td>5</td><td>103382</td></tr>
+<tr><td>kw</td><td>1</td><td>1</td><td>39434</td></tr>
+<tr><td>cz</td><td>6</td><td>6</td><td>152410</td></tr>
+<tr><td>by</td><td>1</td><td>1</td><td>32384</td></tr>
+<tr><td>de</td><td>5</td><td>6</td><td>148200</td></tr>
+<tr><td>be</td><td>2</td><td>2</td><td>64768</td></tr>
+<tr><td>cl</td><td>1</td><td>1</td><td>32384</td></tr>
+<tr><td>ch</td><td>1</td><td>2</td><td>11614</td></tr>
+<tr><td>at</td><td>3</td><td>4</td><td>90482</td></tr>
+<tr><td>pk</td><td>2</td><td>2</td><td>71818</td></tr>
+<tr><td>hu</td><td>1</td><td>1</td><td>32384</td></tr>
+<tr><td>ar</td><td>1</td><td>1</td><td>32384</td></tr>
+<tr><td>nl</td><td>8</td><td>8</td><td>200639</td></tr>
+<tr><td>nz</td><td>1</td><td>1</td><td>32384</td></tr>
+<tr><td>se</td><td>2</td><td>2</td><td>71818</td></tr>
+<tr><td>ae</td><td>1</td><td>1</td><td>0</td></tr>
+</table><nu>END_DOMAIN
+</nu></section>
+
+<section id='cluster'><comment>
+# Cluster ID - Pages - Hits - Bandwidth
+</comment><nu>
+BEGIN_CLUSTER</nu><recnb>0</recnb><table>
+</table><nu>END_CLUSTER
+</nu></section>
+
+<section id='login'><sortfor>10</sortfor><comment>
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+</comment><nu>
+BEGIN_LOGIN</nu><recnb>0</recnb><table>
+</table><nu>END_LOGIN
+</nu></section>
+
+<section id='robot'><sortfor>10</sortfor><comment>
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+</comment><nu>
+BEGIN_ROBOT</nu><recnb>14</recnb><table>
+<tr><td>slurp</td><td>210</td><td>1602613</td><td>20070831152559</td><td>0</td></tr>
+<tr><td>msnbot</td><td>98</td><td>950245</td><td>20070831225237</td><td>0</td></tr>
+<tr><td>speedy</td><td>36</td><td>249658</td><td>20070829112842</td><td>0</td></tr>
+<tr><td>googlebot</td><td>35</td><td>49163</td><td>20070831204641</td><td>0</td></tr>
+<tr><td>crawl</td><td>28</td><td>235960</td><td>20070827110525</td><td>0</td></tr>
+<tr><td>jeeves</td><td>22</td><td>149799</td><td>20070831141530</td><td>0</td></tr>
+<tr><td>robot</td><td>13</td><td>1935280</td><td>20070830203013</td><td>0</td></tr>
+<tr><td>turnitinbot</td><td>3</td><td>37911</td><td>20070818213722</td><td>0</td></tr>
+<tr><td>psbot</td><td>2</td><td>12460</td><td>20070815011208</td><td>0</td></tr>
+<tr><td>wisenutbot</td><td>1</td><td>5942</td><td>20070815030218</td><td>0</td></tr>
+<tr><td>spider</td><td>1</td><td>13698</td><td>20070807145317</td><td>0</td></tr>
+<tr><td>larbin</td><td>1</td><td>6230</td><td>20070828082348</td><td>0</td></tr>
+<tr><td>mnogosearch</td><td>1</td><td>6230</td><td>20070816064418</td><td>0</td></tr>
+<tr><td>netcraft</td><td>1</td><td>0</td><td>20070803095034</td><td>0</td></tr>
+</table><nu>END_ROBOT
+</nu></section>
+
+<section id='worms'><sortfor>5</sortfor><comment>
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+</comment><nu>
+BEGIN_WORMS</nu><recnb>0</recnb><table>
+</table><nu>END_WORMS
+</nu></section>
+
+<section id='emailsender'><sortfor>20</sortfor><comment>
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+</comment><nu>
+BEGIN_EMAILSENDER</nu><recnb>0</recnb><table>
+</table><nu>END_EMAILSENDER
+</nu></section>
+
+<section id='emailreceiver'><sortfor>20</sortfor><comment>
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+</comment><nu>
+BEGIN_EMAILRECEIVER</nu><recnb>0</recnb><table>
+</table><nu>END_EMAILRECEIVER
+</nu></section>
+
+<section id='filetypes'><comment>
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+</comment><nu>
+BEGIN_FILETYPES</nu><recnb>4</recnb><table>
+<tr><td>css</td><td>29</td><td>150752</td><td>0</td><td>0</td></tr>
+<tr><td>html</td><td>5347</td><td>167696381</td><td>0</td><td>0</td></tr>
+<tr><td>rdf</td><td>26</td><td>1687164</td><td>0</td><td>0</td></tr>
+<tr><td>xml</td><td>82</td><td>510860</td><td>0</td><td>0</td></tr>
+</table><nu>END_FILETYPES
+</nu></section>
+
+<section id='os'><comment>
+# OS ID - Hits
+</comment><nu>
+BEGIN_OS</nu><recnb>16</recnb><table>
+<tr><td>winxp</td><td>1409</td></tr>
+<tr><td>winlong</td><td>5</td></tr>
+<tr><td>unix</td><td>1</td></tr>
+<tr><td>win2000</td><td>24</td></tr>
+<tr><td>winnt</td><td>11</td></tr>
+<tr><td>win98</td><td>3</td></tr>
+<tr><td>linux</td><td>49</td></tr>
+<tr><td>winme</td><td>4</td></tr>
+<tr><td>macosx</td><td>12</td></tr>
+<tr><td>win95</td><td>4</td></tr>
+<tr><td>riscos</td><td>1</td></tr>
+<tr><td>win2003</td><td>12</td></tr>
+<tr><td>wince</td><td>2</td></tr>
+<tr><td>Unknown</td><td>3943</td></tr>
+<tr><td>sunos</td><td>2</td></tr>
+<tr><td>freebsd</td><td>2</td></tr>
+</table><nu>END_OS
+</nu></section>
+
+<section id='browser'><comment>
+# Browser ID - Hits
+</comment><nu>
+BEGIN_BROWSER</nu><recnb>45</recnb><table>
+<tr><td>msie6.0</td><td>1228</td></tr>
+<tr><td>firefox1.5.0.3</td><td>14</td></tr>
+<tr><td>msie4.01</td><td>1</td></tr>
+<tr><td>curl</td><td>11</td></tr>
+<tr><td>msie3.02</td><td>2</td></tr>
+<tr><td>firefox2.0.0.5</td><td>2</td></tr>
+<tr><td>firefox1.0.4</td><td>1</td></tr>
+<tr><td>netscape4.76</td><td>2</td></tr>
+<tr><td>netscape7.1</td><td>1</td></tr>
+<tr><td>firefox2.0.0.3</td><td>2</td></tr>
+<tr><td>netscape0.91</td><td>1</td></tr>
+<tr><td>netscape3.0</td><td>1</td></tr>
+<tr><td>msie7.0</td><td>117</td></tr>
+<tr><td>netscape4.5</td><td>1</td></tr>
+<tr><td>msie2.0</td><td>1</td></tr>
+<tr><td>firefox1.5.0.4</td><td>13</td></tr>
+<tr><td>firefox0.9.6</td><td>4</td></tr>
+<tr><td>firefox0.10</td><td>1</td></tr>
+<tr><td>msie5.0</td><td>4</td></tr>
+<tr><td>firefox1.5</td><td>5</td></tr>
+<tr><td>Unknown</td><td>3910</td></tr>
+<tr><td>netscape6.2.1</td><td>1</td></tr>
+<tr><td>firefox0.9.1</td><td>1</td></tr>
+<tr><td>firefox1.5.0.7</td><td>1</td></tr>
+<tr><td>netscape4.61</td><td>1</td></tr>
+<tr><td>msie5.01</td><td>1</td></tr>
+<tr><td>galeon</td><td>1</td></tr>
+<tr><td>opera</td><td>35</td></tr>
+<tr><td>firefox2.0.0.6</td><td>34</td></tr>
+<tr><td>msie5.5</td><td>3</td></tr>
+<tr><td>k\-meleon</td><td>1</td></tr>
+<tr><td>netscape0.6</td><td>1</td></tr>
+<tr><td>firefox1.0.7</td><td>13</td></tr>
+<tr><td>msie4.0</td><td>1</td></tr>
+<tr><td>konqueror</td><td>10</td></tr>
+<tr><td>firefox1.0</td><td>9</td></tr>
+<tr><td>mozilla</td><td>25</td></tr>
+<tr><td>netscape5.0</td><td>3</td></tr>
+<tr><td>firefox0.9.2</td><td>1</td></tr>
+<tr><td>netscape4.0</td><td>8</td></tr>
+<tr><td>firefox2.0</td><td>1</td></tr>
+<tr><td>firefox2.0.0.4</td><td>6</td></tr>
+<tr><td>firefox1.0.6</td><td>3</td></tr>
+<tr><td>netscape6.2</td><td>1</td></tr>
+<tr><td>firebird</td><td>1</td></tr>
+</table><nu>END_BROWSER
+</nu></section>
+
+<section id='screensize'><comment>
+# Screen size - Hits
+</comment><nu>
+BEGIN_SCREENSIZE</nu><recnb>0</recnb><table>
+</table><nu>END_SCREENSIZE
+</nu></section>
+
+<section id='unknownreferer'><comment>
+# Unknown referer OS - Last visit date
+</comment><nu>
+BEGIN_UNKNOWNREFERER</nu><recnb>23</recnb><table>
+<tr><td>PEAR_HTTP_Request_class_(_http://pear.php.net/_)</td><td>20070828225939</td></tr>
+<tr><td>Mozilla/5.0_(compatible;_heritrix/1.7.1-200601241521__http://netarkivet.dk/website/info.html)</td><td>20070822172835</td></tr>
+<tr><td>CURL;_http://xml.mfd-consult.dk/foaf/</td><td>20070805182021</td></tr>
+<tr><td>Mozilla/0.91_Beta_(Windows)</td><td>20070803195207</td></tr>
+<tr><td>SBIder/SBIder-0.8.2-dev_(http://www.sitesell.com/sbider.html)</td><td>20070826123540</td></tr>
+<tr><td>-</td><td>20070831235339</td></tr>
+<tr><td>Mozilla/0.6_Beta_(Windows)</td><td>20070826040854</td></tr>
+<tr><td>Anpkz_yjcurwqea_sgxi</td><td>20070810204546</td></tr>
+<tr><td>Rdf.SiocBrowser/1.0_(SIOC_RDF_browser;_http://rdfs.org/sioc/browser/;_uldis.bojars@deri.org)</td><td>20070818144505</td></tr>
+<tr><td>Mozilla/4.0_(compatible;_MSIE_5.0;_Win3.1;_ATHMWWW1.1;)</td><td>20070816115637</td></tr>
+<tr><td>Mozilla/3.0_(compatible;_HP_Web_PrintSmart_04b0_1.0.1.34)</td><td>20070831144822</td></tr>
+<tr><td>Pingdom_GIGRIB_(http://www.pingdom.com)</td><td>20070825184302</td></tr>
+<tr><td>bot/1.0_(bot;_http://;_bot@bot.bot)</td><td>20070821200032</td></tr>
+<tr><td>Java/1.6.0_01</td><td>20070828071951</td></tr>
+<tr><td>Ocqms_trfeymh_lyif</td><td>20070810204556</td></tr>
+<tr><td>Mozilla/4.0_(compatible;_)</td><td>20070815050821</td></tr>
+<tr><td>Mozilla/4.0_(compatible58.65.239.170_-_-_[29/Aug/2007:14:07:05_-0700]_</td><td>20070829135140</td></tr>
+<tr><td>Mozilla/4.0</td><td>20070828045735</td></tr>
+<tr><td>av5skl5qgfwfgrild5mwKbg_mr</td><td>20070822194749</td></tr>
+<tr><td>MJ12bot/v1.2.0_(http://majestic12.co.uk/bot.php?_)</td><td>20070816144038</td></tr>
+<tr><td>gjn_okpQylQamo5pgvshsaniqjkat</td><td>20070822184945</td></tr>
+<tr><td>Mozilla/4.0_(compatible;_MSIE_6.0;_Bluecoat_DRTR)</td><td>20070823055519</td></tr>
+<tr><td>Mozilla/5.0_(compatible;_heritrix/1.12.0__http://www.accelobot.com)</td><td>20070814213505</td></tr>
+</table><nu>END_UNKNOWNREFERER
+</nu></section>
+
+<section id='unknownrefererbrowser'><comment>
+# Unknown referer Browser - Last visit date
+</comment><nu>
+BEGIN_UNKNOWNREFERERBROWSER</nu><recnb>12</recnb><table>
+<tr><td>PEAR_HTTP_Request_class_(_http://pear.php.net/_)</td><td>20070828225939</td></tr>
+<tr><td>bot/1.0_(bot;_http://;_bot@bot.bot)</td><td>20070821200032</td></tr>
+<tr><td>Pingdom_GIGRIB_(http://www.pingdom.com)</td><td>20070825184302</td></tr>
+<tr><td>Java/1.6.0_01</td><td>20070828071951</td></tr>
+<tr><td>Ocqms_trfeymh_lyif</td><td>20070810204556</td></tr>
+<tr><td>SBIder/SBIder-0.8.2-dev_(http://www.sitesell.com/sbider.html)</td><td>20070826123540</td></tr>
+<tr><td>-</td><td>20070831235339</td></tr>
+<tr><td>av5skl5qgfwfgrild5mwKbg_mr</td><td>20070822194749</td></tr>
+<tr><td>MJ12bot/v1.2.0_(http://majestic12.co.uk/bot.php?_)</td><td>20070816144038</td></tr>
+<tr><td>gjn_okpQylQamo5pgvshsaniqjkat</td><td>20070822184945</td></tr>
+<tr><td>Anpkz_yjcurwqea_sgxi</td><td>20070810204546</td></tr>
+<tr><td>Rdf.SiocBrowser/1.0_(SIOC_RDF_browser;_http://rdfs.org/sioc/browser/;_uldis.bojars@deri.org)</td><td>20070818144505</td></tr>
+</table><nu>END_UNKNOWNREFERERBROWSER
+</nu></section>
+
+<section id='origin'><comment>
+# Origin - Pages - Hits 
+</comment><nu>
+BEGIN_ORIGIN</nu><recnb>6</recnb><table>
+<tr><td>From0</td><td>5114</td><td>5114</td></tr>
+<tr><td>From1</td><td>16</td><td>16</td></tr>
+<tr><td>From2</td><td>30</td><td>30</td></tr>
+<tr><td>From3</td><td>284</td><td>286</td></tr>
+<tr><td>From4</td><td>11</td><td>38</td></tr>
+<tr><td>From5</td><td>0</td><td>0</td></tr>
+</table><nu>END_ORIGIN
+</nu></section>
+
+<section id='sereferrals'><comment>
+# Search engine referers ID - Pages - Hits
+</comment><nu>
+BEGIN_SEREFERRALS</nu><recnb>3</recnb><table>
+<tr><td>google</td><td>14</td><td>14</td></tr>
+<tr><td>search</td><td>15</td><td>15</td></tr>
+<tr><td>ask</td><td>1</td><td>1</td></tr>
+</table><nu>END_SEREFERRALS
+</nu></section>
+
+<section id='pagerefs'><sortfor>10</sortfor><comment>
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+</comment><nu>
+BEGIN_PAGEREFS</nu><recnb>30</recnb><table>
+<tr><td>http://dahut.org/archives/000269.html</td><td>139</td><td>139</td></tr>
+<tr><td>http://dahut.org/archives/000301.html</td><td>69</td><td>69</td></tr>
+<tr><td>http://dahut.org/archives/000270.html</td><td>28</td><td>28</td></tr>
+<tr><td>http://dahut.org/archives/000345.html</td><td>6</td><td>6</td></tr>
+<tr><td>http://www.pm.org/groups/589.html</td><td>4</td><td>4</td></tr>
+<tr><td>http://dahut.org/archives/000272.html</td><td>4</td><td>4</td></tr>
+<tr><td>http://dahut.org/archives/000204.html</td><td>4</td><td>4</td></tr>
+<tr><td>http://www.pingdom.com/tools/fpt/</td><td>3</td><td>3</td></tr>
+<tr><td>http://www.prather.org/cgi-bin/mt/mt-comments.cgi</td><td>2</td><td>2</td></tr>
+<tr><td>http://dahut.org/archives/000293.html</td><td>2</td><td>2</td></tr>
+<tr><td>http://dahut.org</td><td>1</td><td>3</td></tr>
+<tr><td>http://pornoindustrial.us/oral-sex-movie.html</td><td>1</td><td>1</td></tr>
+<tr><td>http://vienna.yapceurope.org/ye2007/search</td><td>1</td><td>1</td></tr>
+<tr><td>http://my-dom.info/cheapest-fioricet/south-dakota-cheapest-fioricet.html</td><td>1</td><td>1</td></tr>
+<tr><td>http://www.online-stock-trading-software.com/sof/Automated_Trading_System</td><td>2</td><td>2</td></tr>
+<tr><td>http://dahut.org/archives/000284.html</td><td>1</td><td>1</td></tr>
+<tr><td>http://www.dahut.org</td><td>1</td><td>1</td></tr>
+<tr><td>http://www.free-porno-links.porn-pussy-world.info/index.html</td><td>1</td><td>1</td></tr>
+<tr><td>http://dahut.org/archives/000237.html</td><td>2</td><td>2</td></tr>
+<tr><td>http://dahut.org/archives/000251.html</td><td>2</td><td>2</td></tr>
+<tr><td>http://my-dom.info/cheapest-fioricet/nevada-cheapest-fioricet.html</td><td>1</td><td>1</td></tr>
+<tr><td>http://vienna.yapceurope.org/ye2007/user/127</td><td>1</td><td>1</td></tr>
+<tr><td>http://del.icio.us/search/</td><td>1</td><td>1</td></tr>
+<tr><td>http://www.empiregoldcoins.com/blk/Paris_Hilton</td><td>1</td><td>1</td></tr>
+<tr><td>http://my-dom.info/cheapest-fioricet/north-dakota-cheapest-fioricet.html</td><td>1</td><td>1</td></tr>
+<tr><td>http://adult.my-dom.info/teen-models.html</td><td>1</td><td>1</td></tr>
+<tr><td>http://insuranceonlinelive.com</td><td>1</td><td>1</td></tr>
+<tr><td>http://www.sofunnyjoke.com/index.php</td><td>1</td><td>1</td></tr>
+<tr><td>http://music.firstlink.ru/fioricet/buy-fioricet-online.html</td><td>1</td><td>1</td></tr>
+<tr><td>http://loan-payday-qualification.quadrodvd.com</td><td>1</td><td>1</td></tr>
+</table><nu>END_PAGEREFS
+</nu></section>
+
+<section id='searchwords'><sortfor>10</sortfor><comment>
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+</comment><nu>
+BEGIN_SEARCHWORDS</nu><recnb>9</recnb><table>
+<tr><td>dahut</td><td>5</td></tr>
+<tr><td>skelaxin+affect+on+intestines</td><td>1</td></tr>
+<tr><td>vioxx</td><td>1</td></tr>
+<tr><td>hair+count+interview+question</td><td>1</td></tr>
+<tr><td>american+heart+association+job+interview+questions</td><td>1</td></tr>
+<tr><td>shawn+qureshi</td><td>1</td></tr>
+<tr><td>perigrin+dahut</td><td>1</td></tr>
+<tr><td>mary+helen+bismon</td><td>1</td></tr>
+<tr><td>poco+rss+reader</td><td>1</td></tr>
+</table><nu>END_SEARCHWORDS
+</nu></section>
+
+<section id='keywords'><sortfor>10</sortfor><comment>
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+</comment><nu>
+BEGIN_KEYWORDS</nu><recnb>24</recnb><table>
+<tr><td>dahut</td><td>6</td></tr>
+<tr><td>interview</td><td>2</td></tr>
+<tr><td>reader</td><td>1</td></tr>
+<tr><td>bismon</td><td>1</td></tr>
+<tr><td>intestines</td><td>1</td></tr>
+<tr><td>helen</td><td>1</td></tr>
+<tr><td>on</td><td>1</td></tr>
+<tr><td>association</td><td>1</td></tr>
+<tr><td>perigrin</td><td>1</td></tr>
+<tr><td>hair</td><td>1</td></tr>
+<tr><td>count</td><td>1</td></tr>
+<tr><td>heart</td><td>1</td></tr>
+<tr><td>affect</td><td>1</td></tr>
+<tr><td>questions</td><td>1</td></tr>
+<tr><td>job</td><td>1</td></tr>
+<tr><td>vioxx</td><td>1</td></tr>
+<tr><td>skelaxin</td><td>1</td></tr>
+<tr><td>question</td><td>1</td></tr>
+<tr><td>qureshi</td><td>1</td></tr>
+<tr><td>shawn</td><td>1</td></tr>
+<tr><td>rss</td><td>1</td></tr>
+<tr><td>poco</td><td>1</td></tr>
+<tr><td>american</td><td>1</td></tr>
+<tr><td>mary</td><td>1</td></tr>
+</table><nu>END_KEYWORDS
+</nu></section>
+
+<section id='errors'><comment>
+# Errors - Hits - Bandwidth
+</comment><nu>
+BEGIN_ERRORS</nu><recnb>4</recnb><table>
+<tr><td>403</td><td>16</td><td>4940</td></tr>
+<tr><td>206</td><td>51</td><td>1619947</td></tr>
+<tr><td>405</td><td>66</td><td>22320</td></tr>
+<tr><td>404</td><td>598</td><td>180898</td></tr>
+</table><nu>END_ERRORS
+</nu></section>
+
+<section id='sider_404'><comment>
+# URL with 404 errors - Hits - Last URL referer
+</comment><nu>
+BEGIN_SIDER_404</nu><recnb>187</recnb><table>
+<tr><td>/irc_logs/2005-09-13.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-04.html</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-26.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-23.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-28.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-01.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-04.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-11.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-24.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-02.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-07.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-22.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-24.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-18.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-27.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-13.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-28.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-10-28.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-30.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-02.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-01.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-28.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-27.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-03.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/pm/lib.inc.php</td><td>9</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-06.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-03.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-01.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/archives//intern/admin/other/backup.php</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-26.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-17.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-12.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/dahut_group.rdf.</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-25.txt</td><td>1</td><td>-</td></tr>
+<tr><td>//pm/lib.inc.php</td><td>9</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-06.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-05.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-21.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-29.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-14.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-05.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-30.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-21.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-14.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-27.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-15.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-24.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-07.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-03.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-21.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-17.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-10.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/rdf/2004/inChargeOf,</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-22.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-22.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-15.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-10.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-24.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-11.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-04.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/archives/000269.html,%20http://www.syouron.com/cgi/wmbp/wingmulti.cgi</td><td>2</td><td>http://dahut.org/archives/000269.html,%20http://www.syouron.com/cgi/wmbp/wingmulti.cgi</td></tr>
+<tr><td>/irc_logs/2005-02-22.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-13.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-03.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-21.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-05.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-01</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-20.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-11.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-29.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-10-29.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-17.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-05.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-26.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-20.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-20.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-16.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-19.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-23.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-13.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-18.html</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-17.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-14.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-07.txt</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-01.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-12.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-04</td><td>3</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-13.html</td><td>1</td><td>-</td></tr>
+<tr><td>/archives/o</td><td>4</td><td>http://dahut.org/archives/000269.html</td></tr>
+<tr><td>/irc_logs/2004-12-19.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-10-18.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/robots.txt</td><td>360</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-26.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-05.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/archives%2F000269.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-18.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-08.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-11.html</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-06.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-15.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-07-27.html</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-04.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>///pm/lib.inc.php</td><td>6</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-06.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-16.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-25.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-30.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-20.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-06.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-29.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-14.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-13.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/pm/add_ons/mail_this_entry/mail_autocheck.php</td><td>1</td><td>-</td></tr>
+<tr><td>/rdf/2004/</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-25.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-10.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-02.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-25.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-03.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-17.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-08.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>//intern/admin/other/backup.php</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-31.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-13.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-18.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-08.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-14.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-19.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-25.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-04.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-02.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-08.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-23.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-01.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-11.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-08.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/pm_groups.rdf</td><td>6</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-21.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-16.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-02.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-31.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-16.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-09.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-23.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-02</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-16.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-10-17.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-07.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/mp_wiki</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-19.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-18.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-01.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-16.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/browns_words.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/archives/000269.html,%20http://www.acnebio.com/topic.php</td><td>1</td><td>http://dahut.org/archives/000269.html,%20http://www.acnebio.com/topic.php</td></tr>
+<tr><td>/irc_logs/2004-12-07.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-23.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-07.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-15.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/rdf/2004/hotOrNot</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-07.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-27.txt</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-17.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-09.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-09.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-27.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-21.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-09.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-10.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-05.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-12.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-07.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-10-30.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-09-01.html</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-03.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-08.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-05-09.html</td><td>2</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-04.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-03-18.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/mp_wiki/</td><td>4</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-11-09.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-01-28.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-10-31.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-12.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-04-14.html</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2004-12-24.rdf</td><td>1</td><td>-</td></tr>
+<tr><td>/irc_logs/2005-02-18.rdf</td><td>1</td><td>-</td></tr>
+</table><nu>END_SIDER_404
+</nu></section>
+
+<section id='visitor'><sortfor>10</sortfor><comment>
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+</comment><nu>
+BEGIN_VISITOR</nu><recnb>579</recnb><table>
+<tr><td>58.65.239.170</td><td>2852</td><td>2852</td><td>102008076</td><td>20070831233632</td></tr>
+<tr><td>66.232.118.177</td><td>197</td><td>197</td><td>1128806</td><td>20070831225247</td></tr>
+<tr><td>72.9.108.178</td><td>177</td><td>177</td><td>1093050</td><td>20070831235339</td></tr>
+<tr><td>72.232.64.42</td><td>111</td><td>111</td><td>697635</td><td>20070819031701</td></tr>
+<tr><td>74.237.110.185</td><td>90</td><td>90</td><td>2884298</td><td>20070831150818</td></tr>
+<tr><td>195.225.177.136</td><td>68</td><td>68</td><td>2441812</td><td>20070831170227</td></tr>
+<tr><td>66.232.126.189</td><td>46</td><td>46</td><td>1489664</td><td>20070830170522</td></tr>
+<tr><td>75.126.21.170</td><td>42</td><td>42</td><td>1360128</td><td>20070831130920</td></tr>
+<tr><td>69.46.18.2</td><td>42</td><td>42</td><td>1649178</td><td>20070831052056</td></tr>
+<tr><td>66.232.113.57</td><td>42</td><td>42</td><td>1360128</td><td>20070831210329</td></tr>
+<tr><td>82.101.14.27</td><td>1</td><td>1</td><td>39434</td><td>20070817075258</td></tr>
+<tr><td>68.42.159.88</td><td>1</td><td>1</td><td>4991</td><td>20070822162844</td></tr>
+<tr><td>80.109.149.20</td><td>1</td><td>1</td><td>39434</td><td>20070819174029</td></tr>
+<tr><td>61.250.95.111</td><td>2</td><td>2</td><td>71818</td><td>20070806121941</td></tr>
+<tr><td>87.97.19.95</td><td>1</td><td>1</td><td>32384</td><td>20070821110627</td></tr>
+<tr><td>211.47.116.87</td><td>1</td><td>1</td><td>39434</td><td>20070818132903</td></tr>
+<tr><td>66.227.180.218</td><td>1</td><td>1</td><td>39434</td><td>20070807152109</td></tr>
+<tr><td>68.7.32.165</td><td>1</td><td>1</td><td>32384</td><td>20070820140701</td></tr>
+<tr><td>85.214.46.64</td><td>1</td><td>1</td><td>32384</td><td>20070810195037</td></tr>
+<tr><td>24.184.229.226</td><td>1</td><td>1</td><td>32384</td><td>20070818093525</td></tr>
+<tr><td>221.232.159.112</td><td>9</td><td>9</td><td>312606</td><td>20070827072137</td></tr>
+<tr><td>71.13.115.117</td><td>21</td><td>21</td><td>173331</td><td>20070821200032</td></tr>
+<tr><td>72.232.229.118</td><td>3</td><td>3</td><td>97152</td><td>20070821084505</td></tr>
+<tr><td>216.25.161.50</td><td>1</td><td>1</td><td>32384</td><td>20070812171022</td></tr>
+<tr><td>167.21.254.11</td><td>1</td><td>1</td><td>5246</td><td>20070824201615</td></tr>
+<tr><td>66.194.6.72</td><td>2</td><td>2</td><td>12460</td><td>20070831102843</td></tr>
+<tr><td>212.71.186.140</td><td>2</td><td>2</td><td>64768</td><td>20070806051012</td></tr>
+<tr><td>84.109.80.97</td><td>30</td><td>30</td><td>1036517</td><td>20070831232917</td></tr>
+<tr><td>84.19.188.110</td><td>1</td><td>1</td><td>5942</td><td>20070824235305</td></tr>
+<tr><td>59.166.99.101</td><td>1</td><td>1</td><td>32384</td><td>20070810044912</td></tr>
+<tr><td>87.120.10.147</td><td>1</td><td>1</td><td>32384</td><td>20070822131651</td></tr>
+<tr><td>84.110.187.76</td><td>1</td><td>1</td><td>39434</td><td>20070801172106</td></tr>
+<tr><td>195.225.177.48</td><td>33</td><td>33</td><td>513568</td><td>20070827010517</td></tr>
+<tr><td>64.42.21.50</td><td>1</td><td>2</td><td>11614</td><td>20070824140730</td></tr>
+<tr><td>69.73.146.184</td><td>13</td><td>13</td><td>420992</td><td>20070821060700</td></tr>
+<tr><td>210.131.1.56</td><td>1</td><td>1</td><td>32384</td><td>20070810124650</td></tr>
+<tr><td>62.215.3.45</td><td>1</td><td>1</td><td>39434</td><td>20070808074530</td></tr>
+<tr><td>58.227.119.123</td><td>1</td><td>1</td><td>32384</td><td>20070809030716</td></tr>
+<tr><td>75.35.252.186</td><td>1</td><td>1</td><td>39434</td><td>20070806141308</td></tr>
+<tr><td>216.255.176.37</td><td>22</td><td>22</td><td>712448</td><td>20070831131336</td></tr>
+<tr><td>84.110.202.236</td><td>1</td><td>1</td><td>39434</td><td>20070801172114</td></tr>
+<tr><td>124.128.14.121</td><td>7</td><td>7</td><td>214135</td><td>20070815205204</td></tr>
+<tr><td>125.46.36.223</td><td>4</td><td>4</td><td>97380</td><td>20070819201903</td></tr>
+<tr><td>68.79.112.68</td><td>1</td><td>1</td><td>4991</td><td>20070821043257</td></tr>
+<tr><td>218.98.156.131</td><td>6</td><td>6</td><td>174720</td><td>20070811042621</td></tr>
+<tr><td>200.122.37.229</td><td>1</td><td>1</td><td>32384</td><td>20070802084338</td></tr>
+<tr><td>84.110.200.206</td><td>1</td><td>1</td><td>39434</td><td>20070811230538</td></tr>
+<tr><td>83.211.188.17</td><td>1</td><td>1</td><td>32384</td><td>20070804031013</td></tr>
+<tr><td>192.72.124.11</td><td>2</td><td>2</td><td>44612</td><td>20070826183950</td></tr>
+<tr><td>200.31.42.3</td><td>1</td><td>1</td><td>32384</td><td>20070817122712</td></tr>
+<tr><td>219.136.183.25</td><td>2</td><td>2</td><td>14994</td><td>20070815050821</td></tr>
+<tr><td>84.110.140.194</td><td>1</td><td>1</td><td>39434</td><td>20070826184403</td></tr>
+<tr><td>194.108.118.150</td><td>1</td><td>1</td><td>12781</td><td>20070825102757</td></tr>
+<tr><td>189.19.73.174</td><td>2</td><td>2</td><td>9982</td><td>20070802122416</td></tr>
+<tr><td>217.150.245.232</td><td>1</td><td>1</td><td>39434</td><td>20070807225246</td></tr>
+<tr><td>66.79.171.46</td><td>1</td><td>1</td><td>39434</td><td>20070807223455</td></tr>
+<tr><td>82.99.30.26</td><td>1</td><td>1</td><td>6230</td><td>20070801183651</td></tr>
+<tr><td>84.109.78.18</td><td>8</td><td>8</td><td>315472</td><td>20070830032538</td></tr>
+<tr><td>59.165.5.143</td><td>1</td><td>1</td><td>15701</td><td>20070810045341</td></tr>
+<tr><td>84.108.221.188</td><td>28</td><td>28</td><td>977252</td><td>20070830060052</td></tr>
+<tr><td>66.199.232.18</td><td>1</td><td>1</td><td>4991</td><td>20070830031004</td></tr>
+<tr><td>62.15.133.206</td><td>2</td><td>3</td><td>17556</td><td>20070809032503</td></tr>
+<tr><td>216.255.181.205</td><td>2</td><td>2</td><td>64768</td><td>20070803022734</td></tr>
+<tr><td>84.110.185.254</td><td>1</td><td>1</td><td>39434</td><td>20070807001138</td></tr>
+<tr><td>24.251.50.19</td><td>1</td><td>1</td><td>39434</td><td>20070830194340</td></tr>
+<tr><td>202.75.49.156</td><td>4</td><td>4</td><td>129536</td><td>20070831223953</td></tr>
+<tr><td>125.7.203.168</td><td>2</td><td>2</td><td>64768</td><td>20070807060213</td></tr>
+<tr><td>207.40.198.54</td><td>1</td><td>1</td><td>15531</td><td>20070812210022</td></tr>
+<tr><td>193.127.7.58</td><td>1</td><td>1</td><td>32384</td><td>20070824164632</td></tr>
+<tr><td>216.255.185.198</td><td>1</td><td>1</td><td>32384</td><td>20070802034737</td></tr>
+<tr><td>24.118.172.252</td><td>1</td><td>2</td><td>11614</td><td>20070829205544</td></tr>
+<tr><td>89.149.226.59</td><td>2</td><td>2</td><td>71818</td><td>20070830155707</td></tr>
+<tr><td>209.10.61.194</td><td>1</td><td>1</td><td>619619</td><td>20070822055254</td></tr>
+<tr><td>82.229.205.54</td><td>1</td><td>2</td><td>11614</td><td>20070829120200</td></tr>
+<tr><td>195.46.214.28</td><td>1</td><td>1</td><td>32384</td><td>20070828110501</td></tr>
+<tr><td>84.110.193.129</td><td>1</td><td>1</td><td>39434</td><td>20070811034107</td></tr>
+<tr><td>59.151.29.136</td><td>1</td><td>1</td><td>32384</td><td>20070825224450</td></tr>
+<tr><td>66.232.112.56</td><td>22</td><td>22</td><td>867548</td><td>20070831122108</td></tr>
+<tr><td>220.29.124.175</td><td>1</td><td>1</td><td>32384</td><td>20070828055931</td></tr>
+<tr><td>84.110.135.210</td><td>1</td><td>1</td><td>39434</td><td>20070830165734</td></tr>
+<tr><td>219.78.58.39</td><td>1</td><td>1</td><td>32384</td><td>20070826222325</td></tr>
+<tr><td>172.187.7.97</td><td>1</td><td>1</td><td>32384</td><td>20070828110457</td></tr>
+<tr><td>66.194.6.71</td><td>3</td><td>3</td><td>18690</td><td>20070829143856</td></tr>
+<tr><td>65.23.153.40</td><td>12</td><td>12</td><td>405276</td><td>20070830164759</td></tr>
+<tr><td>89.149.208.40</td><td>20</td><td>20</td><td>349998</td><td>20070826090950</td></tr>
+<tr><td>216.255.176.38</td><td>13</td><td>13</td><td>420992</td><td>20070829122426</td></tr>
+<tr><td>84.109.80.111</td><td>28</td><td>28</td><td>945096</td><td>20070831234130</td></tr>
+<tr><td>65.29.178.62</td><td>1</td><td>1</td><td>39434</td><td>20070801205816</td></tr>
+<tr><td>218.28.207.44</td><td>2</td><td>2</td><td>64768</td><td>20070822231447</td></tr>
+<tr><td>195.137.140.165</td><td>1</td><td>1</td><td>32384</td><td>20070818004041</td></tr>
+<tr><td>66.232.114.68</td><td>1</td><td>1</td><td>4991</td><td>20070811125314</td></tr>
+<tr><td>218.242.245.230</td><td>3</td><td>3</td><td>97152</td><td>20070804142837</td></tr>
+<tr><td>207.44.238.95</td><td>5</td><td>5</td><td>129472</td><td>20070822042608</td></tr>
+<tr><td>131.107.0.95</td><td>1</td><td>2</td><td>11614</td><td>20070813104648</td></tr>
+<tr><td>213.132.175.230</td><td>1</td><td>1</td><td>32384</td><td>20070805011429</td></tr>
+<tr><td>24.115.1.123</td><td>1</td><td>1</td><td>5481</td><td>20070814043615</td></tr>
+<tr><td>220.194.59.252</td><td>5</td><td>5</td><td>90558</td><td>20070830161805</td></tr>
+<tr><td>80.93.212.122</td><td>1</td><td>1</td><td>39434</td><td>20070820111604</td></tr>
+<tr><td>63.219.177.162</td><td>25</td><td>25</td><td>964700</td><td>20070824222631</td></tr>
+<tr><td>89.116.101.65</td><td>1</td><td>1</td><td>5942</td><td>20070825084105</td></tr>
+<tr><td>89.54.129.35</td><td>1</td><td>1</td><td>32384</td><td>20070819133341</td></tr>
+<tr><td>84.110.139.132</td><td>1</td><td>1</td><td>13241</td><td>20070815043110</td></tr>
+<tr><td>66.194.6.73</td><td>2</td><td>2</td><td>12460</td><td>20070805223201</td></tr>
+<tr><td>69.245.121.7</td><td>2</td><td>2</td><td>64768</td><td>20070826215214</td></tr>
+<tr><td>72.20.99.41</td><td>2</td><td>2</td><td>13727</td><td>20070814213505</td></tr>
+<tr><td>206.51.233.54</td><td>4</td><td>4</td><td>123293</td><td>20070812070853</td></tr>
+<tr><td>211.138.198.6</td><td>1</td><td>1</td><td>32384</td><td>20070812171007</td></tr>
+<tr><td>87.240.12.198</td><td>11</td><td>11</td><td>433774</td><td>20070831003104</td></tr>
+<tr><td>84.110.157.189</td><td>1</td><td>1</td><td>39434</td><td>20070828094800</td></tr>
+<tr><td>67.68.234.44</td><td>1</td><td>1</td><td>6230</td><td>20070813182539</td></tr>
+<tr><td>62.231.243.136</td><td>2</td><td>2</td><td>71818</td><td>20070802220558</td></tr>
+<tr><td>83.149.19.6</td><td>3</td><td>3</td><td>97152</td><td>20070830173857</td></tr>
+<tr><td>134.21.76.69</td><td>1</td><td>2</td><td>11614</td><td>20070830051237</td></tr>
+<tr><td>76.31.105.196</td><td>1</td><td>1</td><td>39434</td><td>20070826195610</td></tr>
+<tr><td>209.8.41.106</td><td>1</td><td>1</td><td>32384</td><td>20070810203611</td></tr>
+<tr><td>84.110.231.203</td><td>1</td><td>1</td><td>39434</td><td>20070827130043</td></tr>
+<tr><td>210.245.110.128</td><td>1</td><td>1</td><td>12709</td><td>20070822043108</td></tr>
+<tr><td>84.108.220.79</td><td>23</td><td>23</td><td>815332</td><td>20070830071500</td></tr>
+<tr><td>84.110.145.9</td><td>1</td><td>1</td><td>39434</td><td>20070801175617</td></tr>
+<tr><td>90.184.84.148</td><td>11</td><td>11</td><td>111023</td><td>20070805182021</td></tr>
+<tr><td>210.16.47.7</td><td>1</td><td>1</td><td>32384</td><td>20070831063547</td></tr>
+<tr><td>87.248.160.134</td><td>1</td><td>1</td><td>32384</td><td>20070808051443</td></tr>
+<tr><td>84.16.235.65</td><td>27</td><td>27</td><td>874368</td><td>20070831003451</td></tr>
+<tr><td>210.131.4.157</td><td>1</td><td>1</td><td>32384</td><td>20070822131606</td></tr>
+<tr><td>84.110.136.110</td><td>1</td><td>1</td><td>39434</td><td>20070802051940</td></tr>
+<tr><td>91.124.215.77</td><td>1</td><td>1</td><td>32384</td><td>20070816023317</td></tr>
+<tr><td>69.146.183.81</td><td>1</td><td>1</td><td>32384</td><td>20070804140344</td></tr>
+<tr><td>222.92.58.178</td><td>1</td><td>1</td><td>12781</td><td>20070802154944</td></tr>
+<tr><td>194.70.242.10</td><td>1</td><td>1</td><td>32384</td><td>20070827051632</td></tr>
+<tr><td>204.246.129.196</td><td>1</td><td>1</td><td>32384</td><td>20070823055519</td></tr>
+<tr><td>202.194.202.7</td><td>2</td><td>2</td><td>64768</td><td>20070817233125</td></tr>
+<tr><td>85.25.148.242</td><td>1</td><td>1</td><td>32384</td><td>20070815230705</td></tr>
+<tr><td>212.0.126.202</td><td>1</td><td>1</td><td>32384</td><td>20070827220412</td></tr>
+<tr><td>24.3.120.134</td><td>1</td><td>1</td><td>39434</td><td>20070810094127</td></tr>
+<tr><td>76.197.173.233</td><td>1</td><td>1</td><td>32384</td><td>20070810055915</td></tr>
+<tr><td>87.10.86.80</td><td>1</td><td>1</td><td>6230</td><td>20070818165646</td></tr>
+<tr><td>69.243.145.196</td><td>1</td><td>1</td><td>32384</td><td>20070801161139</td></tr>
+<tr><td>216.255.185.197</td><td>1</td><td>1</td><td>32384</td><td>20070802035514</td></tr>
+<tr><td>220.31.36.150</td><td>1</td><td>1</td><td>4991</td><td>20070830013623</td></tr>
+<tr><td>217.217.30.185</td><td>1</td><td>1</td><td>39434</td><td>20070801204144</td></tr>
+<tr><td>193.235.87.24</td><td>1</td><td>1</td><td>39434</td><td>20070823201701</td></tr>
+<tr><td>71.13.150.232</td><td>1</td><td>1</td><td>32384</td><td>20070801233300</td></tr>
+<tr><td>84.110.130.135</td><td>1</td><td>1</td><td>39434</td><td>20070802000159</td></tr>
+<tr><td>71.12.214.171</td><td>1</td><td>1</td><td>39434</td><td>20070823161356</td></tr>
+<tr><td>82.79.205.102</td><td>2</td><td>2</td><td>7479</td><td>20070822194749</td></tr>
+<tr><td>68.54.175.15</td><td>1</td><td>1</td><td>39434</td><td>20070826192543</td></tr>
+<tr><td>84.110.206.73</td><td>1</td><td>1</td><td>39434</td><td>20070814044602</td></tr>
+<tr><td>24.184.67.176</td><td>1</td><td>1</td><td>5942</td><td>20070827090528</td></tr>
+<tr><td>84.179.24.169</td><td>1</td><td>1</td><td>0</td><td>20070817070740</td></tr>
+<tr><td>217.141.109.205</td><td>2</td><td>2</td><td>64768</td><td>20070803015555</td></tr>
+<tr><td>60.190.249.66</td><td>1</td><td>1</td><td>32384</td><td>20070831063237</td></tr>
+<tr><td>217.141.105.203</td><td>7</td><td>7</td><td>240788</td><td>20070806232733</td></tr>
+<tr><td>59.61.239.18</td><td>1</td><td>1</td><td>32384</td><td>20070808210633</td></tr>
+<tr><td>84.110.202.11</td><td>1</td><td>1</td><td>39434</td><td>20070802052713</td></tr>
+<tr><td>84.110.150.92</td><td>1</td><td>1</td><td>39434</td><td>20070806163812</td></tr>
+<tr><td>203.71.72.253</td><td>1</td><td>1</td><td>32384</td><td>20070825222433</td></tr>
+<tr><td>76.167.92.61</td><td>1</td><td>1</td><td>32384</td><td>20070820073953</td></tr>
+<tr><td>203.152.97.81</td><td>1</td><td>1</td><td>32384</td><td>20070812190428</td></tr>
+<tr><td>82.231.176.187</td><td>1</td><td>1</td><td>13698</td><td>20070829113428</td></tr>
+<tr><td>171.71.55.232</td><td>1</td><td>1</td><td>17729</td><td>20070807153023</td></tr>
+<tr><td>87.69.78.243</td><td>28</td><td>28</td><td>950599</td><td>20070830072027</td></tr>
+<tr><td>83.192.64.253</td><td>1</td><td>1</td><td>32384</td><td>20070828110543</td></tr>
+<tr><td>84.110.132.122</td><td>1</td><td>1</td><td>39434</td><td>20070824182217</td></tr>
+<tr><td>82.207.12.16</td><td>1</td><td>1</td><td>18361</td><td>20070810195005</td></tr>
+<tr><td>193.179.179.74</td><td>1</td><td>1</td><td>32384</td><td>20070822113433</td></tr>
+<tr><td>59.93.220.16</td><td>1</td><td>1</td><td>32384</td><td>20070827045705</td></tr>
+<tr><td>88.115.200.132</td><td>1</td><td>1</td><td>6230</td><td>20070804135527</td></tr>
+<tr><td>66.194.6.229</td><td>3</td><td>3</td><td>18690</td><td>20070821163354</td></tr>
+<tr><td>72.36.205.10</td><td>20</td><td>20</td><td>788680</td><td>20070830194915</td></tr>
+<tr><td>62.231.243.137</td><td>3</td><td>3</td><td>97152</td><td>20070807162736</td></tr>
+<tr><td>70.169.162.242</td><td>3</td><td>3</td><td>38076</td><td>20070822043108</td></tr>
+<tr><td>61.128.162.206</td><td>1</td><td>1</td><td>39434</td><td>20070822235311</td></tr>
+<tr><td>88.70.66.220</td><td>2</td><td>3</td><td>13611</td><td>20070822064147</td></tr>
+<tr><td>84.16.234.121</td><td>4</td><td>4</td><td>129536</td><td>20070829094649</td></tr>
+<tr><td>64.0.224.37</td><td>1</td><td>1</td><td>32384</td><td>20070828092538</td></tr>
+<tr><td>210.131.4.162</td><td>1</td><td>1</td><td>32384</td><td>20070803232348</td></tr>
+<tr><td>124.243.198.34</td><td>1</td><td>1</td><td>32384</td><td>20070806034947</td></tr>
+<tr><td>81.1.78.87</td><td>2</td><td>4</td><td>23228</td><td>20070824155652</td></tr>
+<tr><td>200.126.124.26</td><td>1</td><td>1</td><td>32384</td><td>20070807134723</td></tr>
+<tr><td>81.202.112.250</td><td>1</td><td>1</td><td>5942</td><td>20070814211339</td></tr>
+<tr><td>216.255.176.29</td><td>2</td><td>2</td><td>64768</td><td>20070802144155</td></tr>
+<tr><td>219.255.61.119</td><td>1</td><td>1</td><td>32384</td><td>20070803042632</td></tr>
+<tr><td>161.142.140.69</td><td>1</td><td>1</td><td>6230</td><td>20070804135404</td></tr>
+<tr><td>84.110.229.184</td><td>1</td><td>1</td><td>39434</td><td>20070801073606</td></tr>
+<tr><td>84.179.54.215</td><td>1</td><td>1</td><td>0</td><td>20070809194744</td></tr>
+<tr><td>69.50.191.202</td><td>2</td><td>2</td><td>71818</td><td>20070828032838</td></tr>
+<tr><td>200.158.120.245</td><td>2</td><td>2</td><td>64768</td><td>20070828110538</td></tr>
+<tr><td>194.88.46.239</td><td>1</td><td>1</td><td>32384</td><td>20070812114523</td></tr>
+<tr><td>213.168.101.75</td><td>1</td><td>1</td><td>32384</td><td>20070810035751</td></tr>
+<tr><td>189.19.79.169</td><td>1</td><td>1</td><td>32384</td><td>20070828092549</td></tr>
+<tr><td>61.145.118.250</td><td>1</td><td>1</td><td>32384</td><td>20070819201849</td></tr>
+<tr><td>72.34.240.194</td><td>1</td><td>1</td><td>6230</td><td>20070807072435</td></tr>
+<tr><td>83.216.39.207</td><td>2</td><td>2</td><td>64768</td><td>20070821110536</td></tr>
+<tr><td>59.24.147.115</td><td>1</td><td>1</td><td>39434</td><td>20070801230053</td></tr>
+<tr><td>84.110.202.146</td><td>1</td><td>1</td><td>39434</td><td>20070818162211</td></tr>
+<tr><td>69.219.72.19</td><td>1</td><td>1</td><td>39434</td><td>20070810124443</td></tr>
+<tr><td>212.76.224.165</td><td>1</td><td>1</td><td>32384</td><td>20070826201203</td></tr>
+<tr><td>84.110.226.92</td><td>1</td><td>1</td><td>39434</td><td>20070818232205</td></tr>
+<tr><td>84.179.32.69</td><td>1</td><td>1</td><td>0</td><td>20070801233232</td></tr>
+<tr><td>83.198.37.3</td><td>1</td><td>1</td><td>12781</td><td>20070802044243</td></tr>
+<tr><td>80.227.118.210</td><td>1</td><td>1</td><td>0</td><td>20070811042620</td></tr>
+<tr><td>68.94.147.213</td><td>1</td><td>1</td><td>32384</td><td>20070829135140</td></tr>
+<tr><td>221.246.66.251</td><td>2</td><td>2</td><td>12460</td><td>20070804135240</td></tr>
+<tr><td>61.17.213.209</td><td>1</td><td>1</td><td>32384</td><td>20070806050958</td></tr>
+<tr><td>84.110.155.223</td><td>1</td><td>1</td><td>39434</td><td>20070826075527</td></tr>
+<tr><td>84.110.144.38</td><td>1</td><td>1</td><td>39434</td><td>20070810005713</td></tr>
+<tr><td>211.121.25.108</td><td>1</td><td>1</td><td>12367</td><td>20070802084510</td></tr>
+<tr><td>71.170.177.106</td><td>1</td><td>1</td><td>39434</td><td>20070803135238</td></tr>
+<tr><td>84.110.226.112</td><td>1</td><td>1</td><td>39434</td><td>20070810041608</td></tr>
+<tr><td>24.89.242.249</td><td>1</td><td>1</td><td>32384</td><td>20070823144133</td></tr>
+<tr><td>24.155.253.33</td><td>1</td><td>1</td><td>32384</td><td>20070823055530</td></tr>
+<tr><td>84.110.230.152</td><td>1</td><td>1</td><td>39434</td><td>20070801073056</td></tr>
+<tr><td>218.19.246.247</td><td>1</td><td>1</td><td>32384</td><td>20070830074042</td></tr>
+<tr><td>72.129.161.45</td><td>1</td><td>1</td><td>39434</td><td>20070812142737</td></tr>
+<tr><td>64.80.170.114</td><td>1</td><td>1</td><td>32384</td><td>20070825222448</td></tr>
+<tr><td>159.226.96.167</td><td>1</td><td>1</td><td>32384</td><td>20070821113443</td></tr>
+<tr><td>90.5.192.31</td><td>1</td><td>2</td><td>11614</td><td>20070825123355</td></tr>
+<tr><td>80.94.174.79</td><td>1</td><td>1</td><td>32384</td><td>20070819204932</td></tr>
+<tr><td>195.131.177.245</td><td>2</td><td>2</td><td>71818</td><td>20070828234914</td></tr>
+<tr><td>63.148.136.52</td><td>1</td><td>1</td><td>32384</td><td>20070810195019</td></tr>
+<tr><td>76.19.227.155</td><td>1</td><td>1</td><td>39434</td><td>20070810053531</td></tr>
+<tr><td>206.51.229.116</td><td>1</td><td>1</td><td>39434</td><td>20070813010111</td></tr>
+<tr><td>217.7.23.99</td><td>1</td><td>1</td><td>32384</td><td>20070824191132</td></tr>
+<tr><td>203.64.120.192</td><td>1</td><td>1</td><td>32384</td><td>20070823081342</td></tr>
+<tr><td>203.128.4.39</td><td>1</td><td>1</td><td>39434</td><td>20070822100551</td></tr>
+<tr><td>84.110.156.81</td><td>1</td><td>1</td><td>39434</td><td>20070816182724</td></tr>
+<tr><td>66.98.148.24</td><td>3</td><td>3</td><td>18690</td><td>20070825184302</td></tr>
+<tr><td>84.110.204.19</td><td>1</td><td>1</td><td>39434</td><td>20070812001544</td></tr>
+<tr><td>38.113.114.156</td><td>2</td><td>2</td><td>64768</td><td>20070821022105</td></tr>
+<tr><td>98.193.55.82</td><td>1</td><td>1</td><td>39434</td><td>20070823154318</td></tr>
+<tr><td>74.52.26.170</td><td>2</td><td>2</td><td>64768</td><td>20070828155723</td></tr>
+<tr><td>60.31.129.100</td><td>1</td><td>1</td><td>32384</td><td>20070803115539</td></tr>
+<tr><td>59.187.244.148</td><td>1</td><td>1</td><td>32384</td><td>20070817070714</td></tr>
+<tr><td>128.135.127.173</td><td>2</td><td>3</td><td>16956</td><td>20070815102842</td></tr>
+<tr><td>81.177.14.7</td><td>20</td><td>20</td><td>788680</td><td>20070805125710</td></tr>
+<tr><td>80.79.193.82</td><td>4</td><td>4</td><td>90152</td><td>20070811043122</td></tr>
+<tr><td>71.101.141.146</td><td>1</td><td>1</td><td>228822</td><td>20070819111133</td></tr>
+<tr><td>122.210.212.234</td><td>1</td><td>1</td><td>32384</td><td>20070823160608</td></tr>
+<tr><td>211.106.113.222</td><td>1</td><td>1</td><td>32384</td><td>20070810035739</td></tr>
+<tr><td>219.61.192.31</td><td>1</td><td>1</td><td>32384</td><td>20070808232050</td></tr>
+<tr><td>65.23.153.9</td><td>21</td><td>21</td><td>780061</td><td>20070830194339</td></tr>
+<tr><td>84.110.201.213</td><td>1</td><td>1</td><td>39434</td><td>20070805200039</td></tr>
+<tr><td>189.19.206.10</td><td>1</td><td>1</td><td>12781</td><td>20070828222834</td></tr>
+<tr><td>216.255.177.130</td><td>1</td><td>1</td><td>32384</td><td>20070802154412</td></tr>
+<tr><td>91.11.202.72</td><td>2</td><td>4</td><td>17844</td><td>20070825102904</td></tr>
+<tr><td>141.174.97.231</td><td>1</td><td>1</td><td>5246</td><td>20070817095821</td></tr>
+<tr><td>91.124.96.184</td><td>1</td><td>1</td><td>32384</td><td>20070819170736</td></tr>
+<tr><td>210.131.4.147</td><td>1</td><td>1</td><td>32384</td><td>20070819204913</td></tr>
+<tr><td>84.177.18.8</td><td>1</td><td>1</td><td>0</td><td>20070829110257</td></tr>
+<tr><td>203.134.7.30</td><td>1</td><td>1</td><td>32384</td><td>20070814093415</td></tr>
+<tr><td>84.109.80.108</td><td>27</td><td>27</td><td>939365</td><td>20070831233131</td></tr>
+<tr><td>84.151.119.226</td><td>2</td><td>3</td><td>17069</td><td>20070806055844</td></tr>
+<tr><td>74.52.245.146</td><td>1</td><td>1</td><td>6230</td><td>20070802195021</td></tr>
+<tr><td>72.232.246.178</td><td>13</td><td>13</td><td>428042</td><td>20070831163250</td></tr>
+<tr><td>59.60.154.186</td><td>2</td><td>2</td><td>23959</td><td>20070819130723</td></tr>
+<tr><td>87.118.110.211</td><td>4</td><td>4</td><td>129536</td><td>20070831201337</td></tr>
+<tr><td>61.241.146.178</td><td>1</td><td>1</td><td>32384</td><td>20070830044805</td></tr>
+<tr><td>81.74.236.38</td><td>1</td><td>1</td><td>32384</td><td>20070813081317</td></tr>
+<tr><td>56.0.84.24</td><td>2</td><td>2</td><td>44680</td><td>20070814213845</td></tr>
+<tr><td>206.51.229.117</td><td>2</td><td>2</td><td>44425</td><td>20070819093014</td></tr>
+<tr><td>61.90.248.250</td><td>4</td><td>4</td><td>90114</td><td>20070827180711</td></tr>
+<tr><td>89.178.111.67</td><td>1</td><td>1</td><td>32384</td><td>20070815191756</td></tr>
+<tr><td>66.194.6.228</td><td>1</td><td>1</td><td>6230</td><td>20070816052840</td></tr>
+<tr><td>200.199.220.110</td><td>1</td><td>1</td><td>6230</td><td>20070821041850</td></tr>
+<tr><td>66.194.6.230</td><td>1</td><td>1</td><td>6230</td><td>20070814113907</td></tr>
+<tr><td>24.5.141.174</td><td>1</td><td>2</td><td>11614</td><td>20070827191345</td></tr>
+<tr><td>69.77.171.34</td><td>1</td><td>1</td><td>39434</td><td>20070826040854</td></tr>
+<tr><td>200.160.251.246</td><td>1</td><td>1</td><td>32384</td><td>20070801162158</td></tr>
+<tr><td>210.34.14.186</td><td>1</td><td>1</td><td>39434</td><td>20070823133511</td></tr>
+<tr><td>202.64.220.99</td><td>1</td><td>1</td><td>39434</td><td>20070823133642</td></tr>
+<tr><td>84.110.234.17</td><td>2</td><td>2</td><td>78868</td><td>20070811034220</td></tr>
+<tr><td>193.168.146.37</td><td>1</td><td>1</td><td>32384</td><td>20070826103234</td></tr>
+<tr><td>84.108.220.203</td><td>24</td><td>24</td><td>847716</td><td>20070830075105</td></tr>
+<tr><td>66.253.106.90</td><td>1</td><td>2</td><td>11614</td><td>20070810132419</td></tr>
+<tr><td>201.81.65.159</td><td>1</td><td>1</td><td>12781</td><td>20070822120951</td></tr>
+<tr><td>67.101.126.230</td><td>1</td><td>1</td><td>32384</td><td>20070822103122</td></tr>
+<tr><td>209.151.79.1</td><td>4</td><td>4</td><td>129536</td><td>20070829114423</td></tr>
+<tr><td>63.197.150.112</td><td>1</td><td>2</td><td>11614</td><td>20070801095042</td></tr>
+<tr><td>206.53.51.121</td><td>4</td><td>4</td><td>21820</td><td>20070824131133</td></tr>
+<tr><td>75.45.117.14</td><td>1</td><td>1</td><td>5481</td><td>20070829072132</td></tr>
+<tr><td>141.163.61.203</td><td>1</td><td>1</td><td>32384</td><td>20070823171647</td></tr>
+<tr><td>208.17.184.44</td><td>10</td><td>10</td><td>40686</td><td>20070802182606</td></tr>
+<tr><td>218.58.136.4</td><td>2</td><td>2</td><td>71818</td><td>20070823201643</td></tr>
+<tr><td>75.45.126.77</td><td>1</td><td>1</td><td>4991</td><td>20070821032425</td></tr>
+<tr><td>75.65.45.105</td><td>1</td><td>1</td><td>32384</td><td>20070831063241</td></tr>
+<tr><td>81.91.158.42</td><td>1</td><td>1</td><td>39434</td><td>20070808133233</td></tr>
+<tr><td>84.110.151.75</td><td>1</td><td>1</td><td>39434</td><td>20070825083603</td></tr>
+<tr><td>201.116.65.146</td><td>1</td><td>1</td><td>12634</td><td>20070817102216</td></tr>
+<tr><td>222.68.156.28</td><td>1</td><td>1</td><td>32384</td><td>20070829135104</td></tr>
+<tr><td>70.150.52.51</td><td>1</td><td>1</td><td>32384</td><td>20070805131849</td></tr>
+<tr><td>89.97.0.9</td><td>1</td><td>1</td><td>32384</td><td>20070831212330</td></tr>
+<tr><td>58.251.50.149</td><td>1</td><td>1</td><td>32384</td><td>20070823055543</td></tr>
+<tr><td>84.109.83.61</td><td>28</td><td>28</td><td>971749</td><td>20070831233545</td></tr>
+<tr><td>68.180.195.22</td><td>1</td><td>1</td><td>32384</td><td>20070831102241</td></tr>
+<tr><td>68.38.25.89</td><td>1</td><td>1</td><td>4991</td><td>20070819085116</td></tr>
+<tr><td>89.112.2.251</td><td>3</td><td>3</td><td>16454</td><td>20070829093015</td></tr>
+<tr><td>84.109.80.110</td><td>29</td><td>29</td><td>1004133</td><td>20070831233010</td></tr>
+<tr><td>66.240.226.178</td><td>1</td><td>1</td><td>4991</td><td>20070822101221</td></tr>
+<tr><td>71.74.195.128</td><td>1</td><td>1</td><td>13698</td><td>20070825082158</td></tr>
+<tr><td>81.169.173.251</td><td>2</td><td>2</td><td>52069</td><td>20070811042621</td></tr>
+<tr><td>65.55.165.52</td><td>1</td><td>1</td><td>1997</td><td>20070823020048</td></tr>
+<tr><td>216.255.185.194</td><td>1</td><td>1</td><td>32384</td><td>20070801153812</td></tr>
+<tr><td>84.110.231.101</td><td>1</td><td>1</td><td>39434</td><td>20070818191728</td></tr>
+<tr><td>71.84.211.242</td><td>1</td><td>1</td><td>39434</td><td>20070810071003</td></tr>
+<tr><td>206.51.228.252</td><td>2</td><td>2</td><td>78868</td><td>20070822094659</td></tr>
+<tr><td>217.19.12.3</td><td>1</td><td>1</td><td>32384</td><td>20070807124231</td></tr>
+<tr><td>130.225.26.133</td><td>2</td><td>3</td><td>19111</td><td>20070822172835</td></tr>
+<tr><td>172.184.139.193</td><td>1</td><td>1</td><td>32384</td><td>20070824053035</td></tr>
+<tr><td>84.110.142.230</td><td>1</td><td>1</td><td>39434</td><td>20070823064439</td></tr>
+<tr><td>84.110.139.102</td><td>1</td><td>1</td><td>39434</td><td>20070830154410</td></tr>
+<tr><td>24.241.18.238</td><td>1</td><td>1</td><td>32384</td><td>20070809133222</td></tr>
+<tr><td>193.86.238.18</td><td>1</td><td>1</td><td>10093</td><td>20070801071124</td></tr>
+<tr><td>217.169.46.98</td><td>2</td><td>2</td><td>71818</td><td>20070823201656</td></tr>
+<tr><td>84.110.238.213</td><td>1</td><td>1</td><td>39434</td><td>20070825184040</td></tr>
+<tr><td>216.255.177.133</td><td>1</td><td>1</td><td>32384</td><td>20070801025619</td></tr>
+<tr><td>68.51.69.37</td><td>1</td><td>1</td><td>4991</td><td>20070823130705</td></tr>
+<tr><td>70.117.16.210</td><td>1</td><td>1</td><td>39434</td><td>20070810142832</td></tr>
+<tr><td>81.219.214.10</td><td>1</td><td>1</td><td>39434</td><td>20070809142356</td></tr>
+<tr><td>211.46.221.34</td><td>2</td><td>2</td><td>71818</td><td>20070814075148</td></tr>
+<tr><td>201.3.192.122</td><td>1</td><td>1</td><td>32384</td><td>20070825102227</td></tr>
+<tr><td>84.110.195.117</td><td>1</td><td>1</td><td>39434</td><td>20070818215919</td></tr>
+<tr><td>67.82.230.199</td><td>1</td><td>1</td><td>39434</td><td>20070816134025</td></tr>
+<tr><td>210.7.6.167</td><td>1</td><td>1</td><td>12709</td><td>20070805045446</td></tr>
+<tr><td>192.72.124.12</td><td>1</td><td>1</td><td>32384</td><td>20070824213415</td></tr>
+<tr><td>84.110.192.147</td><td>1</td><td>1</td><td>39434</td><td>20070805200334</td></tr>
+<tr><td>219.38.180.111</td><td>1</td><td>1</td><td>6230</td><td>20070804135158</td></tr>
+<tr><td>84.110.205.64</td><td>1</td><td>1</td><td>39434</td><td>20070815044151</td></tr>
+<tr><td>84.110.143.17</td><td>1</td><td>1</td><td>39434</td><td>20070803235115</td></tr>
+<tr><td>84.174.124.97</td><td>1</td><td>1</td><td>39434</td><td>20070822094713</td></tr>
+<tr><td>84.110.237.134</td><td>3</td><td>3</td><td>118302</td><td>20070819010734</td></tr>
+<tr><td>82.144.63.158</td><td>1</td><td>1</td><td>32384</td><td>20070828113700</td></tr>
+<tr><td>91.124.247.88</td><td>3</td><td>3</td><td>51323</td><td>20070822125914</td></tr>
+<tr><td>210.74.156.132</td><td>1</td><td>1</td><td>32384</td><td>20070802054228</td></tr>
+<tr><td>63.144.61.174</td><td>13</td><td>13</td><td>77246</td><td>20070830043353</td></tr>
+<tr><td>84.110.199.153</td><td>1</td><td>1</td><td>39434</td><td>20070806061348</td></tr>
+<tr><td>80.77.86.246</td><td>3</td><td>3</td><td>111252</td><td>20070831095222</td></tr>
+<tr><td>66.197.196.21</td><td>3</td><td>3</td><td>97152</td><td>20070827123033</td></tr>
+<tr><td>75.13.229.194</td><td>1</td><td>1</td><td>32384</td><td>20070813102920</td></tr>
+<tr><td>89.149.227.165</td><td>13</td><td>13</td><td>420992</td><td>20070831211539</td></tr>
+<tr><td>84.110.193.230</td><td>1</td><td>1</td><td>39434</td><td>20070831120218</td></tr>
+<tr><td>217.149.45.68</td><td>3</td><td>3</td><td>78103</td><td>20070828202821</td></tr>
+<tr><td>195.67.48.130</td><td>1</td><td>1</td><td>32384</td><td>20070827205745</td></tr>
+<tr><td>195.23.7.71</td><td>2</td><td>2</td><td>55447</td><td>20070803232357</td></tr>
+<tr><td>88.43.144.154</td><td>1</td><td>1</td><td>32384</td><td>20070812205925</td></tr>
+<tr><td>84.113.214.61</td><td>1</td><td>2</td><td>11614</td><td>20070813021703</td></tr>
+<tr><td>84.110.130.15</td><td>1</td><td>1</td><td>32384</td><td>20070815104653</td></tr>
+<tr><td>222.221.6.144</td><td>1</td><td>1</td><td>32384</td><td>20070827220421</td></tr>
+<tr><td>77.36.144.252</td><td>1</td><td>1</td><td>32384</td><td>20070808153232</td></tr>
+<tr><td>84.108.223.64</td><td>29</td><td>29</td><td>977480</td><td>20070831234211</td></tr>
+<tr><td>84.110.137.212</td><td>1</td><td>1</td><td>39434</td><td>20070806230352</td></tr>
+<tr><td>83.237.240.188</td><td>1</td><td>1</td><td>15346</td><td>20070827062325</td></tr>
+<tr><td>41.206.160.2</td><td>2</td><td>2</td><td>64768</td><td>20070824142330</td></tr>
+<tr><td>60.194.157.252</td><td>1</td><td>1</td><td>32384</td><td>20070825173716</td></tr>
+<tr><td>193.191.168.158</td><td>1</td><td>1</td><td>32384</td><td>20070826122035</td></tr>
+<tr><td>152.31.229.186</td><td>1</td><td>1</td><td>32384</td><td>20070824023525</td></tr>
+<tr><td>163.27.120.249</td><td>1</td><td>1</td><td>32384</td><td>20070809133239</td></tr>
+<tr><td>206.51.229.7</td><td>1</td><td>1</td><td>39434</td><td>20070811131359</td></tr>
+<tr><td>84.110.156.160</td><td>1</td><td>1</td><td>39434</td><td>20070803235607</td></tr>
+<tr><td>216.255.182.244</td><td>2</td><td>2</td><td>64768</td><td>20070802052853</td></tr>
+<tr><td>80.167.149.74</td><td>1</td><td>1</td><td>10093</td><td>20070816144038</td></tr>
+<tr><td>200.195.33.130</td><td>1</td><td>1</td><td>0</td><td>20070816115117</td></tr>
+<tr><td>140.203.154.163</td><td>2</td><td>2</td><td>20186</td><td>20070818144505</td></tr>
+<tr><td>212.219.203.141</td><td>1</td><td>1</td><td>32384</td><td>20070826103226</td></tr>
+<tr><td>84.177.45.127</td><td>1</td><td>1</td><td>0</td><td>20070826122104</td></tr>
+<tr><td>85.255.117.221</td><td>13</td><td>13</td><td>112656</td><td>20070828223920</td></tr>
+<tr><td>84.109.83.62</td><td>28</td><td>28</td><td>971749</td><td>20070831233736</td></tr>
+<tr><td>71.195.82.205</td><td>1</td><td>1</td><td>32384</td><td>20070819205028</td></tr>
+<tr><td>80.176.150.214</td><td>1</td><td>1</td><td>4991</td><td>20070804160122</td></tr>
+<tr><td>81.25.48.100</td><td>1</td><td>1</td><td>32384</td><td>20070831063324</td></tr>
+<tr><td>68.96.11.134</td><td>1</td><td>1</td><td>39434</td><td>20070807144709</td></tr>
+<tr><td>84.179.53.226</td><td>1</td><td>1</td><td>32384</td><td>20070801233240</td></tr>
+<tr><td>87.106.133.217</td><td>1</td><td>1</td><td>32384</td><td>20070822113450</td></tr>
+<tr><td>72.36.138.42</td><td>2</td><td>2</td><td>52215</td><td>20070811042608</td></tr>
+<tr><td>216.255.176.34</td><td>19</td><td>19</td><td>615296</td><td>20070830130235</td></tr>
+<tr><td>83.11.75.127</td><td>1</td><td>2</td><td>11614</td><td>20070824102725</td></tr>
+<tr><td>84.110.236.31</td><td>1</td><td>1</td><td>39434</td><td>20070801072011</td></tr>
+<tr><td>140.109.19.187</td><td>1</td><td>1</td><td>32384</td><td>20070824015140</td></tr>
+<tr><td>61.142.81.37</td><td>2</td><td>2</td><td>78868</td><td>20070822105321</td></tr>
+<tr><td>216.255.181.203</td><td>1</td><td>1</td><td>32384</td><td>20070801034830</td></tr>
+<tr><td>84.110.128.14</td><td>2</td><td>2</td><td>78868</td><td>20070810021637</td></tr>
+<tr><td>203.128.26.178</td><td>1</td><td>1</td><td>32384</td><td>20070815020523</td></tr>
+<tr><td>137.108.145.250</td><td>1</td><td>1</td><td>10093</td><td>20070828071951</td></tr>
+<tr><td>84.108.220.3</td><td>28</td><td>28</td><td>977252</td><td>20070830075439</td></tr>
+<tr><td>84.14.163.130</td><td>1</td><td>1</td><td>32384</td><td>20070810081726</td></tr>
+<tr><td>218.15.210.78</td><td>1</td><td>1</td><td>32384</td><td>20070806161904</td></tr>
+<tr><td>194.104.99.10</td><td>1</td><td>1</td><td>32384</td><td>20070831000711</td></tr>
+<tr><td>58.226.61.230</td><td>1</td><td>1</td><td>32384</td><td>20070802084329</td></tr>
+<tr><td>84.108.220.40</td><td>22</td><td>22</td><td>782948</td><td>20070830060044</td></tr>
+<tr><td>84.110.204.143</td><td>1</td><td>1</td><td>39434</td><td>20070805181317</td></tr>
+<tr><td>194.202.236.102</td><td>1</td><td>1</td><td>32384</td><td>20070818093523</td></tr>
+<tr><td>208.255.68.245</td><td>2</td><td>2</td><td>71818</td><td>20070806232751</td></tr>
+<tr><td>87.23.61.140</td><td>1</td><td>1</td><td>6230</td><td>20070804135550</td></tr>
+<tr><td>84.110.132.15</td><td>1</td><td>1</td><td>39434</td><td>20070811035030</td></tr>
+<tr><td>192.72.124.13</td><td>1</td><td>1</td><td>32384</td><td>20070824025647</td></tr>
+<tr><td>66.232.105.200</td><td>3</td><td>3</td><td>97152</td><td>20070818051235</td></tr>
+<tr><td>217.221.57.50</td><td>1</td><td>1</td><td>6230</td><td>20070804135514</td></tr>
+<tr><td>222.239.181.232</td><td>1</td><td>1</td><td>32384</td><td>20070801125638</td></tr>
+<tr><td>71.10.168.141</td><td>1</td><td>1</td><td>32384</td><td>20070820144748</td></tr>
+<tr><td>24.30.49.215</td><td>1</td><td>1</td><td>4991</td><td>20070821084348</td></tr>
+<tr><td>24.72.13.25</td><td>1</td><td>1</td><td>32384</td><td>20070825224440</td></tr>
+<tr><td>217.141.251.202</td><td>5</td><td>5</td><td>168970</td><td>20070806034952</td></tr>
+<tr><td>66.194.6.83</td><td>3</td><td>3</td><td>18690</td><td>20070823214706</td></tr>
+<tr><td>60.190.243.173</td><td>1</td><td>1</td><td>18640</td><td>20070827180657</td></tr>
+<tr><td>74.208.71.187</td><td>1</td><td>1</td><td>6230</td><td>20070813185247</td></tr>
+<tr><td>69.65.123.157</td><td>1</td><td>1</td><td>32384</td><td>20070821082624</td></tr>
+<tr><td>221.234.43.117</td><td>1</td><td>1</td><td>32384</td><td>20070810203657</td></tr>
+<tr><td>213.132.242.25</td><td>1</td><td>1</td><td>32384</td><td>20070804141756</td></tr>
+<tr><td>216.255.176.27</td><td>3</td><td>3</td><td>97152</td><td>20070803021239</td></tr>
+<tr><td>84.108.220.121</td><td>28</td><td>28</td><td>977252</td><td>20070830054455</td></tr>
+<tr><td>216.17.247.21</td><td>3</td><td>4</td><td>22898</td><td>20070817085927</td></tr>
+<tr><td>69.73.80.30</td><td>1</td><td>1</td><td>39434</td><td>20070806175026</td></tr>
+<tr><td>84.110.226.201</td><td>4</td><td>4</td><td>157736</td><td>20070827100003</td></tr>
+<tr><td>61.235.241.114</td><td>1</td><td>1</td><td>32384</td><td>20070823144216</td></tr>
+<tr><td>84.108.220.218</td><td>24</td><td>24</td><td>847716</td><td>20070830054251</td></tr>
+<tr><td>216.117.134.180</td><td>2</td><td>2</td><td>64768</td><td>20070831144822</td></tr>
+<tr><td>207.40.198.62</td><td>2</td><td>2</td><td>28166</td><td>20070823055522</td></tr>
+<tr><td>58.1.150.161</td><td>1</td><td>1</td><td>32384</td><td>20070802120754</td></tr>
+<tr><td>58.235.146.137</td><td>1</td><td>1</td><td>32384</td><td>20070815020619</td></tr>
+<tr><td>203.69.39.250</td><td>1</td><td>1</td><td>39434</td><td>20070827072141</td></tr>
+<tr><td>74.52.215.194</td><td>1</td><td>1</td><td>32384</td><td>20070818200034</td></tr>
+<tr><td>69.243.65.22</td><td>1</td><td>1</td><td>39434</td><td>20070819080032</td></tr>
+<tr><td>84.16.235.197</td><td>2</td><td>2</td><td>11884</td><td>20070813083549</td></tr>
+<tr><td>121.88.85.231</td><td>1</td><td>1</td><td>12781</td><td>20070817021836</td></tr>
+<tr><td>67.52.10.178</td><td>1</td><td>1</td><td>39434</td><td>20070805020300</td></tr>
+<tr><td>84.110.228.228</td><td>2</td><td>2</td><td>78868</td><td>20070815044542</td></tr>
+<tr><td>61.135.206.11</td><td>1</td><td>1</td><td>32384</td><td>20070824213425</td></tr>
+<tr><td>87.118.98.9</td><td>7</td><td>7</td><td>41594</td><td>20070823180406</td></tr>
+<tr><td>84.110.157.174</td><td>1</td><td>1</td><td>39434</td><td>20070807001047</td></tr>
+<tr><td>84.109.80.99</td><td>29</td><td>29</td><td>1004133</td><td>20070831233207</td></tr>
+<tr><td>75.51.81.89</td><td>1</td><td>1</td><td>39434</td><td>20070822094626</td></tr>
+<tr><td>121.2.210.84</td><td>1</td><td>1</td><td>32384</td><td>20070811092551</td></tr>
+<tr><td>219.61.192.36</td><td>1</td><td>1</td><td>32384</td><td>20070827062340</td></tr>
+<tr><td>59.93.86.65</td><td>1</td><td>1</td><td>32384</td><td>20070822131601</td></tr>
+<tr><td>82.208.193.244</td><td>2</td><td>2</td><td>78868</td><td>20070807122053</td></tr>
+<tr><td>222.236.44.14</td><td>3</td><td>3</td><td>84599</td><td>20070831123936</td></tr>
+<tr><td>24.244.248.40</td><td>1</td><td>1</td><td>39434</td><td>20070813234439</td></tr>
+<tr><td>24.22.151.114</td><td>1</td><td>1</td><td>39434</td><td>20070823154322</td></tr>
+<tr><td>69.46.16.231</td><td>1</td><td>1</td><td>39434</td><td>20070812100515</td></tr>
+<tr><td>60.32.150.164</td><td>1</td><td>1</td><td>32384</td><td>20070801171730</td></tr>
+<tr><td>83.219.11.178</td><td>1</td><td>1</td><td>17971</td><td>20070818200553</td></tr>
+<tr><td>220.38.250.31</td><td>1</td><td>1</td><td>32384</td><td>20070825102206</td></tr>
+<tr><td>213.47.141.16</td><td>2</td><td>3</td><td>51048</td><td>20070825145224</td></tr>
+<tr><td>82.99.30.47</td><td>1</td><td>1</td><td>6230</td><td>20070827155448</td></tr>
+<tr><td>221.233.240.14</td><td>1</td><td>1</td><td>39434</td><td>20070808222713</td></tr>
+<tr><td>72.187.147.85</td><td>1</td><td>1</td><td>39434</td><td>20070823144846</td></tr>
+<tr><td>218.196.195.236</td><td>1</td><td>1</td><td>32384</td><td>20070826201346</td></tr>
+<tr><td>67.81.72.254</td><td>1</td><td>1</td><td>39434</td><td>20070808133451</td></tr>
+<tr><td>211.55.49.103</td><td>1</td><td>1</td><td>5942</td><td>20070830182854</td></tr>
+<tr><td>24.242.91.142</td><td>1</td><td>2</td><td>11614</td><td>20070805204650</td></tr>
+<tr><td>65.222.176.124</td><td>2</td><td>2</td><td>13727</td><td>20070808192624</td></tr>
+<tr><td>76.22.234.227</td><td>1</td><td>1</td><td>12781</td><td>20070811043115</td></tr>
+<tr><td>221.208.14.72</td><td>1</td><td>1</td><td>32384</td><td>20070812171050</td></tr>
+<tr><td>216.255.176.35</td><td>12</td><td>12</td><td>388608</td><td>20070831211315</td></tr>
+<tr><td>218.177.244.91</td><td>1</td><td>1</td><td>32384</td><td>20070830173828</td></tr>
+<tr><td>205.252.24.66</td><td>33</td><td>33</td><td>1274580</td><td>20070831050800</td></tr>
+<tr><td>81.222.134.234</td><td>1</td><td>1</td><td>32384</td><td>20070824185133</td></tr>
+<tr><td>200.42.228.234</td><td>1</td><td>1</td><td>32384</td><td>20070820074018</td></tr>
+<tr><td>24.47.181.161</td><td>1</td><td>1</td><td>619619</td><td>20070820120716</td></tr>
+<tr><td>201.46.243.57</td><td>1</td><td>1</td><td>32384</td><td>20070828092626</td></tr>
+<tr><td>163.32.188.39</td><td>1</td><td>1</td><td>32384</td><td>20070829031900</td></tr>
+<tr><td>212.219.203.129</td><td>1</td><td>1</td><td>32384</td><td>20070826163709</td></tr>
+<tr><td>76.214.172.70</td><td>1</td><td>1</td><td>5342</td><td>20070818142142</td></tr>
+<tr><td>81.177.14.3</td><td>5</td><td>5</td><td>197170</td><td>20070802193407</td></tr>
+<tr><td>193.111.198.56</td><td>3</td><td>3</td><td>97152</td><td>20070819204824</td></tr>
+<tr><td>221.239.90.209</td><td>1</td><td>1</td><td>32384</td><td>20070822131716</td></tr>
+<tr><td>91.121.67.145</td><td>6</td><td>6</td><td>174216</td><td>20070828222815</td></tr>
+<tr><td>85.229.1.139</td><td>1</td><td>2</td><td>11614</td><td>20070825085254</td></tr>
+<tr><td>56.0.84.25</td><td>1</td><td>1</td><td>39434</td><td>20070814213855</td></tr>
+<tr><td>219.159.67.187</td><td>1</td><td>1</td><td>12781</td><td>20070811042623</td></tr>
+<tr><td>70.86.237.10</td><td>2</td><td>2</td><td>78868</td><td>20070816115637</td></tr>
+<tr><td>122.196.77.168</td><td>1</td><td>1</td><td>32384</td><td>20070806235312</td></tr>
+<tr><td>84.177.58.99</td><td>1</td><td>1</td><td>32384</td><td>20070820073945</td></tr>
+<tr><td>91.142.5.46</td><td>1</td><td>1</td><td>32384</td><td>20070823153237</td></tr>
+<tr><td>216.255.185.196</td><td>1</td><td>1</td><td>32384</td><td>20070803024958</td></tr>
+<tr><td>218.22.112.166</td><td>7</td><td>7</td><td>128673</td><td>20070827042612</td></tr>
+<tr><td>84.109.77.253</td><td>6</td><td>6</td><td>236604</td><td>20070831034218</td></tr>
+<tr><td>64.34.145.196</td><td>3</td><td>3</td><td>18690</td><td>20070826123540</td></tr>
+<tr><td>60.6.128.34</td><td>1</td><td>1</td><td>32384</td><td>20070813102911</td></tr>
+<tr><td>203.69.39.251</td><td>3</td><td>3</td><td>78868</td><td>20070827042615</td></tr>
+<tr><td>83.87.53.94</td><td>1</td><td>1</td><td>39434</td><td>20070829001642</td></tr>
+<tr><td>220.168.135.20</td><td>2</td><td>2</td><td>64768</td><td>20070807183017</td></tr>
+<tr><td>218.78.230.18</td><td>1</td><td>1</td><td>32384</td><td>20070806235338</td></tr>
+<tr><td>83.233.117.43</td><td>1</td><td>1</td><td>32384</td><td>20070822113422</td></tr>
+<tr><td>216.255.179.141</td><td>1</td><td>1</td><td>32384</td><td>20070801154924</td></tr>
+<tr><td>84.110.142.113</td><td>1</td><td>1</td><td>39434</td><td>20070828171554</td></tr>
+<tr><td>65.160.238.180</td><td>5</td><td>5</td><td>114868</td><td>20070828045735</td></tr>
+<tr><td>219.87.178.116</td><td>1</td><td>1</td><td>32384</td><td>20070822120836</td></tr>
+<tr><td>202.96.189.45</td><td>4</td><td>4</td><td>45019</td><td>20070827072338</td></tr>
+<tr><td>219.240.36.173</td><td>1</td><td>1</td><td>5342</td><td>20070821112424</td></tr>
+<tr><td>66.65.127.111</td><td>1</td><td>1</td><td>39434</td><td>20070830204628</td></tr>
+<tr><td>210.165.9.96</td><td>2</td><td>2</td><td>12067</td><td>20070828225939</td></tr>
+<tr><td>220.128.232.205</td><td>1</td><td>1</td><td>39434</td><td>20070806235359</td></tr>
+<tr><td>131.188.24.10</td><td>2</td><td>3</td><td>51048</td><td>20070825085622</td></tr>
+<tr><td>74.103.53.121</td><td>1</td><td>2</td><td>11614</td><td>20070811135951</td></tr>
+<tr><td>203.213.211.206</td><td>1</td><td>1</td><td>32384</td><td>20070819204849</td></tr>
+<tr><td>72.232.234.66</td><td>2</td><td>2</td><td>10684</td><td>20070810204556</td></tr>
+<tr><td>201.41.126.90</td><td>1</td><td>1</td><td>6230</td><td>20070804134929</td></tr>
+<tr><td>87.248.173.252</td><td>1</td><td>1</td><td>6230</td><td>20070804135434</td></tr>
+<tr><td>84.109.80.106</td><td>31</td><td>31</td><td>1049298</td><td>20070831232716</td></tr>
+<tr><td>216.255.179.139</td><td>3</td><td>3</td><td>97152</td><td>20070803024512</td></tr>
+<tr><td>212.219.203.193</td><td>1</td><td>1</td><td>39434</td><td>20070826021338</td></tr>
+<tr><td>84.110.205.137</td><td>1</td><td>1</td><td>39434</td><td>20070809044156</td></tr>
+<tr><td>72.232.81.78</td><td>1</td><td>1</td><td>32384</td><td>20070830052541</td></tr>
+<tr><td>68.180.195.17</td><td>1</td><td>1</td><td>39434</td><td>20070829130803</td></tr>
+<tr><td>219.34.2.65</td><td>2</td><td>2</td><td>64768</td><td>20070824164647</td></tr>
+<tr><td>210.240.110.184</td><td>3</td><td>3</td><td>111252</td><td>20070822181657</td></tr>
+<tr><td>77.122.111.155</td><td>2</td><td>2</td><td>9982</td><td>20070808132321</td></tr>
+<tr><td>82.103.133.225</td><td>6</td><td>6</td><td>34202</td><td>20070821063207</td></tr>
+<tr><td>163.28.4.1</td><td>1</td><td>1</td><td>32384</td><td>20070812171012</td></tr>
+<tr><td>222.66.48.253</td><td>1</td><td>1</td><td>18621</td><td>20070817122842</td></tr>
+<tr><td>61.75.192.135</td><td>1</td><td>1</td><td>39434</td><td>20070831050912</td></tr>
+<tr><td>67.86.160.227</td><td>1</td><td>1</td><td>5455</td><td>20070815195633</td></tr>
+<tr><td>210.74.156.131</td><td>1</td><td>1</td><td>32384</td><td>20070810124840</td></tr>
+<tr><td>222.66.73.94</td><td>1</td><td>2</td><td>11614</td><td>20070806204512</td></tr>
+<tr><td>84.110.233.37</td><td>3</td><td>3</td><td>118302</td><td>20070813013028</td></tr>
+<tr><td>216.255.182.245</td><td>1</td><td>1</td><td>32384</td><td>20070802185921</td></tr>
+<tr><td>202.52.178.252</td><td>1</td><td>1</td><td>0</td><td>20070805214938</td></tr>
+<tr><td>202.69.143.174</td><td>1</td><td>1</td><td>39434</td><td>20070805212541</td></tr>
+<tr><td>216.255.177.132</td><td>2</td><td>2</td><td>64768</td><td>20070801155141</td></tr>
+<tr><td>216.195.54.53</td><td>1</td><td>1</td><td>39434</td><td>20070831064304</td></tr>
+<tr><td>66.232.126.135</td><td>5</td><td>5</td><td>128284</td><td>20070822143613</td></tr>
+<tr><td>212.95.252.16</td><td>2</td><td>2</td><td>12460</td><td>20070813061516</td></tr>
+<tr><td>81.10.77.210</td><td>1</td><td>1</td><td>4991</td><td>20070816033411</td></tr>
+<tr><td>66.194.6.67</td><td>1</td><td>1</td><td>6230</td><td>20070818005710</td></tr>
+<tr><td>84.110.141.70</td><td>1</td><td>1</td><td>39434</td><td>20070807001423</td></tr>
+<tr><td>76.229.163.170</td><td>1</td><td>1</td><td>17729</td><td>20070823222024</td></tr>
+<tr><td>216.255.177.134</td><td>1</td><td>1</td><td>32384</td><td>20070801154034</td></tr>
+<tr><td>62.231.243.138</td><td>1</td><td>1</td><td>39434</td><td>20070805020345</td></tr>
+<tr><td>68.195.6.9</td><td>1</td><td>1</td><td>4991</td><td>20070828064827</td></tr>
+<tr><td>210.119.156.79</td><td>1</td><td>1</td><td>5942</td><td>20070822050441</td></tr>
+<tr><td>85.29.195.72</td><td>8</td><td>8</td><td>259072</td><td>20070827112439</td></tr>
+<tr><td>67.15.179.19</td><td>2</td><td>2</td><td>66587</td><td>20070810124851</td></tr>
+<tr><td>124.154.1.155</td><td>1</td><td>1</td><td>32384</td><td>20070828141622</td></tr>
+<tr><td>193.179.209.200</td><td>1</td><td>1</td><td>32384</td><td>20070828141529</td></tr>
+<tr><td>84.110.234.106</td><td>1</td><td>1</td><td>39434</td><td>20070803230942</td></tr>
+<tr><td>59.95.73.179</td><td>1</td><td>1</td><td>5420</td><td>20070828045738</td></tr>
+<tr><td>124.30.29.19</td><td>1</td><td>1</td><td>39434</td><td>20070809105819</td></tr>
+<tr><td>67.149.175.64</td><td>1</td><td>1</td><td>32384</td><td>20070824234059</td></tr>
+<tr><td>84.108.223.57</td><td>29</td><td>29</td><td>1023736</td><td>20070831234704</td></tr>
+<tr><td>84.108.220.84</td><td>23</td><td>23</td><td>815332</td><td>20070830060038</td></tr>
+<tr><td>84.174.124.85</td><td>1</td><td>1</td><td>18361</td><td>20070819161908</td></tr>
+<tr><td>166.111.139.15</td><td>1</td><td>1</td><td>32384</td><td>20070810203639</td></tr>
+<tr><td>61.156.42.123</td><td>1</td><td>1</td><td>32384</td><td>20070828113729</td></tr>
+<tr><td>202.101.105.172</td><td>1</td><td>1</td><td>4991</td><td>20070826183533</td></tr>
+<tr><td>69.46.20.87</td><td>27</td><td>27</td><td>134757</td><td>20070831150806</td></tr>
+<tr><td>207.42.189.178</td><td>1</td><td>1</td><td>12781</td><td>20070828110615</td></tr>
+<tr><td>213.170.35.27</td><td>1</td><td>1</td><td>32384</td><td>20070810194929</td></tr>
+<tr><td>206.53.51.77</td><td>7</td><td>7</td><td>226688</td><td>20070829220002</td></tr>
+<tr><td>83.145.103.234</td><td>1</td><td>1</td><td>32384</td><td>20070810081709</td></tr>
+<tr><td>221.202.118.17</td><td>2</td><td>2</td><td>71818</td><td>20070822023246</td></tr>
+<tr><td>201.216.247.77</td><td>1</td><td>1</td><td>32384</td><td>20070813090234</td></tr>
+<tr><td>65.120.194.67</td><td>1</td><td>2</td><td>11614</td><td>20070824141059</td></tr>
+<tr><td>84.110.133.83</td><td>2</td><td>2</td><td>78868</td><td>20070830161805</td></tr>
+<tr><td>84.110.153.54</td><td>2</td><td>2</td><td>78868</td><td>20070830134311</td></tr>
+<tr><td>82.135.12.235</td><td>1</td><td>1</td><td>32384</td><td>20070821110528</td></tr>
+<tr><td>60.190.223.77</td><td>3</td><td>3</td><td>111252</td><td>20070809162722</td></tr>
+<tr><td>195.249.110.27</td><td>1</td><td>1</td><td>32384</td><td>20070817233210</td></tr>
+<tr><td>217.141.249.203</td><td>6</td><td>6</td><td>164795</td><td>20070804215814</td></tr>
+<tr><td>221.229.242.71</td><td>2</td><td>2</td><td>64768</td><td>20070822023457</td></tr>
+<tr><td>59.93.215.230</td><td>1</td><td>1</td><td>12601</td><td>20070811042609</td></tr>
+<tr><td>210.51.161.111</td><td>1</td><td>1</td><td>32384</td><td>20070808232007</td></tr>
+<tr><td>216.255.176.36</td><td>16</td><td>16</td><td>518144</td><td>20070829202126</td></tr>
+<tr><td>72.36.130.74</td><td>2</td><td>2</td><td>10840</td><td>20070828120308</td></tr>
+<tr><td>172.186.192.215</td><td>1</td><td>1</td><td>32384</td><td>20070819201828</td></tr>
+<tr><td>219.136.239.51</td><td>1</td><td>1</td><td>6230</td><td>20070804135111</td></tr>
+<tr><td>61.253.10.18</td><td>1</td><td>1</td><td>39434</td><td>20070801183220</td></tr>
+<tr><td>84.108.223.96</td><td>28</td><td>28</td><td>945096</td><td>20070831233645</td></tr>
+<tr><td>205.188.116.10</td><td>1</td><td>1</td><td>39434</td><td>20070804142425</td></tr>
+<tr><td>69.46.16.96</td><td>3</td><td>3</td><td>97152</td><td>20070826191659</td></tr>
+<tr><td>69.118.26.92</td><td>1</td><td>1</td><td>4991</td><td>20070801152438</td></tr>
+<tr><td>210.205.32.145</td><td>1</td><td>1</td><td>32384</td><td>20070810035735</td></tr>
+<tr><td>64.34.145.198</td><td>1</td><td>1</td><td>6230</td><td>20070801215015</td></tr>
+<tr><td>190.39.173.149</td><td>1</td><td>1</td><td>19313</td><td>20070809062712</td></tr>
+<tr><td>69.93.209.2</td><td>1</td><td>1</td><td>39434</td><td>20070803042625</td></tr>
+<tr><td>208.73.136.26</td><td>1</td><td>2</td><td>11614</td><td>20070807090541</td></tr>
+<tr><td>220.127.184.24</td><td>1</td><td>1</td><td>32384</td><td>20070817081659</td></tr>
+<tr><td>216.255.181.204</td><td>2</td><td>2</td><td>64768</td><td>20070802150524</td></tr>
+<tr><td>210.42.140.5</td><td>1</td><td>1</td><td>12781</td><td>20070811043115</td></tr>
+<tr><td>207.10.232.192</td><td>1</td><td>1</td><td>39434</td><td>20070822194744</td></tr>
+</table><nu>END_VISITOR
+</nu></section>
+
+<section id='day'><comment>
+# Date - Pages - Hits - Bandwidth - Visits
+</comment><nu>
+BEGIN_DAY</nu><recnb>31</recnb><table>
+<tr><td>20070801</td><td>190</td><td>191</td><td>5598103</td><td>102</td></tr>
+<tr><td>20070802</td><td>196</td><td>196</td><td>5585511</td><td>84</td></tr>
+<tr><td>20070803</td><td>179</td><td>179</td><td>5428382</td><td>80</td></tr>
+<tr><td>20070804</td><td>188</td><td>188</td><td>5358304</td><td>89</td></tr>
+<tr><td>20070805</td><td>202</td><td>203</td><td>5756458</td><td>99</td></tr>
+<tr><td>20070806</td><td>199</td><td>201</td><td>5741785</td><td>91</td></tr>
+<tr><td>20070807</td><td>180</td><td>181</td><td>5387518</td><td>75</td></tr>
+<tr><td>20070808</td><td>154</td><td>154</td><td>5000208</td><td>55</td></tr>
+<tr><td>20070809</td><td>153</td><td>154</td><td>4954722</td><td>51</td></tr>
+<tr><td>20070810</td><td>172</td><td>173</td><td>5660059</td><td>77</td></tr>
+<tr><td>20070811</td><td>175</td><td>176</td><td>4931433</td><td>62</td></tr>
+<tr><td>20070812</td><td>147</td><td>147</td><td>4892174</td><td>54</td></tr>
+<tr><td>20070813</td><td>145</td><td>147</td><td>4603029</td><td>56</td></tr>
+<tr><td>20070814</td><td>164</td><td>164</td><td>5254972</td><td>70</td></tr>
+<tr><td>20070815</td><td>164</td><td>165</td><td>5264522</td><td>55</td></tr>
+<tr><td>20070816</td><td>129</td><td>129</td><td>4056438</td><td>59</td></tr>
+<tr><td>20070817</td><td>181</td><td>182</td><td>5509060</td><td>65</td></tr>
+<tr><td>20070818</td><td>171</td><td>171</td><td>5434071</td><td>71</td></tr>
+<tr><td>20070819</td><td>146</td><td>146</td><td>4797118</td><td>53</td></tr>
+<tr><td>20070820</td><td>108</td><td>108</td><td>4087922</td><td>47</td></tr>
+<tr><td>20070821</td><td>175</td><td>175</td><td>5037471</td><td>84</td></tr>
+<tr><td>20070822</td><td>184</td><td>186</td><td>6165923</td><td>89</td></tr>
+<tr><td>20070823</td><td>178</td><td>178</td><td>6000733</td><td>80</td></tr>
+<tr><td>20070824</td><td>175</td><td>180</td><td>5751832</td><td>80</td></tr>
+<tr><td>20070825</td><td>168</td><td>174</td><td>5321006</td><td>69</td></tr>
+<tr><td>20070826</td><td>182</td><td>182</td><td>5805566</td><td>85</td></tr>
+<tr><td>20070827</td><td>196</td><td>197</td><td>5925949</td><td>92</td></tr>
+<tr><td>20070828</td><td>206</td><td>206</td><td>6187676</td><td>96</td></tr>
+<tr><td>20070829</td><td>181</td><td>183</td><td>5612322</td><td>84</td></tr>
+<tr><td>20070830</td><td>216</td><td>217</td><td>6905189</td><td>84</td></tr>
+<tr><td>20070831</td><td>251</td><td>251</td><td>8029701</td><td>88</td></tr>
+</table><nu>END_DAY
+</nu></section>
+
+<section id='session'><comment>
+# Session range - Number of visits
+</comment><nu>
+BEGIN_SESSION</nu><recnb>7</recnb><table>
+<tr><td>1h+</td><td>43</td></tr>
+<tr><td>5mn-15mn</td><td>13</td></tr>
+<tr><td>2mn-5mn</td><td>7</td></tr>
+<tr><td>15mn-30mn</td><td>23</td></tr>
+<tr><td>30s-2mn</td><td>15</td></tr>
+<tr><td>0s-30s</td><td>2207</td></tr>
+<tr><td>30mn-1h</td><td>18</td></tr>
+</table><nu>END_SESSION
+</nu></section>
+
+<section id='sider'><sortfor>10</sortfor><comment>
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+</comment><nu>
+BEGIN_SIDER</nu><recnb>32</recnb><table>
+<tr><td>/archives/000269.html</td><td>2545</td><td>81097255</td><td>1020</td><td>974</td></tr>
+<tr><td>/archives/000301.html</td><td>2115</td><td>82506200</td><td>621</td><td>669</td></tr>
+<tr><td>/archives/000251.html</td><td>383</td><td>2407155</td><td>369</td><td>368</td></tr>
+<tr><td>/archives/000345.html</td><td>108</td><td>539028</td><td>96</td><td>105</td></tr>
+<tr><td>/</td><td>81</td><td>504630</td><td>73</td><td>62</td></tr>
+<tr><td>/archives/000237.html</td><td>59</td><td>305502</td><td>55</td><td>48</td></tr>
+<tr><td>/archives/000270.html</td><td>33</td><td>184202</td><td>28</td><td>29</td></tr>
+<tr><td>/dahut_group.rdf</td><td>16</td><td>161488</td><td>10</td><td>10</td></tr>
+<tr><td>/archives/000271.html</td><td>13</td><td>67886</td><td>3</td><td>5</td></tr>
+<tr><td>/archives/000204.html</td><td>12</td><td>62952</td><td>8</td><td>6</td></tr>
+<tr><td>/archives/000268.html 7</td><td>37394</td><td>3</td><td>6</td></tr>
+<tr><td>/archives/2003_09.html 2</td><td>4716</td><td>0</td><td>0</td></tr>
+<tr><td>/index.rdf 6</td><td>44982</td><td>1</td><td>5</td></tr>
+<tr><td>// 1</td><td>6230</td><td>1</td><td>1</td></tr>
+<tr><td>/archives/000272.html 10</td><td>54810</td><td>6</td><td>5</td></tr>
+<tr><td>/perl_mongers.rdf 4</td><td>1480694</td><td>4</td><td>4</td></tr>
+<tr><td>/archives/2003_03.html 4</td><td>70916</td><td>3</td><td>3</td></tr>
+<tr><td>/archives/2004_02.html 4</td><td>7988</td><td>1</td><td>2</td></tr>
+<tr><td>/archives/2003_04.html 2</td><td>15052</td><td>1</td><td>2</td></tr>
+<tr><td>/archives/2003_10.html 2</td><td>4474</td><td>0</td><td>0</td></tr>
+<tr><td>/archives/2003_07.html 2</td><td>4292</td><td>0</td><td>0</td></tr>
+<tr><td>/archives/000293.html 9</td><td>49095</td><td>7</td><td>9</td></tr>
+<tr><td>/archives/000284.html 5</td><td>27100</td><td>4</td><td>3</td></tr>
+<tr><td>http://dahut.org/archives/000269.html 3</td><td>60439</td><td>3</td><td>2</td></tr>
+<tr><td>/archives/000235.html 10</td><td>52040</td><td>3</td><td>2</td></tr>
+<tr><td>/archives/2003_05.html 5</td><td>11165</td><td>1</td><td>1</td></tr>
+<tr><td>http://dahut.org/archives/000301.html 1</td><td>39434</td><td>1</td><td>1</td></tr>
+<tr><td>/archives/2003_08.html 5</td><td>33060</td><td>1</td><td>1</td></tr>
+<tr><td>/archives/000283.html 1</td><td>5245</td><td>0</td><td>0</td></tr>
+<tr><td>/archives/000238.html 3</td><td>15351</td><td>1</td><td>1</td></tr>
+<tr><td>/dahut_story.html 2</td><td>27396</td><td>2</td><td>2</td></tr>
+<tr><td>/archives/2003_06.html 2</td><td>6234</td><td>0</td><td>0</td></tr>
+</table><nu>END_SIDER
+</nu></section>
+
+
+</xml>

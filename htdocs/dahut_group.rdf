@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:pm="http://www.pm.org/rdf/2004/"
+      xmlns:dahut="http://dahut.pm.org/rdf/2004/"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+
+<foaf:Group rdf:nodeID="dahuts">
+    <foaf:name>Dahut.pm</foaf:name>
+    <foaf:homepage rdf:resource="http://dahut.pm.org/"/>
+    <foaf:member pm:type="tsar" rdf:nodeID="bender" />
+    <foaf:member pm:type="secretary" rdf:nodeID="darobin" />
+    <foaf:member rdf:nodeID="perigrin"/>
+    <foaf:member rdf:nodeID="pepl"/>
+    <foaf:member rdf:nodeID="moe" />
+    <foaf:member rdf:nodeID="geoff" />
+    <foaf:member rdf:nodeID="pdcawley"/>
+    <foaf:member rdf:nodeID="ct"/>
+    <foaf:member rdf:nodeID="phish"/>
+    <foaf:member rdf:nodeID="stef" />
+    <foaf:member rdf:nodeID="baud" />
+    <foaf:member rdf:nodeID="ubu" />
+    <foaf:member rdf:nodeID="jgsmith" />
+    <foaf:member rdf:nodeID="echo" />
+    <foaf:member rdf:nodeID="mac" />
+    <foaf:member rdf:nodeID="xtoph" />
+    <foaf:member rdf:nodeID="nacho" />
+    <foaf:member rdf:nodeID="kjetilk" />
+    <foaf:member rdf:nodeID="biz"/>     
+    <foaf:depiction rdf:resource="http://claric.free.fr/dahut/images/image003.jpg"/>
+</foaf:Group>
+
+<foaf:Person rdf:nodeID="bender">
+    <foaf:name>Bender</foaf:name>
+    <foaf:nick>Bender</foaf:nick>
+    <foaf:mbox_sha1sum>b20e0c7ba16d4af61e59341e6eb3b2ee17cdf3aa</foaf:mbox_sha1sum>
+    <foaf:homepage rdf:resource="http://dahut.pm.org"/>
+    <foaf:knows rdf:nodeID="darobin" />
+    <foaf:knows rdf:nodeID="perigrin"/>
+    <foaf:knows rdf:nodeID="pepl"/>
+    <foaf:knows rdf:nodeID="moe" />
+    <foaf:knows rdf:nodeID="geoff" />
+    <foaf:knows rdf:nodeID="pdcawley"/>
+    <foaf:knows rdf:nodeID="ct"/>
+    <foaf:knows rdf:nodeID="phish"/>
+    <foaf:knows rdf:nodeID="stef" />
+    <foaf:knows rdf:nodeID="baud" />
+    <foaf:knows rdf:nodeID="ubu" />
+    <foaf:knows rdf:nodeID="jgsmith" />
+    <foaf:knows rdf:nodeID="echo" />
+    <foaf:knows rdf:nodeID="mac" />
+    <foaf:knows rdf:nodeID="xtoph" />
+    <foaf:knows rdf:nodeID="nacho" />
+    <foaf:knows rdf:nodeID="kjetilk" />
+    <foaf:member rdf:nodeID="biz"/>     
+</foaf:Person>
+
+<foaf:Person rdf:nodeID="pdcawley">
+    <foaf:name>Piers Cawley</foaf:name>
+    <foaf:nick>pdcawley</foaf:nick>
+    <foaf:mbox_sha1sum>4784555497114621b4b9392a0de69c4b24c79790</foaf:mbox_sha1sum>
+    <foaf:based_near>
+    	<geo:Point>
+    		<geo:lat>53:04:26N</geo:lat>
+    		<geo:long>00:49:01W</geo:long>
+    	</geo:Point>
+    </foaf:based_near>
+    <foaf:depiction>http://www.mudcat.org/photos/images/miskin2003_26.jpg</foaf:depiction>
+</foaf:Person>
+
+<foaf:Person rdf:nodeID="ct">
+    <foaf:name>Chris Thompson</foaf:name>
+    <foaf:nick>ct</foaf:nick>
+    <foaf:mbox_sha1sum>9234537b57f8a4a9beadc5788941187a4ffadb99</foaf:mbox_sha1sum>
+    <foaf:based_near>
+    <geo:Point>
+    	<geo:lat>39:05:15N</geo:lat>
+    	<geo:long>84:06:49W</geo:long>
+    </geo:Point>
+    </foaf:based_near>
+    <rdfs:seeAlso rdf:resource="http://cthompson.com/foaf.rdf" />
+</foaf:Person>
+
+<foaf:Person rdf:nodeID="phish">
+    <foaf:name>Christian Glahn</foaf:name>
+    <foaf:nick>phish108</foaf:nick>
+    <foaf:mbox_sha1sum>a8d84570a7ecd69a7e7cc05af2f405665d05b7f1</foaf:mbox_sha1sum>
+    <foaf:based_near>
+    <geo:Point>
+    <geo:lat>47:15:01N</geo:lat>
+    <geo:long>11:25:02E</geo:long>
+    </geo:Point>
+    </foaf:based_near>
+</foaf:Person>
+
+<foaf:Person rdf:nodeID="darobin">
+    <foaf:name>Robin Berjon</foaf:name>
+    <foaf:nick>darobin</foaf:nick>
+    <foaf:mbox_sha1sum>c77b04531cc63dd8a41b45e320c224e4ede8d6f8</foaf:mbox_sha1sum>
+    <foaf:based_near>
+    <geo:Point>
+    <geo:lat>48:51:57N</geo:lat>
+    <geo:long>02:22:36E</geo:long>
+    </geo:Point>
+    </foaf:based_near>
+    <rdfs:seeAlso rdf:resource="http://expway.com/robin/foaf.rdf" />
+    <foaf:depiction rdf:resource="http://www.axis-of-aevil.org/photos/yapc2003/IMG_1811.jpg"/>
+    <dahut:hotOrNot rdf:resource="http://www.hotornot.com/r/?eid=O8GZRRK-MLC" />
+</foaf:Person>
+
+<foaf:Person rdf:nodeID="perigrin">
+    <foaf:name>Chris Prather</foaf:name>
+    <foaf:nick>perigrin</foaf:nick>
+    <foaf:mbox_sha1sum>289d17e8209bf918cb0725214d9df9d61bf4c652</foaf:mbox_sha1sum>
+    <foaf:based_near>
+    <geo:Point>
+    <geo:lat>55:56:19N</geo:lat>
+    <geo:long>03:13:34W</geo:long>
+    </geo:Point>
+    </foaf:based_near>
+    <dahut:inChargeOf>Reading the Presidents E-mail</dahut:inChargeOf>
+</foaf:Person>
+
+<foaf:Person rdf:nodeID="moe">
+    <foaf:name>Jörg Walter</foaf:name>
+    <foaf:nick>`Moe`</foaf:nick>
+    <foaf:mbox_sha1sum>1ad21f57fe606de06e428bda62aa856343aaccec</foaf:mbox_sha1sum>
+    <foaf:based_near>
+    <geo:Point>
+    <geo:lat>53:07:45N</geo:lat>
+    <geo:long>08:12:17E</geo:long>
+    </geo:Point>
+    </foaf:based_near>
+    <dahut:inChargeOf>NIGERIAN Relations</dahut:inChargeOf>
+</foaf:Person>
+
+<foaf:Person rdf:nodeID="pepl">
+    <foaf:name>Michael Kröll</foaf:name>
+    <foaf:nick>pepl</foaf:nick>
+    <foaf:mbox_sha1sum>845d0e1abcd9a7a38e0544105367b04e7b25a40a</foaf:mbox_sha1sum>
+    <rdfs:seeAlso rdf:resource="http://zis.uibk.ac.at/.m/foaf.rdf" />
+    <foaf:based_near>
+    <geo:Point> 
+    <geo:lat>47:15:34N</geo:lat>
+    <geo:long>11:22:53E</geo:long>
+    </geo:Point>
+    </foaf:based_near>
+    <foaf:depiction rdf:resource="http://zis.uibk.ac.at/.m/200409-murter%2cbetina-croatia/images/PICT0059.jpg"/>
+</foaf:Person>
+
+<foaf:Person rdf:nodeID="geoff">
+    <foaf:name>Geoff Young</foaf:name>
+    <foaf:nick>geoff</foaf:nick>
+    <foaf:mbox_sha1sum>caf784b203e6ec76cff6549b63e2f94b47dc9872</foaf:mbox_sha1sum>
+    <foaf:based_near>
+    <geo:Point> 
+    <geo:lat>39:53:05N</geo:lat>
+    <geo:long>75:22:41W</geo:long>
+    </geo:Point>
+    </foaf:based_near>
+    <foaf:depicton rdf:resource="http://www.perl.com/supersnail/os2002/images/small/os6_d3_f0148_sm.jpg" />
+</foaf:Person>
+
+<foaf:Person rdf:nodeID="mac">
+    <foaf:name>Mike Chamberlain</foaf:name>
+    <foaf:nick>mach</foaf:nick>
+    <foaf:mbox_sha1sum>fb537db6e63198b8fea4ba9131ba1a088d0893bd</foaf:mbox_sha1sum>
+    <foaf:based_near>
+    <geo:Point> 
+    <geo:lat>51:27:20N</geo:lat>
+    <geo:long>00:13:12W</geo:long>
+    </geo:Point>
+    </foaf:based_near>
+    <foaf:depiction rdf:resource="http://www.axis-of-aevil.org/photos/yapc2003/IMG_1811.jpg"/>
+</foaf:Person>
+
+<foaf:Person rdf:nodeID="echo">
+    <foaf:name>Eric Cholet</foaf:name>
+    <foaf:nick>echo</foaf:nick>
+    <foaf:mbox_sha1sum>adcd70b1e4fd2e19b7dfe60529d4f4573b198bc4</foaf:mbox_sha1sum>
+    <foaf:based_near>
+    <geo:Point> 
+    <geo:lat>48:50:09N</geo:lat>
+    <geo:long>02:14:34E</geo:long>
+    </geo:Point>
+    </foaf:based_near>
+    <foaf:depiction rdf:resource="http://www.axis-of-aevil.org/photos/yapc2003/IMG_1693.jpg"/>
+</foaf:Person>
+
+<foaf:Person rdf:nodeID="jgsmith">
+    <foaf:name>Jim Smith</foaf:name>
+    <foaf:nick>jgsmith</foaf:nick>
+    <foaf:mbox_sha1sum>679af6d69be7eccc0266c1e638dfe2e24efec129</foaf:mbox_sha1sum>
+    <foaf:based_near>
+    <geo:Point> 
+    <geo:lat>30:36:29N</geo:lat>
+    <geo:long>96:18:50W</geo:long>
+    </geo:Point>
+    </foaf:based_near>
+</foaf:Person>
+
+<foaf:Person rdf:nodeID="ubu">
+    <foaf:name>Kip Hampton</foaf:name>
+    <foaf:nick>ubu</foaf:nick>
+    <foaf:mbox_sha1sum>205eb2bb193f2dbaa6da66a288ba262714c5ca34</foaf:mbox_sha1sum>
+    <foaf:based_near>
+    <geo:Point> 
+    <geo:lat>47:15:01N</geo:lat>
+    <geo:long>11:25:02E</geo:long>
+    </geo:Point>
+    </foaf:based_near>
+</foaf:Person>
+
+<foaf:Person rdf:nodeID="baud">
+    <foaf:name>Matt Sergeant</foaf:name>
+    <foaf:nick>baud</foaf:nick>
+    <foaf:mbox_sha1sum>37ce705df23ec6fe5d5f1bf8f8a255ac0473ded3</foaf:mbox_sha1sum>
+    <foaf:based_near>
+    <geo:Point> 
+    <geo:lat>51:50:27N</geo:lat>
+    <geo:long>02:13:50W</geo:long>
+    </geo:Point>
+    </foaf:based_near>
+    <foaf:depiction rdf:resource="http://impressive.net/people/gerald/2003/01/17/13-49-47.jpg" />
+</foaf:Person>
+
+<foaf:Person rdf:nodeID="stef">
+    <foaf:name>Stef Payrard</foaf:name>
+    <foaf:nick>stef</foaf:nick>
+    <foaf:mbox_sha1sum>487e6037613da1fe56417f1055e3662c2e4b6733</foaf:mbox_sha1sum>
+    <foaf:based_near>
+    <geo:Point> 
+    <geo:lat>48:48:13N</geo:lat>
+    <geo:long>02:19:56E</geo:long>
+    </geo:Point>
+    </foaf:based_near>
+</foaf:Person>
+
+<foaf:Person rdf:nodeID="nacho">
+    <foaf:nick>nacho</foaf:nick>
+    <foaf:name>Michael Nachbaur</foaf:name>
+    <foaf:mbox_sha1sum>4287de5a8ee06044762a2cbae979af2afb82a32c</foaf:mbox_sha1sum>
+    <foaf:based_near>
+    <geo:Point> 
+    <geo:lat>51:26:47N</geo:lat>
+    <geo:long>119:13:44W</geo:long>
+    </geo:Point>
+    </foaf:based_near>
+    <foaf:depiction rdf:resource="http://www.nachbaur.com/resources/images/mike/Mike-goofy-2001-04-08.jpg"/>
+</foaf:Person>
+
+<foaf:Person rdf:nodeID="xtoph">
+    <foaf:nick>xtoph</foaf:nick>
+    <foaf:name>Chris Wild</foaf:name>
+    <foaf:mbox_sha1sum>9273ebafb3e17726d41e8dd6fb8a7b270fbf7ab5</foaf:mbox_sha1sum>
+    <foaf:based_near>
+    <geo:Point> 
+    <geo:lat>47:16N</geo:lat>
+    <geo:long>11:21E</geo:long>
+    </geo:Point>
+    </foaf:based_near>
+</foaf:Person>
+
+<foaf:Person rdf:nodeID="kjetilk">
+    <foaf:name>Kjetil Kjernsmo</foaf:name>
+    <foaf:nick>KjetilK</foaf:nick>
+    <foaf:nick>kettle</foaf:nick>
+    <foaf:mbox_sha1sum>37184373f6d39505f39c65e3e62f309d4a5630f6</foaf:mbox_sha1sum>
+    <rdfs:seeAlso rdf:resource="http://www.kjetil.kjernsmo.net/foaf.rdf"/>
+    <foaf:depiction rdf:resource="http://www.kjetil.kjernsmo.net/images/kjetil"/>
+    <foaf:based_near>
+    <geo:Point> 
+    <geo:lat>59.9496</geo:lat>
+    <geo:long>10.8235</geo:long>
+    </geo:Point>
+    </foaf:based_near>
+</foaf:Person>
+
+<foaf:Person rdf:nodeID="biz">
+    <foaf:nick>biz</foaf:nick>
+    <foaf:name>Jeff Bisbee</foaf:name>
+    <foaf:mbox_sha1sum>39eb1a7c2b366e87643e454dec89659c7e6dada7</foaf:mbox_sha1sum>    
+    <foaf:based_near>
+    <geo:Point> 
+    <geo:lat>26.580224</geo:lat>
+    <geo:long>-80.055426</geo:long>
+    </geo:Point>
+    </foaf:based_near>
+</foaf:Person>
+</rdf:RDF>

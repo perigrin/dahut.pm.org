@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns="http://xmlns.com/foaf/0.1/"
+  xmlns:trust="http://trust.mindswap.org/ont/trust.owl#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Document rdf:about="">
+  <topic rdf:nodeID="me"/>
+  <maker rdf:nodeID="me"/>
+  <dcterms:created>2007-03-10T22:23:09Z</dcterms:created>
+</Document>
+<Person rdf:nodeID="me">
+  <name>Bender</name>
+  <nick>Bender</nick>
+  <mbox_sha1sum>b20e0c7ba16d4af61e59341e6eb3b2ee17cdf3aa</mbox_sha1sum>
+  <rdfs:seeAlso rdf:resource="http://dahut.pm.org/dahut_group.rdf"/>
+  <trust:trust5>
+    <Person>
+      <name>Kjetil Kjernsmo</name>
+      <nick>kettle</nick>
+      <mbox_sha1sum>37184373f6d39505f39c65e3e62f309d4a5630f6</mbox_sha1sum>
+      <rdfs:seeAlso rdf:resource="http://www.kjetil.kjernsmo.net/foaf.rdf"/>
+    </Person>
+  </trust:trust5>
+  <trust:trust5>
+    <Person>
+      <name>Michael Nachbaur</name>
+      <nick>nacho</nick>
+      <mbox_sha1sum>4287de5a8ee06044762a2cbae979af2afb82a32c</mbox_sha1sum>
+    </Person>
+  </trust:trust5>
+  <trust:trust5>
+    <Person>
+      <name>Chris Wild</name>
+      <nick>xtoph</nick>
+      <mbox_sha1sum>9273ebafb3e17726d41e8dd6fb8a7b270fbf7ab5</mbox_sha1sum>
+    </Person>
+  </trust:trust5>
+  <trust:trust5>
+    <Person>
+      <name>Mike Chamberlain</name>
+      <nick>mach</nick>
+      <mbox_sha1sum>fb537db6e63198b8fea4ba9131ba1a088d0893bd</mbox_sha1sum>
+    </Person>
+  </trust:trust5>
+  <trust:trust5>
+    <Person>
+      <name>Eric Cholet</name>
+      <nick>echo</nick>
+      <mbox_sha1sum>adcd70b1e4fd2e19b7dfe60529d4f4573b198bc4</mbox_sha1sum>
+    </Person>
+  </trust:trust5>
+  <trust:trust5>
+    <Person>
+      <name>Jim Smith</name>
+      <nick>jgsmith</nick>
+      <mbox_sha1sum>679af6d69be7eccc0266c1e638dfe2e24efec129</mbox_sha1sum>
+    </Person>
+  </trust:trust5>
+  <trust:trust5>
+    <Person>
+      <name>Kip Hampton</name>
+      <nick>ubu</nick>
+      <mbox_sha1sum>205eb2bb193f2dbaa6da66a288ba262714c5ca34</mbox_sha1sum>
+    </Person>
+  </trust:trust5>
+  <trust:trust5>
+    <Person>
+      <name>Matt Sergeant</name>
+      <nick>baud</nick>
+      <mbox_sha1sum>37ce705df23ec6fe5d5f1bf8f8a255ac0473ded3</mbox_sha1sum>
+    </Person>
+  </trust:trust5>
+  <trust:trust5>
+    <Person>
+      <name>Stef Payrard</name>
+      <nick>stef</nick>
+      <mbox_sha1sum>487e6037613da1fe56417f1055e3662c2e4b6733</mbox_sha1sum>
+    </Person>
+  </trust:trust5>
+  <trust:trust5>
+    <Person>
+      <name>Christian Glahn</name>
+      <nick>phish108</nick>
+      <mbox_sha1sum>a8d84570a7ecd69a7e7cc05af2f405665d05b7f1</mbox_sha1sum>
+    </Person>
+  </trust:trust5>
+  <trust:trust5>
+    <Person>
+      <name>Chris Thompson</name>
+      <nick>ct</nick>
+      <mbox_sha1sum>9234537b57f8a4a9beadc5788941187a4ffadb99</mbox_sha1sum>
+      <rdfs:seeAlso rdf:resource="http://cthompson.com/foaf.rdf"/>
+    </Person>
+  </trust:trust5>
+  <trust:trust5>
+    <Person>
+      <name>Piers Cawley</name>
+      <nick>pdcawley</nick>
+      <mbox_sha1sum>4784555497114621b4b9392a0de69c4b24c79790</mbox_sha1sum>
+    </Person>
+  </trust:trust5>
+  <trust:trust5>
+    <Person>
+      <name>Geoff Young</name>
+      <nick>geoff</nick>
+      <mbox_sha1sum>caf784b203e6ec76cff6549b63e2f94b47dc9872</mbox_sha1sum>
+    </Person>
+  </trust:trust5>
+  <trust:trust5>
+    <Person>
+      <name>Jörg Walter</name>
+      <nick>`Moe`</nick>
+      <mbox_sha1sum>1ad21f57fe606de06e428bda62aa856343aaccec</mbox_sha1sum>
+    </Person>
+  </trust:trust5>
+  <trust:trust5>
+    <Person>
+      <name>Michael Kröll</name>
+      <nick>pepl</nick>
+      <mbox_sha1sum>845d0e1abcd9a7a38e0544105367b04e7b25a40a</mbox_sha1sum>
+      <rdfs:seeAlso rdf:resource="http://zis.uibk.ac.at/.m/foaf.rdf"/>
+    </Person>
+  </trust:trust5>
+  <trust:trust5>
+    <Person>
+      <name>Chris Prather</name>
+      <nick>perigrin</nick>
+      <mbox_sha1sum>289d17e8209bf918cb0725214d9df9d61bf4c652</mbox_sha1sum>
+    </Person>
+  </trust:trust5>
+  <trust:trust5>
+    <Person>
+      <name>Robin Berjon</name>
+      <nick>darobin</nick>
+      <mbox_sha1sum>c77b04531cc63dd8a41b45e320c224e4ede8d6f8</mbox_sha1sum>
+      <rdfs:seeAlso rdf:resource="http://expway.com/robin/foaf.rdf"/>
+    </Person>
+  </trust:trust5>
+</Person>
+</rdf:RDF>
