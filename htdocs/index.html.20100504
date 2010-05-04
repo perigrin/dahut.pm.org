@@ -1,0 +1,340 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+ "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head profile="http://a9.com/-/spec/opensearch/1.1/">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  
+    <title>Dahut.pm</title>
+  
+    <link rel="stylesheet" href="/style/main.css" type="text/css" title="Stylesheet for The Open Guide to Dahut.pm" />
+  
+</head>
+<body>
+  <div id="body_wrapper">
+  
+
+
+<div id="banner">
+  
+    
+    <h1><a href="/index.pl">Dahut.pm</a></h1>
+    
+  
+</div>
+
+
+<div id="content">
+
+
+  <div id="navbar_parent">
+<div id="navbar">
+
+  
+
+  <div id="navbar_tools">
+  <div class="navbar_group_title">Tools:</div>
+  <ul>
+    <li><a href="/index.pl?action=rc">Recent Changes</a></li>
+    <li><a href="/newpage.cgi">Create New Page</a></li>
+    <li><a href="/index.pl?action=random">Random Page</a></li>
+    <li><a href="/index.pl?action=show_wanted_pages">Wanted Pages</a></li>
+    
+  </ul>
+</div>
+
+  
+  <div id="navbar_help">
+    <div class="navbar_group_title">Help:</div>
+    <ul>
+      <li><a href="/index.pl?FAQ">FAQ</a></li>
+      <li><a href="/index.pl?How_To_Get_Started">How To Get Started</a></li>
+      
+        <li><a href="http://openguides.org/page/text_formatting">Text Formatting Examples</a></li>
+      
+      <li><a href="/index.pl?Wiki_Etiquette">Wiki Etiquette</a></li>
+    </ul>
+</div>
+
+
+
+  <div id="navbar_options">
+  <div class="navbar_group_title">Options:</div>
+  <ul>
+    <li><a href="/preferences.cgi">Set username/prefs</a></li>
+  </ul>
+</div>
+
+  <div id="navbar_search">
+  <div class="navbar_group_title">Search:</div>
+  <ul>
+    <li>
+      <form method="post" action="/search.cgi" enctype="application/x-www-form-urlencoded">
+        <input type="hidden" name="action" value="search" />
+        <input type="text" size="15" name="search" id="nav_search" value="Search text" onfocus="this.value=''" /> <label for="nav_search" class="hidden">Search text</label>
+        <input type="submit" value="Go" class="form_button" />
+      </form>
+    </li>
+    <li><a href="/search.cgi">Advanced Search</a></li>
+  </ul>
+</div>
+
+  
+  <div id="navbar_this_page">
+    <div class="navbar_group_title">This page:</div>
+    <ul>
+      <li><a class="edit_page_link" href="/index.pl?id=Home;action=edit">Edit this page</a></li>
+      <li><a href="/index.pl?action=show_backlinks;id=Home">Show pages linking here</a></li>
+      
+        <li><a href="/index.pl?action=list_all_versions;id=Home">List all revisions</a></li> 
+      
+      <li><a href="/index.pl?id=Home;format=rdf">RDF/XML version</a></li>
+      
+        <li><a href="/index.pl?id=Home;action=delete">Delete (admin only)</a></li>
+      
+    </ul>
+  </div>
+
+
+ <div id="navbar_starting_points">
+  
+
+  
+
+ </div>
+  
+  <div class="navbar_revision">
+    
+      <div id="navbar_version">
+        
+        <a href="index.pl?action=list_all_versions;id=Home">Revision 12</a>. 
+      </div>
+      <div id="navbar_last_edited">
+        
+        
+          <a href="index.pl?id=Home;version=11;diffversion=12">Last edited</a> 2008-09-08 03:06:51.
+        
+      </div>
+    
+  </div>
+
+
+
+</div>
+</div>
+
+
+
+
+
+<div id="maincontent">
+  
+    <div id="recent">
+
+      <h3>Ten most <a href="index.pl?action=rc">recent changes</a>
+          (<a href="/index.pl?action=rc;format=rss">RSS</a>):</h3>
+
+      <dl>
+        
+          <dt><a href="index.pl?2008_Conference_Season">2008 Conference Season</a>
+            
+          </dt>
+          
+            <dd>
+              MESSAGE
+              
+                <b><small>(ApedoEscodo)</small></b>
+              
+            </dd>
+          
+        
+          <dt><a href="index.pl?2008_Conference_Season">2008 Conference Season</a>
+            
+          </dt>
+          
+            <dd>
+              MESSAGE
+              
+                <b><small>(OrbicidsTrifs)</small></b>
+              
+            </dd>
+          
+        
+          <dt><a href="index.pl?Home">Home</a>
+            
+          </dt>
+          
+            <dd>
+              MESSAGE
+              
+                <b><small>(klhjnbbj)</small></b>
+              
+            </dd>
+          
+        
+          <dt><a href="index.pl?Home">Home</a>
+            
+          </dt>
+          
+            <dd>
+              MESSAGE
+              
+                <b><small>(pooilkjg)</small></b>
+              
+            </dd>
+          
+        
+          <dt><a href="index.pl?Perigrin">Perigrin</a>
+            
+          </dt>
+          
+            <dd>
+              
+              
+                <b><small>(Chris)</small></b>
+              
+            </dd>
+          
+        
+          <dt><a href="index.pl?Home">Home</a>
+            
+          </dt>
+          
+            <dd>
+              
+              
+                <b><small>(RobinBerjon)</small></b>
+              
+            </dd>
+          
+        
+          <dt><a href="index.pl?2008_Conference_Season">2008 Conference Season</a>
+            
+          </dt>
+          
+            <dd>
+              
+              
+                <b><small>(Chris)</small></b>
+              
+            </dd>
+          
+        
+          <dt><a href="index.pl?Home">Home</a>
+            
+          </dt>
+          
+            <dd>
+              
+              
+                <b><small>(Anonymous)</small></b>
+              
+            </dd>
+          
+        
+          <dt><a href="index.pl?JamesSmith">JamesSmith</a>
+            
+              [new]
+            
+          </dt>
+          
+            <dd>
+              
+              
+                <b><small>(JamesSmith)</small></b>
+              
+            </dd>
+          
+        
+          <dt><a href="index.pl?2008_Conference_Season">2008 Conference Season</a>
+            
+          </dt>
+          
+            <dd>
+              added ApacheCon
+              
+                <b><small>(Anonymous)</small></b>
+              
+            </dd>
+          
+        
+      </dl>
+
+      <p><b><a href="index.pl?action=edit;id=Home">Edit
+      this page</a></b></p>
+
+    </div>
+  
+<h2>NOTICE</h2>
+<p><em>Dahut.pm is currently undergoing some hosting changes. If you're a member and concerned please contact us via the usual channels. If you're not a member rest-assured we're still as active as ever. During these hosting changes the website links may be non-functional. We're working on fixing this as quickly as possible.</em></p>
+
+  <p>Formed in the late 19th century by former officers of the American Union Army, Dahut.pm has become one of the largest, and most enigmatic of the shadowy cartels that pull the strings behind the scenes in the world today. It has been described as the "house is really worth his friends in exceptional cases".</p>
+<p>Dahut.pm is a non-geographical collection of non-cabal people interested in Perl, crypto-zoology, bots, The Semantic Web (with capitals), the semantic web (without capitals), geowanking, SVG, and other erudite philosophies. </p>
+<p><img src="http://jays.net/w/images/0/02/CIMG1024.jpg" width="375" height='500' title="Jay, Dahut of Honour this month" /></p>
+<p>Above is Jay (believed to be the one on the right), Dahut of Honour this month for being deluged with proof of the existence of our secret society.</p>
+<p>Things of current significance: </p>
+<ul>
+<li><a href="index.pl?2008_Conference_Season">2008 Conference Season</a> - Who's going to be where?</li>
+<li><a href="index.pl?2008_Social_Calendar">2008 Social Calendar</a> - Weddings and whatnot!</li>
+</ul>
+<p>Some pages of historical significance are located here:</p>
+<ul>
+<li>[<a href="http://dahut.pm.org/dahut_story.html">The Dahut Story</a>]</li>
+<li>[<a href="http://dahut.pm.org/AxKitSong.html">The AxKit Song</a>]</li>
+<li>[<a href="http://dahut.pm.org/dahut_group.rdf">The Dahut Group FOAF</a>]</li>
+</ul>
+<p>And For documentary evidence of our namesake:</p>
+<ul>
+<li>[<a href="http://www.youtube.com/watch?v=BBMVraJZoAU">Le Dahut</a>]</li>
+</ul>
+<p>Dahut server details:</p>
+<ul>
+<li><a href="index.pl?Dahut_Hosting">Dahut Hosting</a></li>
+<li><a href="index.pl?Web_Hosting">Web Hosting</a></li>
+<li><a href="index.pl?Email_Hosting">Email Hosting</a></li>
+<li><a href="index.pl?Database_Hosting">Database Hosting</a></li>
+</ul>
+<p>For a list of users see <a href="index.pl?Category_People">Category People</a>.</p>
+
+
+</div>
+
+
+
+<br clear="all" />
+
+
+  <div id="search_form">
+    <form action="search.cgi" method="get">
+      <strong><label for="search">Search The Open Guide to Dahut.pm:</label></strong> <input type="text" size="50" name="search" id="search" value="Search text" onclick="this.value=''" /> 
+      <input type="submit" name="Go" value="Go" id="go" class="form_button" />
+    </form>
+  </div>
+
+
+<div id="footer">
+  
+
+  
+    
+    
+    
+      <div id="footer_delete_link">
+        <a href="/index.pl?id=Home;action=delete">Delete page</a> (admins only)
+      </div>
+    
+  
+    <p>
+      Powered by <a href="/index.pl?action=about">OpenGuides 0.61</a>.
+    </p>
+    
+  
+
+</div>
+</div>
+</div>
+
+  
+
+</body>
+</html>
+
